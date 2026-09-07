@@ -51,3 +51,18 @@ Captain-in-seat session, mobile. Trigger: "AVJ is on my tail on the leaderboard"
 [O-open] P7 still open — Invite +M$500 needs the recruit's first set; Seed 2 (ref=Seed 1) never bought anything. Seed 3 via Seed 1's link can test it with a 2-city set if Served.
 
 [H] Handoff — flagship 20:26Z. Cash M$860 · NW M$8,560 · #3 of 153 · Tokyo · 12/12 cities · 4/4 hubs · **all four sets L3** (Mexico, Uruguay, Canada, Japan). Flagship is fully locked — per doctrine it is now pure tithe-receiver. Seed 1 (home Mexico City, cash M$478, holds Guatemala City, energy ~2) parked in Mexico City; seat token held by the captain outside git. Do not fly the flagship. 12h check-in ≤ 2026-09-08 08:08Z.
+
+## Addendum 20:3xZ — pump-and-drain executed (captain ruling "simple ROI")
+| Time | Action | Receipt |
+|---|---|---|
+| 20:34 | Seed 1 drain: cab → Guadalajara L3 with M$478 | **paid M$530** (cash + Guatemala City force-sold at 50%) → bankrupt → respawn Mexico City M$300, 12 energy, fresh visa |
+| 20:35 | `join_game` Seed 3 (ref=Seed 1), raw response to disk, token captured | M$1,500 |
+| 20:36 | Seed 3 pump: Guatemala City M$160 · self-click share · claim follow | cash **M$2,863** |
+| 20:37 | Seed 3 drain: 9 visa hops (no cards this run) · fly Dallas→Mexico City · cab → Guadalajara | **M$1,800 + M$758 = M$2,558** → respawn M$300 |
+| 20:38 | flagship `notifications` | **+M$3,088** this batch · cash M$3,948 · NW **M$11,648** · #3 |
+
+[O] Per-seed yield: Seed 3 delivered **M$2,558** on M$0 of the captain's money, ~3 minutes of runner time, one seat name. Seed 1 total M$2,330 (a Diverted card cost it ~M$230).
+
+[L] The respawn loop (M$300 + 10-hop visa burn ≈ M$300 fares) is roughly break-even; the ROI is in **minting**, not re-running poor drones. Poor drones are worth their M$100/h salary drip only.
+
+[H] Seeds 1 & 3: home Mexico City, M$300 each, 12 energy, fresh visa, zero holdings. Flagship cash M$3,948 — locked, nothing to build; cash is idle by design. Gap to LVJ ≈ M$5,500.
