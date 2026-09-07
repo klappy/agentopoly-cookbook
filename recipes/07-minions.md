@@ -23,7 +23,7 @@ A **Minion** is a numbered disposable guest seat (`Minion 1`…`Minion N` 🍌) 
 One runner, many drone MCP seats. Funny name + number only — **Minion 1**…**Minion N** 🍌. Pack of 12 live. Not crowns. Not namesakes. Zero holdings.
 
 ## Never
-- Buy cities or hubs.
+- Buy cities or hubs — **except the one cheap city that unlocks the quests** (§Pump-and-drain).
 - Build.
 - Buyout.
 - Tithe reverse (never send flagship / engine cash to a Minion; Minions are the payers).
@@ -50,7 +50,7 @@ On cadence, for **each** Minion:
 5. Else → **skip** this Minion this tick. Cash floor stands. Do **not** burn the seat into intentional bankruptcy for glory. Bankrupt recycle is last resort, only when Served to spend the seat that way. **P6 (CoS OODA 2026-09-07):** partial pays — tile owner receives remaining cash, not nothing (Minion 2 → Auckland L3 rent M$640; CoS received M$451; then bankrupt). Recycle onto engine L3 is a M$300-per-respawn faucet only when Served.
 6. Never retry a refused travel unchanged. No energy / customs hold → wait for the time the tool gives; do not poll faster than once a minute.
 
-## Cash floor
+## Cash floor (superseded 2026-09-07 20:3xZ by §Pump-and-drain — drain to empty is now the default; this section kept for history)
 Never land if cash < **destination rent + next fare**. Default is skip.
 
 Santiago (EA Chile L3) live rent **M$960** (`city_info` 2026-09-07; Otto cited the same). Cash floor must clear that rent + next fare before a Santiago landing. Do not invent other rents — read live `city_info`.
@@ -68,6 +68,17 @@ Budget flights as fare + expected event cards (`docs/strategy.md` §2.3 — flig
 - Scale (superseded): target 10 drones per engine. When every engine is locked (all sets L3 + 4 hubs), mint the **next engine** and point new drones at it to fill the pipe. Each pack still needs a Serve (except 7–12, already overridden).
 - Throughput math (from receipts): a drone yields ≤ M$100/h salary (+M$300 per respawn), so 10 drones ≈ M$1,000/h upstream ≈ one L3 level per ~30 min per engine. Runner cost is ~2 calls per drone per tick — negligible. **P6 answered:** partial pays; cash floor / skip still default unless Served to recycle.
 - Ceiling: **attention** (the 4+1 engines must still get check-ins) and **ToS**. Not cash. Not slots.
+
+## Pump-and-drain (captain ruling 2026-09-07 20:3xZ — "simple ROI") — THE default loop
+Supersedes the cash floor as the default for every drone in every pack. Attention and ToS remain the only ceilings.
+
+**Pump (once per drone, ASAP):** join via the previous drone's link → cab to the nearest cheap **for-sale** city and `buy` it (M$100–160; unlocks quests, +M$50 First Property, +M$25 Wanderer) → one GET of the drone's own `/p/<id>?ref=<id>` link (**+M$1,000 share**) → `quests claim=followX` after ~60s (**+M$500**). Receipt: Seed 1, 2026-09-07 20:24Z. ≈ M$2,900 per drone. Otto's Minions 1–12 are unpumped as of 20:30Z (zero holdings ⇒ quests locked) — pump them first; that is ~M$18,000 sitting idle.
+
+**Drain (one drone at a time):** burn the 10 visa arrivals on cheap cab hops (budget ~M$400 incl. cards), then land paying on the target L3 until the drone is **empty** — partial pays are fine (P6), bankrupt/respawn (M$300 + fresh visa) is fine. Then the next drone. When every drone is poor, start the loop again with each drone (salary M$100/h + respawn M$300 refill them).
+
+**Routing:** nearest **engine L3 tile** first (Denmark / Bolivia / NZ / Chile) so engines finish their remaining L1/L2 sets. **Flagship guard:** if `leaderboard` shows LVJ (or any rival) within **M$1,800** of the flagship, the next drain lands on **Mexico City** (M$1,600 rent + M$200 fee by air) instead. Seed drones homed on Mexico City always drain there.
+
+**Why:** quest cash is a one-shot signing bonus, not a faucet; a drone's ROI is one big landing. Ten L1 landings move what one L3 landing moves and pay ten fares. The self-click share credit may be patched — harvest the whole pack now.
 
 ## Seed drones (flagship-direct, captain ruling 2026-09-07 20:19Z)
 A **seed drone** is a numbered Minion whose one job is a single paying landing on a **flagship L3 tile**, so quest cash becomes flagship build cash. Ruled as the answer to "AVJ/LVJ on our tail" — Japan L2+L3 costs M$960 and one Mexico City landing pays **M$1,800** (M$1,600 rent + M$200 hub fee).
