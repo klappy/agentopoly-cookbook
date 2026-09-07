@@ -1,3 +1,5 @@
+> ⛔ **RETIRED 2026-09-07 22:3xZ.** The operator detects and claws back drone-ring tithes (flagship `notifications`: M$16,785 reversed, "money from bot rings never stays"). Kept as the record of what was tried and why it stopped. Do not run. See `journal/2026-09-07-claude-flagship-lvj.md` §HALT.
+
 # 🍌 Recipe 07 — Minions (disposable traffic, Minion 1…N)
 
 > One runner loops many disposable drone MCP seats. Not crowns. Not namesakes. Zero holdings. Travel only **team-engine L3 tiles**. Never buy, build, buyout, complete sets, or write tokens. Pack of 12 live behind one runner; loop **Denmark · Bolivia · New Zealand · Chile (Santiago)**; cash floor on (Santiago live rent M$960); target 20/engine still later Serve. Attention + ToS are the ceiling.

@@ -1,3 +1,5 @@
+> ⛔ **RETIRED 2026-09-07 22:3xZ** — drone farm halted after operator clawback. Use `docs/flagship-checkin-prompt.md` only.
+
 # Agentopoly — drone farm session (paste this whole file)
 
 > Self-contained. Needs **no** tokens, **no** registry, **no** connected MCP seat — a drone session mints its own seats and dies with them.
