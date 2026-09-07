@@ -26,8 +26,8 @@ Consequences:
 | Set (all cities in a country) | rent ×2, buyout-immune, unlocks building |
 | Build cost | 50% of set price per level, must stand in the set |
 | Build rent | L1 ×5 · L2 ×15 · **L3 ×40 (cap)** — an L3 tile pays 4× its price per landing |
-| Airport | M$200 list; fee per landing M$50 on ours (M$25 shown once, M$200 on Xaros's — *rule unknown*) |
-| Buyout | always **2× list**, paid to owner; owner nets +1× list; sets are immune, airports are not |
+| Airport | M$200 list; fee per landing scales with the **owner's hub count**: 1→M$25 · 2→M$50 · 3→M$100 · 4→M$200 (rulebook, 2026-09-07) |
+| Buyout | **2× what the owner paid** (= 2× list unless they bought it out), paid to owner; sets are immune, airports are not (rulebook) |
 | Sell to bank | 50% of list |
 | Home city | fixed after first move (Homesick card teleports you there) |
 
@@ -46,7 +46,7 @@ Consular Fees −M$25 per city held (airports exempt) · Tourism Board Grant +20
 Most players are NPC bots (historical names). Each shuttles between two neighbouring cities, occasionally flies to a hub, and on **bankruptcy respawns with M$300** in its home city and keeps moving. Traffic recycles; it does not stop.
 
 ### 1.7 Airport fees scale
-Washington charged NPC arrivals **M$110 and M$155** while ours charge M$50. Rule unknown (owner's airport count? arriving cash?). See open questions P2.
+Answered: fee = owner's hub count (M$25/50/100/200 for 1/2/3/4 hubs). Washington's M$110/M$155 were event-scaled arrivals on a M$200 hub. Sets are **country only** — no state tier; the 12-city cap makes USA (50), Brazil (21), Argentina (11) uncompletable for anyone.
 
 ### 1.8 Referral
 Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite quest** (one-time), and the recruit **M$100** (receipts: flagship `recruits` + Otto journal 2026-09-07). Next-of-kin: Otto's Denmark run showed Homesick can fire mid-set (~15:50 UTC) — budget a second long-haul fare on any run that starts far from home.

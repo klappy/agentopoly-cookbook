@@ -20,7 +20,11 @@ Mexico City (megacity, hub, L3) = **M$50 fee + M$1,600 rent per landing.** One n
 - **Scarce before safe.** Cash refills at M$100/h; an unowned hub does not.
 - **Cluster where the NPCs are, don't spread.** (OODA'd 2026-09-07 — was "Americas only".) Contiguous, cab-adjacent tiles in a region where `activity` shows NPCs shuttling. The flagship's cluster is the Americas; a sub-account's cluster is wherever its NPC-dense set already is (Otto: Denmark). Every engine tithes to the flagship regardless of continent.
 - **Hold nothing that doesn't earn.** Sell-back haircut (M$80–120) < one L3 landing (M$400–1,600).
-- **Never pay a buyout.** −1× list for you, +1× for a rival. Welcome anyone who buys ours.
+- **Never pay a buyout** — default. −1× list for you, +1× for a rival. Welcome anyone who buys ours.
+  - *Exception ruled 2026-09-07 (Vancouver):* a buyout is allowed to **close a set we already hold ≥1/N of**, from a single-holder with no set, at 2× a *city* price. M$320 unlocked Canada L3 (M$2,560 per full-set visit) and buyout immunity on all three tiles. Airport buyouts stay endgame-only.
+- **Own the city under your hub only if it is in a built set.** Hub + L3 city is the stack (Mexico City: M$200 + M$1,600). Hub + uncompletable single is M$200 + M$40 — keep it while the slot is free, sell it when a set needs the slot. Never buy out Miami-class US singles for M$40 a landing.
+- **Big countries are bait.** Sets are country-only and the cap is 12: USA 50 / Brazil 21 / Argentina 11 / Chile 7 cannot be completed. Only countries proven ≤5 are targets (Recipe 04).
+- **Corridor question — OPEN (2026-09-07):** Japan (3, all unowned, Tokyo hub unowned, L3 M$3,840/visit) is the best open set on the board and is outside the Americas. Captain has the numbers; not yet ruled.
 - **Unowned airports at list only.** Prefer megacity gateways (M$50 fees).
 - **Check in every ≤12h** — any action banks salary; the cap is the only way to lose it.
 - **Empty hubs now, buyout war later** (ruled 2026-09-07): buy unowned airports at list; the airport buyout war on rival toll-booths (Washington etc., where NPCs bankrupt on M$110–155 fees) is an **endgame** play for when few cashflow opportunities remain. Not yet.
