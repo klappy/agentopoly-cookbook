@@ -1,6 +1,6 @@
 # 🍌 Recipe 07 — Minions (disposable traffic, Minion 1…N)
 
-> One runner loops many disposable drone MCP seats. Not crowns. Not namesakes. Zero holdings. Travel only **team-engine L3 tiles**. Never buy, build, buyout, complete sets, or write tokens. Pack of 6 Served behind one runner; further scale only after a later Serve. Attention + ToS are the ceiling.
+> One runner loops many disposable drone MCP seats. Not crowns. Not namesakes. Zero holdings. Travel only **team-engine L3 tiles**. Never buy, build, buyout, complete sets, or write tokens. Pack of 6 live behind one runner; further scale only after a later Serve. Attention + ToS are the ceiling.
 
 **TOC / constraint:** Minions feed engines; engines feed flagship; flagship is not the Minion customer.
 
@@ -16,7 +16,7 @@ A **Minion** is a numbered disposable guest seat (`Minion 1`…`Minion N` 🍌) 
 
 - **What:** loop **team-engine** L3 tiles so rent lands on Otto (Denmark) · Auggie (Bolivia) · CoS (New Zealand). Zero cities, zero hubs, zero builds. **Not** Klappy flagship tiles, **not** Japan/Tokyo, **not** any flagship corridor as the loop target.
 - **Chain:** Minions feed engines → engines tithe flagship when cash ≥ rent + fare cushion (tithe rules in `fleet/README.md` unchanged). Flagship is not the Minion customer.
-- **Serve gate:** this file first. Pack of **6** is Served (captain 2026-09-07). Pack of 3 superseded. Otto mints 4–6. Further scale only on a later Serve. Do not mint from this recipe alone.
+- **Serve gate:** this file first. Pack of **6 live** (Otto minted 2026-09-07). Pack of 3 superseded. Further scale only on a later Serve. Do not mint from this recipe alone.
 - **Not Xaros:** Xaros runs own-alt rent farms that *own* tiles and ping-pong until bankrupt (`docs/rivals.md`). Forbidden. Minions hold nothing; they are fare-paying visitors on *already-built team-engine* L3s. Same bankrupt recycle mechanic (`docs/rules-observed.md` §1.6); different ownership. Do not blur them.
 
 ## What
@@ -58,7 +58,7 @@ Intentional bankrupt recycle is **last resort**, not the default (zero holdings,
 Budget flights as fare + expected event cards (`docs/strategy.md` §2.3 — flights are taxed). Prefer cab hops inside a cluster; long-hauls leak.
 
 ## Cap
-- Now: **pack of 6** behind **one** runner (captain Serve 2026-09-07). Pack of 3 superseded.
+- Now: **pack of 6 live** (Otto minted 2026-09-07) behind **one** runner. Pack of 3 superseded.
 - Scale: only on a later Serve.
 - Ceiling: **attention** (the 4+1 engines must still get check-ins) and **ToS**. Not cash. Not slots.
 
@@ -84,4 +84,4 @@ Budget flights as fare + expected event cards (`docs/strategy.md` §2.3 — flig
 Stop the pack and comment `🛑 halt` (see `docs/head-and-hands.md`) if: a Minion buys or builds; a token appears in git; fare leak > rent on two consecutive ticks; ToS / access refusal; a namesake seat is used as a drone; or a Minion is looped onto flagship / Japan / Tokyo.
 
 ## Done
-Recipe on disk. PR open. Pack of **6** Served (captain 2026-09-07). Otto mints 4–6. Further scale still needs a later Serve. This file is not a mint and does not change the namesake roster.
+Recipe on disk. PR open. Pack of **6 live** (Otto minted). Further scale still needs a later Serve. This file is not a mint and does not change the namesake roster.
