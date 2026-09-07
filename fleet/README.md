@@ -12,6 +12,10 @@ Captain + CoS Served 2026-09-07 All Staff; captain flipped board-order the same 
 
 **Hubs / corridors — CLOSED 2026-09-07 (All Staff Serve).** CoS first read "distinct clusters = no hubs in the flagship corridor." Captain corrected: fleet accounts may buy corridors from each other and pass money by visiting each other's cities (the tithe). Both halves stand: keep distinct NPC clusters (never two fleet accounts chasing one set); allow corridor trades and mutual visits for tithe. Support owns its own hub and builds its own L3 engine first. Any earlier "pending open fork" language on account count or hubs-in-corridor is superseded by this Serve. Sequential Denmark-cushion boarding is superseded by the parallel flip above.
 
+
+### Tithe rule — never sell land to pay (captain ruling 2026-09-07 22:39Z)
+An engine tithes the flagship **only from surplus cash**: cash ≥ destination rent + return fare + ~M$300 card cushion, *after* its own next build or claim is funded. If a landing would trigger a forced sale of any city, building, or hub, **do not land** — hold and let salary/NPC rent refill. Land is the scarce resource under the lock-first doctrine; cash is not. A tithe that costs a city converts a non-renewable asset to cash at 50% and hands the flagship money the operator may reverse anyway. Receipt: EA → Mexico City M$1,800 "after forced sales", 2026-09-07 21:2xZ. Flagship guard (rival within M$1,800) does not override this rule.
+
 ## Invite chain
 **Engines invite engines (captain 2026-09-07):** a maxed engine mints its clone with *its own* link, so the +M$100/+M$500 first-set bonus lands on the parent. **Drones daisy-chain (captain 2026-09-07 20:19Z):** each new Minion joins via the *previous* Minion's link (Minion 1 via its engine's), then farms all three starter quests before move one. Whether the +M$500 Invite quest credits a joiner with no set is open test P7 (`docs/strategy.md` §2.3). Seed drones (Recipe 07 §Seed drones) may make one flagship landing.
 
