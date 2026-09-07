@@ -11,7 +11,7 @@ Every 12h (salary cap). Sooner is fine; later forfeits salary.
 2. Read the newest file in `journal/`. If it contains a `[D-proposed]` or `[O-open P1]` addressed to this account, that is task #1 after the check-in.
 
 ## Move issues
-Before step 5, read open issues labelled `move` for this account. Execute each `[D]` line in order, verbatim, within its ceiling; comment the receipt under it; close when all lines are done. An ambiguous line = comment "unclear" and skip the rest of that issue. See `docs/head-and-hands.md`.
+Before step 5, execute the head's `move` items (not a fifth action). If GitHub works (not via a sandbox proxy), read open issues labelled `move` for this account. If GitHub is unreachable, skip GitHub — do not retry it — and read ARS board items tagged `move:<account>` with `board_list` (the head posts them via `board_upsert`). Execute each `[D]` line in order, verbatim, within its ceiling; comment the receipt under it (GitHub comment, or `board_resolve` with the receipt in the note); close/resolve when all lines are done. An ambiguous line = comment "unclear" and skip the rest of that issue. See `docs/head-and-hands.md`.
 
 ## The loop
 1. `status` → record cash, NW, rank, energy, visa, cities x/12, airports x/4.
@@ -25,7 +25,6 @@ Before step 5, read open issues labelled `move` for this account. Execute each `
    d. Tithe: if this is a sub-account with all sets at L3 and cash ≥ M$1,000, fly to the nearest flagship L3 tile with rent ≤ cash − fare − M$200 and pay. (`fleet/README.md`)
 6. **Never:** buy out anyone · buy a city in a country without a proven size · sell a built city · spend > M$500 in one run outside 5a–5d · call `set_home_city` · put a token in prose.
 7. Receipts, without GitHub: write the run's journal (numbers from steps 1–4, every step-5 action with its receipt, any `[O]`) as the `note` on an ARS session heartbeat (`ars_session_checkin` role `agentopoly-runner`, then `ars_session_heartbeat` with the note, then `ars_session_checkout`). A steward syncs ARS notes into `journal/` on the next attended session. If the runner *does* have working GitHub access (not via a sandbox proxy), the PR path in `docs/head-and-hands.md` applies instead.
-8. `move` issues: if GitHub is unreachable, the head posts moves as ARS board items tagged `move:<account>` (`board_upsert`); the runner reads them with `board_list` and resolves them with `board_resolve` and the receipt in the note.
 
 ## Halt conditions (stop, journal `[O-open P1]`, do nothing else)
 - Cash < M$25 × cities held + M$100 after step 2.
