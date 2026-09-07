@@ -94,3 +94,10 @@ Flagship `notifications`: **+M$6,050** · cash M$15,389 · NW **M$23,089** · #3
 [L] When the home town is not the drain hub, the first move to the hub consumes a visa — drop one shuttle pair from the route or the last pre-drain hop pays a rival (Takoyaki → LVJ M$224). Script fixed.
 [L] Chilaquil's shortfall is unexplained; a card or a wrong hop ate ~M$1,600. Read the raw log before the next MX batch from a non-hub home.
 [O] Seat registry now lives in the captain's `agentopoly-seed-registry.txt` (name · id · home · ref · pumped · delivered · status · token). Seven live seats, all poor.
+
+## Addendum 22:2xZ — parallel throughput test + skills built
+Skills `agentopoly-drone-farm` and `agentopoly-engine` packaged (cookbook `skills/`). Script receipts: Enchilada stranded M$2,967 (token not logged — fixed), Carnitas M$2,584.
+**Parallel test:** 3 drones at once (Elote / Yakitori / Churro) — **83 s wall clock, M$5,320 delivered**, no rate limit, no refusal. Throughput is parallelism-bound, not loop-bound; the 60 s follow timer is the only serial floor.
+[L] Energy is the real per-drone limiter: Jet Lag (−2 energy) left Churro at 0/12 in Dallas with M$2,403 aboard. Script now pauses and logs `PAUSED-energy`; `scripts/resume.sh` finishes the drain when energy returns (Churro → M$1,800 on resume).
+[O-open] P8 — Churro's cash rose M$2,403 → M$5,359 while parked with no event in its feed and no new quest credit. Unexplained. Watch for recurrence before assuming a mechanic.
+[D] Captain 22:1xZ: engines lock every set first (12/12 complete + 4 hubs) and build after — claimable small sets are the constraint, drone cash is not. Captain 22:16Z: throughput is limited only by how fast the mint→drain→bankrupt loop runs; parallel drones are the lever.

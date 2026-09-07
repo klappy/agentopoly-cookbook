@@ -41,7 +41,16 @@ if [ "$(echo "$CASHTXT" | tr -dc 0-9)" -lt 2000 ]; then echo "HALT - pump yielde
 # 3. Drain - shuttle until exactly 2 visas remain, two pre-hops, paying FLIGHT into hub, cab to neighbour
 PAID=0
 visa() { local v; v=$("$AP" "$T" status | grep -o '[0-9]* rent-free' | grep -o '[0-9]*' | head -1); echo "${v:-0}"; }
+pause() { python3 - "$LOG" "$NAME" "$ID" "$COR" "$PAID" "$T" <<'PY'
+import sys
+log,name,pid,cor,paid,tok=sys.argv[1:]
+lines=open(log).read().splitlines()
+out=[(l.replace("status=minted",f"status=PAUSED-energy corridor={cor} delivered-so-far=M${paid}")) if (f"| {name} |" in l and "status=minted" in l) else l for l in lines]
+open(log,'w').write("\n".join(out)+"\n")
+PY
+echo "PAUSED $NAME: out of energy with cash still aboard - run scripts/resume.sh <token> $COR in ~6 min"; echo "NEXT_REF=$ID"; exit 3; }
 hop() { R=$("$AP" "$T" travel "{\"to\":\"$1\"}"); echo "$R" | grep -E "Paid|drew|ERROR" | head -3
+        echo "$R" | grep -qiE "energy|wait" && ! echo "$R" | grep -q "Arrived" && pause
         P=$(echo "$R" | grep -oE 'Paid M\$[0-9,]+ (rent|airport fee) to \*\*Klappy' | grep -oE 'M\$[0-9,]+' | tr -dc '0-9\n' | paste -sd+ | bc 2>/dev/null); PAID=$((PAID+${P:-0}))
         echo "$R" | grep -q ERROR && return 1; sleep 1; return 0; }
 next=$SHUT
