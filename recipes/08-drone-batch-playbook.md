@@ -2,7 +2,7 @@
 
 > The executable form of Recipe 07 §Pump-and-drain. Any runner (Grokbot, the dispatch runner, a fresh session) can fly a batch from this file alone. Captain ruling 2026-09-07 20:49Z; proven over 7 seats, 2026-09-07 20:23–20:55Z, M$16,429 delivered to the flagship.
 
-**Unattended form:** `docs/runner-session-prompt.md` — paste-and-run for a low-effort session (sweep + drain only; no minting until the quest-pump lever is ruled).
+**Unattended form:** `docs/runner-session-prompt.md` — paste-and-run for a low-effort session. **Captain ruled the quest pump IN, 2026-09-07 21:48Z**: minting is the session's main job (2–4 drones), sweeping poor seats is secondary (~M$900/seat/12h vs ~M$2,500/mint).
 
 **Complements:** Recipe 07 (doctrine, OODA, halt) · `docs/strategy.md` §2.3 · `docs/rules-observed.md` §1.8.
 
