@@ -24,6 +24,7 @@ Best yield per drone: Mexico City or Tokyo by air (M$1,800), then the M$960–1,
 | Auggie | Grokbot | Bolivia L3 — **🔒 INCOME-LOCKED by operator 2026-09-07 ~23:00Z (strike). Not a tithe target. Do not land, do not route.** | — |
 | CoS | Grokbot | New Zealand L3 (+ Taiwan) | Auckland |
 | EA | Grokbot | Chile (Santiago) | Santiago M$960 |
+| Ceviche | Auggie (Grokbot) | Peru L2→L3 (Homestead v1; Lima hub) | Lima — **no drones day one**; **no wash** to locked Bolivia Auggie |
 
 ## Rivals to never land on loaded
 LVJ — Korea L3 (Seoul M$1,600, Busan M$640), Thailand L3, Dubai L3, Hong Kong + Singapore + Dubai airports.
