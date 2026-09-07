@@ -1,8 +1,8 @@
 # 🚁 Fleet — accounts & coordination
 
-> Four namesake guest seats (Otto · Auggie · CoS · EA) plus the Klappy flagship is the closed roster (All Staff Serve 2026-09-07). Parallel namesakes now (captain flip 2026-09-07) — Denmark-prove is no longer the boarding gate. Auggie boarded: La Paz / Bolivia 4/4 @L3. CoS live: Auckland / NZ 3/3 @L3 + Taiwan 2/2. EA live: Santiago / Chile 7/7. Disposable Minions (traffic, not namesakes) are a pack of 3 — see Minions. Distinct NPC clusters stay (never two fleet accounts on one set); corridor trades and mutual visits for tithe are allowed; each support account owns its own hub and builds its own L3 engine first. Tithe still after own L3 + cushion. Live cash is journal + `status`, never invented here. Flagship stays Klappy's.
+> Four namesake guest seats (Otto · Auggie · CoS · EA) plus the Klappy flagship is the closed roster (All Staff Serve 2026-09-07). Parallel namesakes now (captain flip 2026-09-07) — Denmark-prove is no longer the boarding gate. Auggie boarded: La Paz / Bolivia 4/4 @L3. CoS live: Auckland / NZ 3/3 @L3 + Taiwan 2/2. EA live: Santiago / Chile 7/7. Disposable Minions (traffic, not namesakes) are a pack of 6 Served — see Minions. Distinct NPC clusters stay (never two fleet accounts on one set); corridor trades and mutual visits for tithe are allowed; each support account owns its own hub and builds its own L3 engine first. Tithe still after own L3 + cushion. Live cash is journal + `status`, never invented here. Flagship stays Klappy's.
 
-## Summary — Roster closed (4+1 namesakes); CoS + EA live; Minion pack of 3 traffic; corridors tithe, clusters do not overlap
+## Summary — Roster closed (4+1 namesakes); CoS + EA live; Minion pack of 6 Served; corridors tithe, clusters do not overlap
 
 Captain + CoS Served 2026-09-07 All Staff; captain flipped board-order the same day. This file is the receipt. Tithe guardrails and the OODA NPC-cluster rule already on main stay in force.
 
@@ -29,9 +29,9 @@ Flagship invite (+M$500 to both on newcomer's first set):
 
 > Disposable drone seats. Not namesakes. Not a fifth guest. Zero holdings. Recipe 07.
 
-## Summary — Pack of 3 live; double-to-6 held; Otto runner
+## Summary — Pack of 6 Served; 1–3 live; 4–6 minting via Otto
 
-Otto minted the first pack 2026-09-07 after Recipe 07 landed on main (`dbe5cdc` / blob `660e4bc7`). Zero holdings (activity join + public profiles this session). Scale to 6 only on a later Serve. Live cash → each seat's `status`. Not copied here.
+Otto minted 1–3 on 2026-09-07 after Recipe 07 landed on main (`dbe5cdc` / blob `660e4bc7`). Captain Served double-to-6 the same day — pack of 3 superseded. Otto mints 4–6. Further scale only on a later Serve. Live cash → each seat's `status`. Not copied here. Do not invent 4–6 homes/profiles until a join/`status` receipt.
 
 | Account | Agent | Home | Cluster | Status |
 |---|---|---|---|---|
@@ -39,7 +39,7 @@ Otto minted the first pack 2026-09-07 after Recipe 07 landed on main (`dbe5cdc` 
 | Minion 2 | Otto runner | Auckland | zero holdings | user-agentopoly-minion-2 · https://agentopoly.lol/p/afbddd7c-44a7-4cd2-87ab-ae01682c679b |
 | Minion 3 | Otto runner | Santiago | zero holdings | user-agentopoly-minion-3 · https://agentopoly.lol/p/015f612d-b046-4b15-a6d8-ee100e739471 |
 
-**Pack of 3 live · double-to-6 held.** Runner Otto every 30m, 8a–8p ET. Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md). **Loop:** Otto Denmark L3 · Auggie Bolivia L3 · CoS NZ L3. **Not** Japan / flagship. Chile skip while L1. Retract "pack of 3 live" if a later `status`/profile shows holdings or a missing seat.
+**Pack of 6 Served · 1–3 live · 4–6 minting via Otto · further scale held.** Runner Otto every 30m, 8a–8p ET. Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md). **Loop:** Otto Denmark L3 · Auggie Bolivia L3 · CoS NZ L3. **Not** Japan / flagship. Chile skip while L1. Retract "1–3 live" if a later `status`/profile shows holdings. Retract "pack of 6 live" until six seats show.
 
 ## South America plan (captain: "focus on South America", 2026-09-07)
 Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cushion wait. **Bolivia taken by Auggie** (4/4 @L3; `city_info` + activity 2026-09-07). Otto holds Denmark + Paraguay — do not chase Bolivia. **Chile is EA's** (7/7, building to L3). **Brazil is 21 — off the board** (flagship probe 2026-09-07). Peru still ≥5, verify size. Venezuela ≥5, unowned, low priority (far from the tolls). Each remaining set gets its hub and L3.
@@ -51,5 +51,5 @@ Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cu
 - ✅ Fleet accounts are experiment rigs first: they answer `docs/open-questions.md` (fee scaling, set sizes, bankruptcy thresholds) cheaply.
 - 💸 **The tithe** (ruled 2026-09-07): sub-accounts farm NPC rent on their own continents, then fly to the flagship's L3 tiles and pay rent — converting team earnings into flagship net worth to hold #1. Only fares leak to the bank. Rules: one direction only (never flagship → alt); only after the alt's own set is at L3; only with cash ≥ rent + one fare (**bankruptcy returns every property to the bank**). Cheap tithe tiles: Fukuoka (M$32 now, M$640 at L3), Salto M$400, Cancún M$640, Montevideo M$640, Vancouver M$640; full tithe: Mexico City M$1,600 + M$200 fee — and Tokyo once L3 (M$1,600 + M$200 fee). Auggie is L3 on Bolivia but cash is thin — **no tithe yet**; read Auggie `status`, do not invent a figure here.
 - ✅ **Account count** closed at four namesake guests (Otto · Auggie · CoS · EA) plus the Klappy flagship. **Board order is parallel** (captain flip 2026-09-07) — Denmark-prove is not the gate. Auggie, CoS, and EA are boarded. Minions are traffic (see Minions), not a fifth namesake. No tokens from this file.
-- 🍌 **Minions (traffic)** — pack of 3 live (Otto minted 2026-09-07); zero holdings; double-to-6 held. Not namesakes, not a fifth guest. See [Minions (traffic)](#minions-traffic). Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md). Scale only on later Serve.
+- 🍌 **Minions (traffic)** — pack of 6 Served (captain 2026-09-07); 1–3 live (Otto); 4–6 minting via Otto; zero holdings; further scale held. Not namesakes, not a fifth guest. See [Minions (traffic)](#minions-traffic). Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md). Scale only on a later Serve.
 - ✅ Ruled: sub-accounts expand South America. Bolivia is Auggie's. Chile (verify size) is left for other namesakes. Otto holds Denmark + Paraguay.
