@@ -66,3 +66,18 @@ Captain-in-seat session, mobile. Trigger: "AVJ is on my tail on the leaderboard"
 [L] The respawn loop (M$300 + 10-hop visa burn ≈ M$300 fares) is roughly break-even; the ROI is in **minting**, not re-running poor drones. Poor drones are worth their M$100/h salary drip only.
 
 [H] Seeds 1 & 3: home Mexico City, M$300 each, 12 energy, fresh visa, zero holdings. Flagship cash M$3,948 — locked, nothing to build; cash is idle by design. Gap to LVJ ≈ M$5,500.
+
+## Addendum 20:5xZ — food-named drones, no-city pump, two corridors
+| Time | Action | Receipt |
+|---|---|---|
+| 20:44 | mint **Onigiri** (home Tokyo, ref=Seed 3) | Homesick card bounced the Shanghai buy; quests credited anyway → M$2,945 |
+| 20:47 | Onigiri drain: Osaka shuttle, Seoul, Hong Kong (visa), fly → Tokyo, cab → Osaka | **M$1,800 + M$927 = M$2,727** |
+| 20:50 | mint **Tamale** (home Mexico City, ref=Onigiri), no buy | share +M$1,000 on click with zero holdings; follow claim gated until one cab move, then timer only |
+| 20:53 | Tamale drain (MX route, no cards) | **M$1,800 + M$864 = M$2,664** |
+| 20:54 | flagship `notifications` | **+M$5,391** · cash M$9,339 · NW **M$17,039** · #3 |
+
+[L] The quest gate is "made a move", not "bought a city". Pump = click + one cab + claim. Per-drone yield now ~M$2,700 net with no city to force-sell.
+
+[D] Captain 20:4xZ: drones are disposable and food-named from their spawn country; spawn new rather than wait 12h on poor ones. Recorded in Recipe 07 §Pump-and-drain.
+
+[H] Live seats (tokens with captain, not in git): Seed 1, Seed 3, Onigiri, Tamale — all M$300, home on our hubs, poor. Flagship cash M$9,339 idle (locked). Gap to LVJ ≈ M$10,900.

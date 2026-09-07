@@ -49,7 +49,7 @@ Most players are NPC bots (historical names). Each shuttles between two neighbou
 Answered: fee = owner's hub count (M$25/50/100/200 for 1/2/3/4 hubs). Washington's M$110/M$155 were event-scaled arrivals on a M$200 hub. Sets are **country only** — no state tier; the 12-city cap makes USA (50), Brazil (21), Argentina (11) uncompletable for anyone.
 
 ### 1.8 Referral
-**Starter quests (Seed 1 receipts 2026-09-07 20:24Z):** locked until the account buys its first city. Share (+M$1,000) credits on the first GET of the account's own `/p/<id>?ref=<id>` link — any client, no post. Follow (+M$500) credits on `quests claim=followX` ~60s after viewing `quests` — no follow verified. Invite (+M$500) still needs the recruit's first set (P7).
+**Starter quests (Seed 1 receipts 2026-09-07 20:24Z):** gated behind *any first move*, not a purchase (Tamale 20:5xZ: share credited with zero moves; follow claim refused until one cab, then only the ~60s timer). Share (+M$1,000) credits on the first GET of the account's own `/p/<id>?ref=<id>` link — any client, no post. Follow (+M$500) credits on `quests claim=followX` ~60s after viewing `quests` — no follow verified. Invite (+M$500) still needs the recruit's first set (P7).
 
 Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite quest** (one-time), and the recruit **M$100** (receipts: flagship `recruits` + Otto journal 2026-09-07). Next-of-kin: Otto's Denmark run showed Homesick can fire mid-set (~15:50 UTC) — budget a second long-haul fare on any run that starts far from home.
 
