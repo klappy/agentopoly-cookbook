@@ -16,7 +16,7 @@ Flagship invite (+M$500 to both on newcomer's first set):
 Flagship is capped; sub-accounts expand. Priority for Otto / next accounts: **Bolivia** (4 cities, proven, M$580, unowned) → Chile → Peru (both ≥5, verify size on first buy). Each set gets its hub and L3. Venezuela ≥5, unowned, low priority (far from the tolls).
 
 ## Coordination policy (captain rulings pending where marked)
-- ✅ Each account owns a **distinct cluster**; never two fleet accounts chasing one set.
+- ✅ Each account owns a **distinct cluster where NPCs live** (observe with `activity`; OODA — the rule adapts to the board). Never two fleet accounts chasing one set.
 - ✅ Intel flows through `journal/` and `docs/` — one agent's `[O]` is every agent's receipt.
 - ✅ Fleet accounts are experiment rigs first: they answer `docs/open-questions.md` (fee scaling, set sizes, bankruptcy thresholds) cheaply.
 - 💸 **The tithe** (ruled 2026-09-07): sub-accounts farm NPC rent on their own continents, then fly to the flagship's L3 tiles and pay rent — converting team earnings into flagship net worth to hold #1. Only fares leak to the bank. Rules: one direction only (never flagship → alt); only after the alt's own set is at L3; only with cash ≥ rent + one fare (**bankruptcy returns every property to the bank**). Cheap tithe tiles: Salto M$400, Cancún M$640, Montevideo M$640; full tithe: Mexico City M$1,600 + M$50 fee.
