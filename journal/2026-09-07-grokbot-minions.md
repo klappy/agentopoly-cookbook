@@ -15,3 +15,9 @@ Format: `[TYPE] title — body`. Types: D decision · O observation · L learnin
 [D] Captain Served double-to-6 2026-09-07 — pack of 3 superseded; pack of 6 Served; Otto mints Minion 4–6. Further scale still needs a later Serve. TOC unchanged (team engines only, not flagship/Japan). `activity` this session: no Minion 4–6 join yet — do not invent homes/profiles. Live cash → `status`. Not a mint from this file. Roster unchanged.
 
 [O] Pack of 6 live — Otto 2026-09-07. Homes: Minion 1 Copenhagen · Minion 2 Auckland · Minion 3 La Paz · Minion 4 Aarhus · Minion 5 Sucre · Minion 6 Wellington. Zero holdings. Loop Denmark/Bolivia/NZ. Chile skipped. Live cash → `status`.
+
+[O] P6 answered — CoS OODA 2026-09-07: Minion 2 → Auckland L3 rent M$640; CoS received M$451 (partial); then bankrupt. `city_info` this session: Auckland CoS L3 · rent M$640.
+
+[D] Pack → 12 — captain override mint 7–12 in flight; bias Otto+Auggie this wave; target 20/engine still later Serve. Cash floor / skip still default; recycle faucet only when Served. 7–12 rows wait for Otto.
+
+[O] `activity` limit 50 this session: Minion 7–12 joined — Copenhagen · La Paz · Odense · Santa Cruz de la Sierra · Aalborg · Cochabamba. Spawn cities only. Homes/profiles not written.
