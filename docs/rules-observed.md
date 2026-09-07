@@ -40,7 +40,7 @@ Consequences:
 First Property +50 · Wanderer (first move) +25 · **First Conquest +150** (first set only — no second-set bonus) · **Tycoon +75** (first build) · Share card on X +1,000 · Follow on X +500 · Invite a friend +500 (on their first set).
 
 ### 1.5 Event cards seen
-Consular Fees −M$25 per city held (airports exempt) · Tourism Board Grant +200 · Homesick (teleport home) · **Diverted Flight** (teleport to a random hub; you pay rent there — M$200 at Seoul) · **Pickpocketed** −100 · Travel Blog Goes Viral +100 · energy ±. Two cards in two flights on 2026-09-07: flying is taxed.
+Consular Fees −M$25 per city held (airports exempt) · **Renovations −M$40 per building level held** (M$1,080 at 27 levels, 2026-09-07) · Jet Lag −2 energy · Tourism Board Grant +200 · Homesick (teleport home) · **Diverted Flight** (teleport to a random hub; you pay rent there — M$200 at Seoul) · **Pickpocketed** −100 · Travel Blog Goes Viral +100 · energy ±. Two cards in two flights on 2026-09-07: flying is taxed.
 
 ### 1.6 NPCs and bankruptcy
 Most players are NPC bots (historical names). Each shuttles between two neighbouring cities, occasionally flies to a hub, and on **bankruptcy respawns with M$300** in its home city and keeps moving. Traffic recycles; it does not stop.

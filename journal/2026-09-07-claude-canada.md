@@ -49,3 +49,30 @@ Head session with the captain, 17:24–17:55Z. Every number below is a tool rece
 [D-proposed] Japan next — 3 cities proven, all unowned, Tokyo hub unowned. L3 rent M$3,840 per full-set visit + our own M$200 hub. Cost ≈ M$2,780 all-in (cities M$960, L3 M$1,440, hub M$200, travel ~M$180). Cash M$1,998 → sell SP + BA (+M$400) covers cities + hub + L1–L2 now, L3 on the next rent hit. **Breaks the standing "flagship stays in the Americas" ruling** — captain has the numbers, has not ruled. Seattle hub is the door: Vancouver → Seattle cab → Tokyo flight.
 
 [H] Handoff — flagship, 2026-09-07 17:55Z. Cash M$1,998 · NW M$8,098 · #3 of 134 · in Vancouver · energy 7/12 · 11/12 cities · 4/4 airports. Sets: Mexico ✅L3 · Uruguay ✅L3 · **Canada ✅L3** (new). Singles on own hubs: Buenos Aires, São Paulo. Airports: Miami · Mexico City · Buenos Aires · São Paulo (M$200 each). Quests 2/3 (M$500 unclaimed, needs the captain). Open for the captain: the Japan ruling. Runner: nothing to do under the brief but check-ins; do not sell SP/BA without a `move` issue.
+
+---
+
+## Leg 2 — Japan (captain ruled 18:0xZ: "prevent somebody else from blocking us — do as much as we can asap")
+
+| Time | Action | Receipt |
+|---|---|---|
+| 18:0x | `sell` São Paulo, Buenos Aires, Miami hub | +M$200 · +M$200 · +M$100 → M$2,498 |
+| 18:0x | cab Vancouver→Seattle | M$18 + M$24 rent FDE · 🃏 Pickpocketed −M$100 |
+| 18:0x | flight Seattle→Tokyo | M$117 · 🃏 **Diverted Flight → Manaus** |
+| 18:0x | flight Manaus→Tokyo | M$199 · 🃏 **Renovations −M$1,080** (27 building levels × M$40) |
+| 18:0x | `buy` Tokyo | M$400 → 1/3 · cash M$560 |
+| 18:0x | cab Osaka M$26 · `buy` Osaka | M$400 → 2/3 · cash M$134 |
+| 18:0x | cab Fukuoka M$29 | 🃏 Jet Lag −2 energy · cash M$105 — **M$55 short** |
+| 18:1x | captain followed @agentopoly on X · `quests` claim=followX | **+M$500** |
+| 18:1x | `buy` Fukuoka | M$160 → **complete Japan set, immune** · cash M$445 |
+| 18:1x | cab Fukuoka→Tokyo M$45 · `buy` hub | **Tokyo Airport M$200** · cash **M$200** · energy 0 |
+
+[D] Japan taken — captain ruled the corridor question: leave the Americas for the best open set. Sets: Mexico L3 · Uruguay L3 · Canada L3 · **Japan L0** (rent ×2: Tokyo M$80, Osaka M$80, Fukuoka M$32). Hubs: Mexico City · Buenos Aires · São Paulo · **Tokyo**. 12/12 cities, 4/4 airports.
+
+[L] Event cards are the real fare — five moves drew four cards costing M$1,180 (Pickpocketed, Diverted, Renovations, Jet Lag). **Renovations scales with building levels** (M$40 × 27 = M$1,080): the more L3 we hold, the more each flight risks. Budget a multi-hop run at fares + ~M$1,200, not fares + M$200. Recorded in `docs/rules-observed.md`.
+
+[L] Quests are a cash reserve — the unclaimed followX quest was the only reason Fukuoka closed tonight. Sub-accounts: claim all three starter quests before the first long run, not after.
+
+[C] Japan is L0 with M$200 cash — each level is M$480 (M$1,440 to L3). Build is net-worth neutral; the runner builds under brief 5a as soon as cash ≥ M$480 + M$100 buffer. No ruling needed.
+
+[H] Handoff — flagship, 2026-09-07 ~18:15Z. Cash **M$200** · in **Tokyo** (own hub) · energy 0 (+1/6 min) · 12/12 cities · 4/4 airports · #3. **How to pump money:** (1) runner builds Japan L1→L3 on every check-in that clears M$580; (2) tithe tiles for sub-accounts now include Japan — Fukuoka is the cheap one; Tokyo L3 will be M$1,600 + M$200 fee, a second Mexico City; (3) claim quests on every account; (4) no more flights on the flagship until Japan is L3 — cabs only, cards are cheaper. Runner: do not sell anything; nothing is dead now.
