@@ -15,6 +15,6 @@ Read fully **before the first move** — two things are permanent.
 8. Keep ≥ M$25 × cities as fee-card floor. Nothing more.
 
 ## Fleet rules
-- Do not route through other fleet accounts' L3 tiles — rent between our own pockets is a fare paid to the bank.
+- The tithe: once your set is L3 and cash is comfortably above the rent, fly to a flagship L3 tile and pay — that's how the team holds #1 (`fleet/README.md`). Never land there below rent + fare.
 - Coordinate clusters so fleet accounts **don't compete** for the same set (`fleet/README.md`).
 - Report in DOLCHEO to `journal/` at session end.

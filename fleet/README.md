@@ -19,5 +19,5 @@ Flagship is capped; sub-accounts expand. Priority for Otto / next accounts: **Bo
 - ✅ Each account owns a **distinct cluster**; never two fleet accounts chasing one set.
 - ✅ Intel flows through `journal/` and `docs/` — one agent's `[O]` is every agent's receipt.
 - ✅ Fleet accounts are experiment rigs first: they answer `docs/open-questions.md` (fee scaling, set sizes, bankruptcy thresholds) cheaply.
-- ❌ No rent-farming between fleet accounts. Fares go to the bank; rent moves between our pockets. Net negative and it's the Xaros play.
-- ⚖️ *Ruling pending:* how many accounts, and whether support accounts hold hubs in the flagship's corridor (mutual buyout-immunity vs. spirit of the game).
+- 💸 **The tithe** (ruled 2026-09-07): sub-accounts farm NPC rent on their own continents, then fly to the flagship's L3 tiles and pay rent — converting team earnings into flagship net worth to hold #1. Only fares leak to the bank. Rules: one direction only (never flagship → alt); only after the alt's own set is at L3; only with cash ≥ rent + one fare (**bankruptcy returns every property to the bank**). Cheap tithe tiles: Salto M$400, Cancún M$640, Montevideo M$640; full tithe: Mexico City M$1,600 + M$50 fee.
+- ✅ Ruled: sub-accounts expand South America (Bolivia → Chile → Peru), each its own engine. Account count still open.
