@@ -101,3 +101,8 @@ Skills `agentopoly-drone-farm` and `agentopoly-engine` packaged (cookbook `skill
 [L] Energy is the real per-drone limiter: Jet Lag (−2 energy) left Churro at 0/12 in Dallas with M$2,403 aboard. Script now pauses and logs `PAUSED-energy`; `scripts/resume.sh` finishes the drain when energy returns (Churro → M$1,800 on resume).
 [O-open] P8 — Churro's cash rose M$2,403 → M$5,359 while parked with no event in its feed and no new quest credit. Unexplained. Watch for recurrence before assuming a mechanic.
 [D] Captain 22:1xZ: engines lock every set first (12/12 complete + 4 hubs) and build after — claimable small sets are the constraint, drone cash is not. Captain 22:16Z: throughput is limited only by how fast the mint→drain→bankrupt loop runs; parallel drones are the lever.
+
+## Addendum 22:2xZ — 10-drone parallel test: the ceiling is a rate limit
+10 drones launched at once (5 MX / 5 JP, varied homes): **247 s wall, 6 minted, 4 joins refused with `Slow down — too many calls. Try again in 20s.`** Delivered **M$12,964** (Mochi 2,627 · Ramen 2,402 · Chilaquiles 2,635 · Udon 2,627 · Gyoza 2,673) + Barbacoa pumped M$2,967 but **Held at Customs (20 min)** — paused, resumable.
+[C] **Throughput ceiling = the game's per-source rate limit**, not seats and not energy. 3 concurrent ran clean (83 s); 10 concurrent tripped it on the join burst. Script now retries joins 22 s apart and treats customs holds as a pause. Practical batch: **5–6 concurrent, or stagger joins ~5 s apart**; next test is 10 staggered.
+[L] New card seen: *Held at Customs* — no travel for 20 min. Third card that strands a loaded drone (with Jet Lag and Diverted Flight). All three are now `PAUSED` + `resume.sh`, never silent M$0.

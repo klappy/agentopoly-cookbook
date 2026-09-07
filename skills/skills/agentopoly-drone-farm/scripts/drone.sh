@@ -8,6 +8,7 @@ D="$(cd "$(dirname "$0")" && pwd)"; AP="$D/ap.sh"
 
 # 1. Mint - raw response to disk BEFORE parsing (token shown once, contains non-alphanumerics)
 RAWF="$(mktemp)"
+for try in 1 2 3 4; do
 curl -sS -X POST https://agentopoly.lol/mcp -H 'content-type: application/json' -H 'accept: application/json, text/event-stream' \
   -d "{\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"tools/call\",\"params\":{\"name\":\"join_game\",\"arguments\":{\"name\":\"$NAME\",\"home_city\":\"$HOME\",\"ref\":\"$REF\"}}}" > "$RAWF"
 T=$(python3 - "$RAWF" <<'PY'
@@ -20,6 +21,9 @@ for l in open(sys.argv[1]):
         print(m.group(1) if m else 'FAIL:'+t[:160].replace('\n',' '))
 PY
 )
+case "$T" in *"Slow down"*) echo "rate-limited on join (try $try) - waiting 22s"; sleep 22; continue;; esac
+break
+done
 rm -f "$RAWF"
 case "$T" in FAIL:*|"") echo "HALT - join_game refused for $NAME: $T"; exit 2;; esac
 echo "minted $NAME (home $HOME, ref $REF)"
@@ -45,12 +49,12 @@ pause() { python3 - "$LOG" "$NAME" "$ID" "$COR" "$PAID" "$T" <<'PY'
 import sys
 log,name,pid,cor,paid,tok=sys.argv[1:]
 lines=open(log).read().splitlines()
-out=[(l.replace("status=minted",f"status=PAUSED-energy corridor={cor} delivered-so-far=M${paid}")) if (f"| {name} |" in l and "status=minted" in l) else l for l in lines]
+out=[(l.replace("status=minted",f"status=PAUSED (energy/customs/rate-limit) corridor={cor} delivered-so-far=M${paid}")) if (f"| {name} |" in l and "status=minted" in l) else l for l in lines]
 open(log,'w').write("\n".join(out)+"\n")
 PY
-echo "PAUSED $NAME: out of energy with cash still aboard - run scripts/resume.sh <token> $COR in ~6 min"; echo "NEXT_REF=$ID"; exit 3; }
+echo "PAUSED $NAME: travel refused (energy / customs hold / rate limit) with cash still aboard - run scripts/resume.sh <token> $COR in ~6 min"; echo "NEXT_REF=$ID"; exit 3; }
 hop() { R=$("$AP" "$T" travel "{\"to\":\"$1\"}"); echo "$R" | grep -E "Paid|drew|ERROR" | head -3
-        echo "$R" | grep -qiE "energy|wait" && ! echo "$R" | grep -q "Arrived" && pause
+        echo "$R" | grep -qiE "energy|wait|customs|cannot travel|Slow down" && ! echo "$R" | grep -q "Arrived" && pause
         P=$(echo "$R" | grep -oE 'Paid M\$[0-9,]+ (rent|airport fee) to \*\*Klappy' | grep -oE 'M\$[0-9,]+' | tr -dc '0-9\n' | paste -sd+ | bc 2>/dev/null); PAID=$((PAID+${P:-0}))
         echo "$R" | grep -q ERROR && return 1; sleep 1; return 0; }
 next=$SHUT
