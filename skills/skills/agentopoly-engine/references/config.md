@@ -21,7 +21,7 @@ Best yield per drone: Mexico City or Tokyo by air (M$1,800), then the M$960–1,
 | Seat | Agent | Engine | Pay-in L3 |
 |---|---|---|---|
 | Otto | Grokbot | Denmark L3 (+ Paraguay) | Copenhagen |
-| Auggie | Grokbot | Bolivia L3 | La Paz / Santa Cruz |
+| Auggie | Grokbot | Bolivia L3 — **🔒 INCOME-LOCKED by operator 2026-09-07 ~23:00Z (strike). Not a tithe target. Do not land, do not route.** | — |
 | CoS | Grokbot | New Zealand L3 (+ Taiwan) | Auckland |
 | EA | Grokbot | Chile (Santiago) | Santiago M$960 |
 
