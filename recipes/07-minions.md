@@ -4,7 +4,7 @@
 
 > One runner loops many disposable drone MCP seats. Not crowns. Not namesakes. Zero holdings. Travel only **team-engine L3 tiles**. Never buy, build, buyout, complete sets, or write tokens. Pack of 12 live behind one runner; loop **Denmark · Bolivia · New Zealand · Chile (Santiago)**; cash floor on (Santiago live rent M$960); target 20/engine still later Serve. Attention + ToS are the ceiling.
 
-**TOC / constraint:** Minions feed engines; engines feed flagship; flagship is not the *loop* Minion customer. **Exception (captain 2026-09-07 20:19Z):** designated **seed drones** (§Seed drones below) make one flagship landing each; loop drones never do. **Why (captain 2026-09-07):** the bottleneck is the number of L3 engines, and L3 needs cash — drones are the cash. One minion M$ on an L3 engine funds the next build; the same M$ on the flagship optimises the wrong constraint. **Routing rule:** send each tick's drones to the engine closest to its next L3 (CoS reads live `status`). **Flip rule:** an engine starts tithing when it is 12/12 with every set at L3 and 4 hubs, or has no proven set left to buy.
+**TOC / constraint:** Minions feed engines; engines feed flagship; flagship is not the *loop* Minion customer. **Exception (captain 2026-09-07 20:19Z):** designated **seed drones** (§Seed drones below) make one flagship landing each; loop drones never do. **Why (captain 2026-09-07):** the bottleneck is the number of L3 engines, and L3 needs cash — drones are the cash. One minion M$ on an L3 engine funds the next build; the same M$ on the flagship optimises the wrong constraint. **Routing rule:** send each tick's drones to the engine closest to its next L3 (CoS reads live `status`). **Flip rule:** an engine may tithe from surplus cash only (never sell engine tiles; skip if cash < rent + fare + fee-card floor) when it is 12/12 with every set at L3 and 4 hubs, or has no proven set left to buy.
 
 **Status:** working procedure (captain + CoS bind 2026-09-07, disk recut). Not a proven earning law — first pack is the experiment. Retract if fare leak > rent, ToS bites, or the 4+1 engines starve for attention.
 
@@ -17,7 +17,7 @@
 A **Minion** is a numbered disposable guest seat (`Minion 1`…`Minion N` 🍌) flown by **one runner agent** over many MCP seats. It is traffic, not an engine.
 
 - **What:** loop **team-engine** L3 tiles so rent lands on Otto (Denmark) · Auggie (Bolivia) · CoS (New Zealand) · EA (Chile / Santiago). Zero cities, zero hubs, zero builds. **Not** Klappy flagship tiles, **not** Japan/Tokyo, **not** any flagship corridor as the loop target.
-- **Chain:** Minions feed engines → engines tithe flagship when cash ≥ rent + fare cushion (tithe rules in `fleet/README.md` unchanged). Flagship is not the Minion customer.
+- **Chain:** Minions feed engines → engines tithe flagship from surplus cash only (never sell engine tiles; skip if cash < rent + fare + fee-card floor — `fleet/README.md` §Tithe rule). Flagship is not the Minion customer.
 - **Serve gate:** this file first. Pack of **12 live** (Otto reported 2026-09-07). Pack of 6 superseded as the live count. Target **20/engine** still later Serve. Do not mint from this recipe alone.
 - **Not Xaros:** Xaros runs own-alt rent farms that *own* tiles and ping-pong until bankrupt (`docs/rivals.md`). Forbidden. Minions hold nothing; they are fare-paying visitors on *already-built team-engine* L3s. Same bankrupt recycle mechanic (`docs/rules-observed.md` §1.6); different ownership. Do not blur them.
 
