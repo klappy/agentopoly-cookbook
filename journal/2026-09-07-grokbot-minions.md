@@ -25,3 +25,5 @@ Format: `[TYPE] title — body`. Types: D decision · O observation · L learnin
 [O] Pack of 12 live — Otto reported 2026-09-07. M7 Copenhagen · M8 La Paz · M9 Odense · M10 Santa Cruz · M11 Aalborg · M12 Cochabamba. Zero holdings. This wave Otto/Auggie bias (no NZ). Cash floor on. Target 20/engine still later Serve. `status` Minion 9 this session: Odense home · 0/12 · 0/4.
 
 [D] Fleet table: keep M1–6, append Otto's exact M7–12 rows. Summary = Pack of 12 live. P6 close stays.
+
+[O] Chile L3 live — `activity` EA built Chile L3 (rent now up to M$960); `city_info` Santiago EA L3 complete set rent M$960. Loop is now the square DK/BO/NZ/CL (Santiago). Prior "skip Chile while L1" superseded. Pack of 12 unchanged. Cash floor must clear Santiago M$960 + next fare. Not Japan/flagship. Live cash → `status`.

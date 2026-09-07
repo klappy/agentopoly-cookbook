@@ -25,15 +25,15 @@ Flagship invite (+M$500 to both on newcomer's first set):
 | Otto | Grokbot (confirmed, PR #5) | Chicago (locked — outside corridor) | Denmark 4/4 @L3 · Paraguay 2/2 @L1 · 0/4 airports · profile https://agentopoly.lol/p/a7d7a80a-3394-49fd-9c88-70ab449fecb2 | active; cash → journal + `status` (not live here) |
 | Auggie | Auggie / Grok Bot kitchen seat | La Paz (locked) | Bolivia 4/4 @L3 · 0/4 airports · profile https://agentopoly.lol/p/60964773-057e-4203-97e8-9a6fbd72b122 | active; cash → `status` (not live here); L3 done, cash thin — no tithe yet |
 | CoS | — | Auckland (locked) | New Zealand 3/3 @L3 (engine) · Taiwan 2/2 (Taipei + Kaohsiung; Asia support for flagship Japan) · 0/4 airports · profile https://agentopoly.lol/p/9512e8dd-efb5-4f62-9f16-400570a86c24 | active; cash thin after Diverted Flight → journal + `status` (not live here) |
-| EA | EA | Santiago (locked before move one) | Chile 7/7 + Santiago airport; building toward L3 · profile https://agentopoly.lol/p/b860ca02-d105-4e2b-b5a7-a7cb01c1b78b | active; cash → `status` (not live here) |
+| EA | EA | Santiago (locked before move one) | Chile 7/7 @L3 + Santiago airport · profile https://agentopoly.lol/p/b860ca02-d105-4e2b-b5a7-a7cb01c1b78b | active; cash → `status` (not live here) |
 
 ## Minions (traffic)
 
 > Disposable drone seats. Not namesakes. Not a fifth guest. Zero holdings. Recipe 07.
 
-## Summary — Pack of 12 live; Otto runner; this wave Otto+Auggie (no NZ)
+## Summary — Pack of 12 live; Otto runner; loop DK/BO/NZ/CL
 
-Otto reported pack of **12 live** 2026-09-07. Pack of 6 superseded as the live count. **This wave:** Otto (Denmark) + Auggie (Bolivia) — no NZ. Cash floor on. Target 20/engine still later Serve. Live cash → each seat's `status`. Not copied here.
+Otto reported pack of **12 live** 2026-09-07. Pack of 6 superseded as the live count. **Loop:** Otto Denmark L3 · Auggie Bolivia L3 · CoS NZ L3 · EA Chile L3 (Santiago). Cash floor on (Santiago live rent M$960). Target 20/engine still later Serve. Live cash → each seat's `status`. Not copied here.
 
 | Account | Agent | Home | Cluster | Status |
 |---|---|---|---|---|
@@ -50,10 +50,10 @@ Otto reported pack of **12 live** 2026-09-07. Pack of 6 superseded as the live c
 | Minion 11 | Otto runner | Aalborg | zero holdings | user-agentopoly-minion-11 · https://agentopoly.lol/p/f26f1416-7f12-4eed-bd15-d009588ec1ca |
 | Minion 12 | Otto runner | Cochabamba | zero holdings | user-agentopoly-minion-12 · https://agentopoly.lol/p/98bf29a4-9c67-4885-91db-54259cb57124 |
 
-**Pack of 12 live.** Runner Otto every 30m, 8a–8p ET. Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md). **Loop:** Otto Denmark L3 · Auggie Bolivia L3 · CoS NZ L3. **This wave bias:** Otto + Auggie (**no NZ**). Cash floor on. Target 20/engine still later Serve. **Not** Japan / flagship. Chile skipped. Retract "pack of 12 live" if a later `status`/profile shows holdings or a missing seat.
+**Pack of 12 live.** Runner Otto every 30m, 8a–8p ET. Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md). **Loop:** Otto Denmark L3 · Auggie Bolivia L3 · CoS NZ L3 · EA Chile L3 (Santiago). Cash floor on (Santiago live rent M$960). Target 20/engine still later Serve. **Not** Japan / flagship. Retract "pack of 12 live" if a later `status`/profile shows holdings or a missing seat.
 
 ## South America plan (captain: "focus on South America", 2026-09-07)
-Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cushion wait. **Bolivia taken by Auggie** (4/4 @L3; `city_info` + activity 2026-09-07). Otto holds Denmark + Paraguay — do not chase Bolivia. **Chile is EA's** (7/7, building to L3). **Brazil is 21 — off the board** (flagship probe 2026-09-07). Peru still ≥5, verify size. Venezuela ≥5, unowned, low priority (far from the tolls). Each remaining set gets its hub and L3.
+Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cushion wait. **Bolivia taken by Auggie** (4/4 @L3; `city_info` + activity 2026-09-07). Otto holds Denmark + Paraguay — do not chase Bolivia. **Chile is EA's** (7/7 @L3). **Brazil is 21 — off the board** (flagship probe 2026-09-07). Peru still ≥5, verify size. Venezuela ≥5, unowned, low priority (far from the tolls). Each remaining set gets its hub and L3.
 
 ## Coordination policy (forks closed 2026-09-07 All Staff Serve; board-order flipped the same day)
 - ✅ Each account owns a **distinct cluster where NPCs live** (observe with `activity`; OODA — the rule adapts to the board). Never two fleet accounts chasing one set.
@@ -62,5 +62,5 @@ Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cu
 - ✅ Fleet accounts are experiment rigs first: they answer `docs/open-questions.md` (fee scaling, set sizes, bankruptcy thresholds) cheaply.
 - 💸 **The tithe** (ruled 2026-09-07): sub-accounts farm NPC rent on their own continents, then fly to the flagship's L3 tiles and pay rent — converting team earnings into flagship net worth to hold #1. Only fares leak to the bank. Rules: one direction only (never flagship → alt); only after the alt's own set is at L3; only with cash ≥ rent + one fare (**bankruptcy returns every property to the bank**). **Engine definition (captain 2026-09-07):** all holdings complete sets at L3 + 4 hubs. Until then a namesake is a *build*, not an engine — drones go to it, tithe does not leave it. Asia's proven 2-city sets (Vietnam M$1,600 zero-to-L3, Philippines M$1,400, Taiwan / Malaysia M$1,000) are the cheapest L3s on the board — see `journal/2026-09-07-claude-canada.md`. Cheap tithe tiles: Fukuoka (M$32 now, M$640 at L3), Salto M$400, Cancún M$640, Montevideo M$640, Vancouver M$640; full tithe: Mexico City M$1,600 + M$200 fee — and Tokyo once L3 (M$1,600 + M$200 fee). Auggie is L3 on Bolivia but cash is thin — **no tithe yet**; read Auggie `status`, do not invent a figure here.
 - ✅ **Account count** closed at four namesake guests (Otto · Auggie · CoS · EA) plus the Klappy flagship. **Board order is parallel** (captain flip 2026-09-07) — Denmark-prove is not the gate. Auggie, CoS, and EA are boarded. Minions are traffic (see Minions), not a fifth namesake. No tokens from this file.
-- 🍌 **Minions (traffic)** — **pack of 12 live** (Otto reported 2026-09-07); zero holdings; this wave Otto+Auggie (**no NZ**); cash floor on; target 20/engine still later Serve. Not namesakes, not a fifth guest. See [Minions (traffic)](#minions-traffic). Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md).
+- 🍌 **Minions (traffic)** — **pack of 12 live** (Otto reported 2026-09-07); zero holdings; loop DK/BO/NZ/CL (Santiago); cash floor on (Santiago live rent M$960); target 20/engine still later Serve. Not namesakes, not a fifth guest. See [Minions (traffic)](#minions-traffic). Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md).
 - ✅ Ruled: sub-accounts expand South America. Bolivia is Auggie's. Chile (verify size) is left for other namesakes. Otto holds Denmark + Paraguay.
