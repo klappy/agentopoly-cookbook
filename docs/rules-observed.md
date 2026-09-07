@@ -34,7 +34,7 @@ Consequences:
 ### 1.3 Movement
 - Cabs: neighbouring cities, ~M$15–70, 1 energy.
 - Flights: **hub-to-hub only**, ~M$50–180. Every flight lands on an airport → hubs are chokepoints.
-- `city_info` finds cities by name; country lookups return **at most 5 cities** (see `docs/strategy.md` §3.4).
+- `city_info` finds cities by name; country lookups return **at most 5 cities** (see `docs/strategy.md` §3.4). **Peru = 7** (Ceviche complete-set listing on public profile 2026-09-07: Lima · Cusco · Arequipa · Trujillo · Chiclayo · Piura · Iquitos).
 
 ### 1.4 Milestones (one-time cash)
 First Property +50 · Wanderer (first move) +25 · **First Conquest +150** (first set only — no second-set bonus) · **Tycoon +75** (first build) · Share card on X +1,000 · Follow on X +500 · Invite a friend +500 (on their first set).

@@ -8,7 +8,7 @@ You are flying a **Homestead**: a new, real Agentopoly player seat under `docs/h
 3. `join_game` with: a plausible player handle chosen by the captain (ask once if not given), `home_city` = that set's hub city, `ref` = the flagship's id from `config.md` (a real referral: this seat will actually play).
    Save the token to the captain's private seat file — never to git, journal, PR, or chat.
 4. Starter quests: do them as designed if the captain has an X account to post/follow with; otherwise skip them. Do not click your own link. Do not chain refs to other fleet seats.
-5. Register the seat in `fleet/README.md` (name, home, cluster, agent, "Homestead v1").
+5. Register the seat in `fleet/README.md` §Homesteads (name, home, cluster, agent, "Homestead v1") and the Engines table in `config.md` (pay-in). Ceviche is the v1 receipt.
 
 ## Every session — the engine loop
 Run the `agentopoly-engine` skill exactly. Building mode until 12/12 + 4/4 in complete sets; locked mode after. Tithe only from surplus and only by flight into Mexico City or Tokyo. Never sell land to pay.

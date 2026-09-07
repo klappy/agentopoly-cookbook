@@ -34,6 +34,18 @@ Flagship invite (+M$500 to both on newcomer's first set):
 | CoS | — | Auckland (locked) | New Zealand 3/3 @L3 (engine) · Taiwan 2/2 (Taipei + Kaohsiung; Asia support for flagship Japan) · 0/4 airports · profile https://agentopoly.lol/p/9512e8dd-efb5-4f62-9f16-400570a86c24 | active; cash thin after Diverted Flight → journal + `status` (not live here) |
 | EA | EA | Santiago (locked before move one) | Chile 7/7 @L3 + Santiago airport · profile https://agentopoly.lol/p/b860ca02-d105-4e2b-b5a7-a7cb01c1b78b | active; cash → `status` (not live here) |
 
+## Homesteads (real engines)
+
+> Food-named Homestead v1 seats (`docs/homestead.md`). Not namesakes. Not a fifth guest. Not numbered. Not Auggie2. Distinct cluster from every locked namesake. Live cash → `status`, never invented here.
+
+## Summary — Ceviche live; Lima / Peru L2→L3; no drones day one
+
+Homestead test v1 boarded 2026-09-07 via flagship ref. Peru complete @L2, Lima hub owned. Steward: Auggie (Grokbot). **No drones day one. No wash** to locked Bolivia Auggie.
+
+| Account | Agent | Home | Cluster | Status |
+|---|---|---|---|---|
+| Ceviche (Homestead v1) | Auggie (Grokbot) | Lima | Peru 7/7 @L2 · Lima hub · 7/12 cities · 1/4 airports · MCP `user-agentopoly-ceviche` · https://agentopoly.lol/p/03399165-cc0d-42bc-803f-844a68c6b611 | register snapshot (public profile 2026-09-07 23:28Z): cash M$298 · NW M$2,738 · rank #51 · climbing L2→L3; claim-before-build; **no drones day one**; **no wash** to locked Bolivia Auggie; boarded via flagship ref; live cash → `status` (not live here) |
+
 ## Minions (traffic)
 
 > Disposable drone seats. Not namesakes. Not a fifth guest. Zero holdings. Recipe 07.
@@ -60,7 +72,7 @@ Otto reported pack of **12 live** 2026-09-07. Pack of 6 superseded as the live c
 **Pack of 12 live.** Runner Otto every 30m, 8a–8p ET. Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md). **Loop:** Otto Denmark L3 · Auggie Bolivia L3 · CoS NZ L3 · EA Chile L3 (Santiago). Cash floor on (Santiago live rent M$960). Target 20/engine still later Serve. **Not** Japan / flagship. Retract "pack of 12 live" if a later `status`/profile shows holdings or a missing seat.
 
 ## South America plan (captain: "focus on South America", 2026-09-07)
-Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cushion wait. **Bolivia taken by Auggie** (4/4 @L3; `city_info` + activity 2026-09-07). Otto holds Denmark + Paraguay — do not chase Bolivia. **Chile is EA's** (7/7 @L3). **Brazil is 21 — off the board** (flagship probe 2026-09-07). Peru still ≥5, verify size. Venezuela ≥5, unowned, low priority (far from the tolls). Each remaining set gets its hub and L3.
+Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cushion wait. **Bolivia taken by Auggie** (4/4 @L3; `city_info` + activity 2026-09-07). Otto holds Denmark + Paraguay — do not chase Bolivia. **Chile is EA's** (7/7 @L3). **Brazil is 21 — off the board** (flagship probe 2026-09-07). **Peru is Ceviche's** (7/7 @L2, Lima hub; public profile 2026-09-07 — set size proven by complete-set listing, not by `city_info`). Venezuela ≥5, unowned, low priority (far from the tolls). Each remaining set gets its hub and L3.
 
 ## Coordination policy (forks closed 2026-09-07 All Staff Serve; board-order flipped the same day)
 - ✅ Each account owns a **distinct cluster where NPCs live** (observe with `activity`; OODA — the rule adapts to the board). Never two fleet accounts chasing one set.
@@ -70,4 +82,4 @@ Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cu
 - 💸 **The tithe** (ruled 2026-09-07 · surplus-only 22:39Z): sub-accounts farm NPC rent on their own continents, then fly to the flagship's L3 tiles and pay rent — converting team earnings into flagship net worth to hold #1. Only fares leak to the bank. Rules: one direction only (never flagship → alt); only after the alt's own set is at L3; **surplus cash only** — cash ≥ rent + fare + fee-card floor, never by selling engine tiles (**bankruptcy returns every property to the bank**). See §Tithe rule above. **Engine definition (captain 2026-09-07):** all holdings complete sets at L3 + 4 hubs. Until then a namesake is a *build*, not an engine — drones go to it, tithe does not leave it. Asia's proven 2-city sets (Vietnam M$1,600 zero-to-L3, Philippines M$1,400, Taiwan / Malaysia M$1,000) are the cheapest L3s on the board — see `journal/2026-09-07-claude-canada.md`. Cheap tithe tiles: Fukuoka (M$32 now, M$640 at L3), Salto M$400, Cancún M$640, Montevideo M$640, Vancouver M$640; full tithe: Mexico City M$1,600 + M$200 fee — and Tokyo once L3 (M$1,600 + M$200 fee). Auggie is L3 on Bolivia but cash is thin — **no tithe yet**; read Auggie `status`, do not invent a figure here.
 - ✅ **Account count** closed at four namesake guests (Otto · Auggie · CoS · EA) plus the Klappy flagship. **Board order is parallel** (captain flip 2026-09-07) — Denmark-prove is not the gate. Auggie, CoS, and EA are boarded. Minions are traffic (see Minions), not a fifth namesake. No tokens from this file.
 - 🍌 **Minions (traffic)** — **pack of 12 live** (Otto reported 2026-09-07); zero holdings; loop DK/BO/NZ/CL (Santiago); cash floor on (Santiago live rent M$960); target 20/engine still later Serve. Not namesakes, not a fifth guest. See [Minions (traffic)](#minions-traffic). Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md).
-- ✅ Ruled: sub-accounts expand South America. Bolivia is Auggie's. Chile (verify size) is left for other namesakes. Otto holds Denmark + Paraguay.
+- ✅ Ruled: sub-accounts expand South America. Bolivia is Auggie's. Chile (verify size) is left for other namesakes. Otto holds Denmark + Paraguay. **Peru is Ceviche's** (Homestead v1 — not a namesake, not Auggie2).

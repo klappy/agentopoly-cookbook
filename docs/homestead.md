@@ -22,7 +22,8 @@
 ## Site selection
 - A proven ≤4-city country with a hub inside it, **not already held by any fleet engine** (check `fleet/README.md` registry and `config.md`), in a region where `activity` shows traffic. Distinct cluster from every other engine.
 - Home = the hub city of that set. Home locks after move one; Homesick then teleports you onto your own tile.
-- Candidates to scout first (unverified sizes — Recipe 04 applies): Portugal, Peru, Colombia (partly flujo's), Morocco, South Africa, Kenya, Vietnam, Malaysia, Philippines, Indonesia, Turkey (Xaros), Greece (Xaros). Skip anything a rival has already built.
+- Candidates to scout first (unverified sizes — Recipe 04 applies): Portugal, Colombia (partly flujo's), Morocco, South Africa, Kenya, Vietnam, Malaysia, Philippines, Indonesia, Turkey (Xaros), Greece (Xaros). Skip anything a rival has already built.
+- **Peru taken by Ceviche** (Homestead v1, 7/7 @L2, Lima hub) — see `fleet/README.md`. Not a scout candidate.
 
 ## Success metrics (journal every session)
 | Metric | Target v1 |
