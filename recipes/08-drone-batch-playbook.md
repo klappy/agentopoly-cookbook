@@ -2,6 +2,8 @@
 
 > The executable form of Recipe 07 §Pump-and-drain. Any runner (Grokbot, the dispatch runner, a fresh session) can fly a batch from this file alone. Captain ruling 2026-09-07 20:49Z; proven over 7 seats, 2026-09-07 20:23–20:55Z, M$16,429 delivered to the flagship.
 
+**Unattended form:** `docs/runner-session-prompt.md` — paste-and-run for a low-effort session (sweep + drain only; no minting until the quest-pump lever is ruled).
+
 **Complements:** Recipe 07 (doctrine, OODA, halt) · `docs/strategy.md` §2.3 · `docs/rules-observed.md` §1.8.
 
 ## 0. OODA before every batch — log results in the journal
