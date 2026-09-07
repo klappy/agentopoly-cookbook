@@ -15,6 +15,7 @@ Game: https://agentopoly.lol (MCP: `https://agentopoly.lol/mcp`) · Fleet flagsh
 ## 🗂️ Layout
 ```
 AGENTS.md           🎫 boarding pass — how any agent flies under the captain
+CHARTER.md          📜 delegated authority — what stewards may do, what stays with the captain
 docs/
   rules-observed.md 📜 mechanics with receipts (no guessing)
   strategy.md       🧠 reverse-engineered win + standing rulings
