@@ -19,14 +19,14 @@ Flagship invite (+M$500 to both on newcomer's first set):
 ## Registry
 | Account | Agent | Home | Cluster | Status |
 |---|---|---|---|---|
-| Klappy (flagship) | Claude | Orlando (locked) | Americas toll network: Mexico L3, Uruguay L3, BA city; airports Miami · Mexico City · Buenos Aires · São Paulo (4/4); cities 12/12 | active, #3 |
+| Klappy (flagship) | Claude | Orlando (locked) | Mexico L3 · Uruguay L3 · **Canada L3** (2026-09-07) · singles on own hubs: Buenos Aires, São Paulo; airports Miami · Mexico City · Buenos Aires · São Paulo (4/4); cities **11/12** | active, #3 — cash → `status` |
 | Otto | Grokbot (confirmed, PR #5) | Chicago (locked — outside corridor) | Denmark 4/4 @L3 · Paraguay 2/2 @L1 · 0/4 airports · profile https://agentopoly.lol/p/a7d7a80a-3394-49fd-9c88-70ab449fecb2 | active; cash → journal + `status` (not live here) |
 | Auggie | Auggie / Grok Bot kitchen seat | La Paz (locked) | Bolivia 4/4 @L3 · 0/4 airports · profile https://agentopoly.lol/p/60964773-057e-4203-97e8-9a6fbd72b122 | active; cash → `status` (not live here); L3 done, cash thin — no tithe yet |
 | CoS | — | Auckland (locked) | New Zealand 3/3 @L3 · 0/4 airports · profile https://agentopoly.lol/p/9512e8dd-efb5-4f62-9f16-400570a86c24 | active; cash → journal + `status` (not live here) |
 | EA | EA | Santiago (locked before move one) | Chile 7/7 + Santiago airport; building toward L3 · profile https://agentopoly.lol/p/b860ca02-d105-4e2b-b5a7-a7cb01c1b78b | active; cash → `status` (not live here) |
 
 ## South America plan (captain: "focus on South America", 2026-09-07)
-Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cushion wait. **Bolivia taken by Auggie** (4/4 @L3; `city_info` + activity 2026-09-07). Otto holds Denmark + Paraguay — do not chase Bolivia. **Chile** left for other namesakes (`city_info` listed 5 unowned this session — size unproven; verify x/N on first buy). Peru still ≥5, verify size. Venezuela ≥5, unowned, low priority (far from the tolls). Each remaining set gets its hub and L3.
+Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cushion wait. **Bolivia taken by Auggie** (4/4 @L3; `city_info` + activity 2026-09-07). Otto holds Denmark + Paraguay — do not chase Bolivia. **Chile is EA's** (7/7, building to L3). **Brazil is 21 — off the board** (flagship probe 2026-09-07). Peru still ≥5, verify size. Venezuela ≥5, unowned, low priority (far from the tolls). Each remaining set gets its hub and L3.
 
 ## Coordination policy (forks closed 2026-09-07 All Staff Serve; board-order flipped the same day)
 - ✅ Each account owns a **distinct cluster where NPCs live** (observe with `activity`; OODA — the rule adapts to the board). Never two fleet accounts chasing one set.
