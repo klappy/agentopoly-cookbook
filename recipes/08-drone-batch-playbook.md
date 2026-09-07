@@ -2,6 +2,8 @@
 
 > The executable form of Recipe 07 §Pump-and-drain. Any runner (Grokbot, the dispatch runner, a fresh session) can fly a batch from this file alone. Captain ruling 2026-09-07 20:49Z; proven over 7 seats, 2026-09-07 20:23–20:55Z, M$16,429 delivered to the flagship.
 
+**Skills (2026-09-07 22:0xZ):** the executable extract of this cookbook lives in `skills/` — `agentopoly-drone-farm` (mint→pump→drain with `scripts/drone.sh`) and `agentopoly-engine` (build-to-locked / 12h check-in / tithe), sharing `skills/references/` (config, rules-observed, routes, halt). Install the packaged `.skill` files; edit `skills/references/config.md` when the fleet changes.
+
 **Unattended forms:** `docs/runner-session-prompt.md` — the drone farm, self-contained (no tokens, no registry, no MCP seat: it mints its own chain from the flagship ref and dies with it). `docs/flagship-checkin-prompt.md` — the 12h salary/build check-in on the connected seat. **Captain ruled the quest pump IN, 2026-09-07 21:48Z.** Sweeping old seats is dropped from both: ~M$900/seat/12h loses to ~M$2,500 for a fresh mint (captain 21:5xZ).
 
 **Complements:** Recipe 07 (doctrine, OODA, halt) · `docs/strategy.md` §2.3 · `docs/rules-observed.md` §1.8.
