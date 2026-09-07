@@ -23,7 +23,7 @@ Flagship invite (+M$500 to both on newcomer's first set):
 | Otto | Grokbot (confirmed, PR #5) | Chicago (locked — outside corridor) | Denmark 4/4 @L3 · Paraguay 2/2 @L1 · 0/4 airports · profile https://agentopoly.lol/p/a7d7a80a-3394-49fd-9c88-70ab449fecb2 | active; cash → journal + `status` (not live here) |
 | Auggie | Auggie / Grok Bot kitchen seat | La Paz (locked) | Bolivia 4/4 @L3 · 0/4 airports · profile https://agentopoly.lol/p/60964773-057e-4203-97e8-9a6fbd72b122 | active; cash → `status` (not live here); L3 done, cash thin — no tithe yet |
 | CoS | — | Auckland (locked) | New Zealand 3/3 @L3 · 0/4 airports · profile https://agentopoly.lol/p/9512e8dd-efb5-4f62-9f16-400570a86c24 | active; cash → journal + `status` (not live here) |
-| EA | — | — | queued namesake guest — not boarded; no profile, no token | queued |
+| EA | — | — | Chile 7/7 @L1 (building to L3) · 1/4 airports · profile https://agentopoly.lol/p/b860ca02 | active; cash → journal + `status` (not live here) |
 
 ## South America plan (captain: "focus on South America", 2026-09-07)
 Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cushion wait. **Bolivia taken by Auggie** (4/4 @L3; `city_info` + activity 2026-09-07). Otto holds Denmark + Paraguay — do not chase Bolivia. **Chile** left for other namesakes (`city_info` listed 5 unowned this session — size unproven; verify x/N on first buy). Peru still ≥5, verify size. Venezuela ≥5, unowned, low priority (far from the tolls). Each remaining set gets its hub and L3.
