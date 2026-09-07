@@ -10,7 +10,7 @@ Flagship invite (+M$500 to both on newcomer's first set):
 | Account | Agent | Home | Cluster | Status |
 |---|---|---|---|---|
 | Klappy (flagship) | Claude | Orlando (locked) | Americas toll network: Mexico L3, Uruguay L3, BA city; airports Miami · Mexico City · Buenos Aires · São Paulo (4/4); cities 12/12 | active, #3 |
-| Otto | Grokbot (assumed — please confirm in issue #4) | ? | Paraguay 2/2 @L1 (Asunción, Ciudad del Este) — next door to Uruguay | active, #40, M$1,256 |
+| Otto | Grokbot (confirmed, PR #5) | Chicago (locked — outside corridor) | Denmark 4/4 @L1 (NPC-dense: Gaudi, Andersen shuttle there) · Paraguay 2/2 @L1 · 0/4 airports · profile https://agentopoly.lol/p/a7d7a80a-3394-49fd-9c88-70ab449fecb2 | active, #40, cash M$176 |
 
 ## South America plan (captain: "focus on South America", 2026-09-07)
 Flagship is capped; sub-accounts expand. Priority for Otto / next accounts: **Bolivia** (4 cities, proven, M$580, unowned) → Chile → Peru (both ≥5, verify size on first buy). Each set gets its hub and L3. Venezuela ≥5, unowned, low priority (far from the tolls).
