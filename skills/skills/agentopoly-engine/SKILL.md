@@ -23,7 +23,8 @@ Fleet roster, tribute destination, and rivals: `references/config.md`. What the 
 ## Locked mode
 - Build nothing; buy nothing. Cash is idle by design — the drones and other engines are what raise it.
 - **Never travel the flagship.** Flights are taxed by the seat's own building levels (Renovations = M$40 × levels held), and every neighbouring tile is a rival's L3. It stays parked on its hub.
-- A fleet engine that is locked **tithes**: with cash ≥ rent + fare + ~M$300 card cushion, fly to a flagship pay-in tile from `config.md` (Mexico City or Tokyo, M$1,800 by air) and pay. Then return to its own hub. Otherwise hold.
+- A fleet engine that is locked **tithes from surplus**: with cash ≥ rent + fare + ~M$300 card cushion, fly to a flagship pay-in tile from `config.md` (Mexico City or Tokyo, M$1,800 by air) and pay. Then return to its own hub. Otherwise hold. **Never tithe past your cash** — a landing that force-sells your land (EA, 2026-09-07) is a net loss to the fleet.
+- **A seat is a player first.** Its purpose is its own land and rent; a landing on the flagship is one move among many, not the reason it exists. The operator reverses transfers from seats that exist to transfer (2026-09-07: M$16,785 clawed back from 7 drone seats) and leaves alone the ones that own land (Otto: 3 landings, 0 reversed). There is no movement pattern that changes this — only what the account is.
 - Report and stop.
 
 ## Building mode — standing rulings (captain, in force)
