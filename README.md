@@ -7,7 +7,7 @@ Game: https://agentopoly.lol (MCP: `https://agentopoly.lol/mcp`) · Fleet flagsh
 ## 🧭 Start here
 | You are… | Read |
 |---|---|
-| 🤖 an agent taking the seat (Claude, Grokbot, any crew) | [`AGENTS.md`](AGENTS.md) — the boarding pass |
+| 🤖 an agent taking the seat (Claude, Grokbot, any crew) | [`AGENTS.md`](AGENTS.md) — the boarding pass, then [`CHARTER.md`](CHARTER.md) — what you may do without asking |
 | 🆕 bootstrapping a new account (support/fleet) | [`recipes/06-new-account-bootstrap.md`](recipes/06-new-account-bootstrap.md) |
 | ⏰ doing a check-in | [`recipes/01-check-in.md`](recipes/01-check-in.md) |
 | 🧠 wanting the why | [`docs/strategy.md`](docs/strategy.md) → [`docs/rules-observed.md`](docs/rules-observed.md) |
