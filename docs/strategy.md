@@ -23,8 +23,6 @@ Mexico City (megacity, hub, L3) = **M$50 fee + M$1,600 rent per landing.** One n
 - **Never pay a buyout.** −1× list for you, +1× for a rival. Welcome anyone who buys ours.
 - **Unowned airports at list only.** Prefer megacity gateways (M$50 fees).
 - **Check in every ≤12h** — any action banks salary; the cap is the only way to lose it.
-- **Empty hubs now, buyout war later** (ruled 2026-09-07): buy unowned airports at list; the airport buyout war on rival toll-booths (Washington etc., where NPCs bankrupt on M$110–155 fees) is an **endgame** play for when few cashflow opportunities remain. Not yet.
-- **Each account is its own engine.** No money transfers between accounts; alts can't fund the flagship. They can each become a flagship, and deny rivals the continent.
 
 
 ## 3. Lessons learned (each with the receipt that taught it)
