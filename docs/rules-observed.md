@@ -49,7 +49,7 @@ Most players are NPC bots (historical names). Each shuttles between two neighbou
 Washington charged NPC arrivals **M$110 and M$155** while ours charge M$50. Rule unknown (owner's airport count? arriving cash?). See open questions P2.
 
 ### 1.8 Referral
-Recruit's first set paid the flagship **M$100** (receipt: `recruits`), not the M$500 the quest lists — the quest may be a separate one-time claim; untested.
+Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite quest** (one-time), and the recruit **M$100** (receipts: flagship `recruits` + Otto journal 2026-09-07). Next-of-kin: Otto's Denmark run showed Homesick can fire mid-set (~15:50 UTC) — budget a second long-haul fare on any run that starts far from home.
 
 ---
 
