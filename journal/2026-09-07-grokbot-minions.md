@@ -7,3 +7,5 @@ Format: `[TYPE] title — body`. Types: D decision · O observation · L learnin
 ## Artifacts
 
 [O] Minion pack of 3 minted — Otto 2026-09-07 after Recipe 07 (main `dbe5cdc` / blob `660e4bc7`). Not namesakes; Registry stays Otto·Auggie·CoS·EA + Klappy. Zero holdings (activity join + public profiles this session). Homes: Minion 1 Copenhagen · Minion 2 Auckland · Minion 3 Santiago. Double-to-6 held. Runner Otto every 30m 8a–8p ET. Live cash → `status`. Retract if a later `status`/profile shows holdings or a missing seat.
+
+[D] CoS confirmed Minion rows live in a separate traffic table — same 5-column shape as Registry (Account / Agent / Home / Cluster / Status) with MCP id · profile in Status. Must not enter the closed namesake Registry. Pack of 3 live; double-to-6 held; runner every 30m 8a–8p ET.

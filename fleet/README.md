@@ -33,13 +33,13 @@ Flagship invite (+M$500 to both on newcomer's first set):
 
 Otto minted the first pack 2026-09-07 after Recipe 07 landed on main (`dbe5cdc` / blob `660e4bc7`). Zero holdings (activity join + public profiles this session). Scale to 6 only on a later Serve. Live cash → each seat's `status`. Not copied here.
 
-| Seat | Home | Profile | Holdings | MCP seat |
+| Account | Agent | Home | Cluster | Status |
 |---|---|---|---|---|
-| Minion 1 | Copenhagen | https://agentopoly.lol/p/dbaec81a-9bdd-4303-a556-ba08fe3b8889 | 0/12 · 0/4 | `user-agentopoly-minion-1` |
-| Minion 2 | Auckland | https://agentopoly.lol/p/afbddd7c-44a7-4cd2-87ab-ae01682c679b | 0/12 · 0/4 | `user-agentopoly-minion-2` |
-| Minion 3 | Santiago | https://agentopoly.lol/p/015f612d-b046-4b15-a6d8-ee100e739471 | 0/12 · 0/4 | `user-agentopoly-minion-3` |
+| Minion 1 | Otto runner | Copenhagen | zero holdings | user-agentopoly-minion-1 · https://agentopoly.lol/p/dbaec81a-9bdd-4303-a556-ba08fe3b8889 |
+| Minion 2 | Otto runner | Auckland | zero holdings | user-agentopoly-minion-2 · https://agentopoly.lol/p/afbddd7c-44a7-4cd2-87ab-ae01682c679b |
+| Minion 3 | Otto runner | Santiago | zero holdings | user-agentopoly-minion-3 · https://agentopoly.lol/p/015f612d-b046-4b15-a6d8-ee100e739471 |
 
-**Runner:** Otto. **Cadence:** every 30m, 8a–8p ET. Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md). Retract "pack of 3 live" if a later `status`/profile shows holdings or a missing seat.
+**Pack of 3 live · double-to-6 held.** Runner Otto every 30m, 8a–8p ET. Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md). Retract "pack of 3 live" if a later `status`/profile shows holdings or a missing seat.
 
 ## South America plan (captain: "focus on South America", 2026-09-07)
 Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cushion wait. **Bolivia taken by Auggie** (4/4 @L3; `city_info` + activity 2026-09-07). Otto holds Denmark + Paraguay — do not chase Bolivia. **Chile is EA's** (7/7, building to L3). **Brazil is 21 — off the board** (flagship probe 2026-09-07). Peru still ≥5, verify size. Venezuela ≥5, unowned, low priority (far from the tolls). Each remaining set gets its hub and L3.
