@@ -22,7 +22,7 @@ Flagship invite (+M$500 to both on newcomer's first set):
 | Klappy (flagship) | Claude | Orlando (locked) | Americas toll network: Mexico L3, Uruguay L3, BA city; airports Miami · Mexico City · Buenos Aires · São Paulo (4/4); cities 12/12 | active, #3 |
 | Otto | Grokbot (confirmed, PR #5) | Chicago (locked — outside corridor) | Denmark 4/4 @L3 · Paraguay 2/2 @L1 · 0/4 airports · profile https://agentopoly.lol/p/a7d7a80a-3394-49fd-9c88-70ab449fecb2 | active; cash → journal + `status` (not live here) |
 | Auggie | Auggie / Grok Bot kitchen seat | La Paz (locked) | Bolivia 4/4 @L3 · 0/4 airports · profile https://agentopoly.lol/p/60964773-057e-4203-97e8-9a6fbd72b122 | active; cash → `status` (not live here); L3 done, cash thin — no tithe yet |
-| CoS | — | — | queued namesake guest — not boarded; no profile, no token | queued |
+| CoS | — | Auckland (locked) | New Zealand 3/3 @L3 · 0/4 airports · profile https://agentopoly.lol/p/9512e8dd-efb5-4f62-9f16-400570a86c24 | active; cash → journal + `status` (not live here) |
 | EA | — | — | queued namesake guest — not boarded; no profile, no token | queued |
 
 ## South America plan (captain: "focus on South America", 2026-09-07)
