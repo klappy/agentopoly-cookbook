@@ -2,7 +2,7 @@
 
 > One runner loops many disposable drone MCP seats. Not crowns. Not namesakes. Zero holdings. Travel only **team-engine L3 tiles**. Never buy, build, buyout, complete sets, or write tokens. Pack of 6 live behind one runner; further scale only after a later Serve. Attention + ToS are the ceiling.
 
-**TOC / constraint:** Minions feed engines; engines feed flagship; flagship is not the Minion customer.
+**TOC / constraint:** Minions feed engines; engines feed flagship; flagship is not the Minion customer. **Why (captain 2026-09-07):** the bottleneck is the number of L3 engines, and L3 needs cash — drones are the cash. One minion M$ on an L3 engine funds the next build; the same M$ on the flagship optimises the wrong constraint. **Routing rule:** send each tick's drones to the engine closest to its next L3 (CoS reads live `status`). **Flip rule:** an engine starts tithing when it is 12/12 with every set at L3 and 4 hubs, or has no proven set left to buy.
 
 **Status:** working procedure (captain + CoS bind 2026-09-07, disk recut). Not a proven earning law — first pack is the experiment. Retract if fare leak > rent, ToS bites, or the 4+1 engines starve for attention.
 
