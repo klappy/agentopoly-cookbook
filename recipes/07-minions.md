@@ -59,7 +59,8 @@ Budget flights as fare + expected event cards (`docs/strategy.md` §2.3 — flig
 
 ## Cap
 - Now: **pack of 6 live** (Otto minted 2026-09-07) behind **one** runner. Pack of 3 superseded.
-- Scale (captain ruling 2026-09-07 18:5xZ): **target 10 drones per engine.** When every engine is locked (all sets L3 + 4 hubs), mint the **next engine** and point new drones at it to fill the pipe. Each pack still needs a Serve.
+- Scale (captain ruling 2026-09-07 18:5xZ, raised 19:0xZ): **target 20 drones per engine.** Drones stay zero-holdings, always — no referral sets (a referral set nets ~M$150 once; a drone nets M$300 + M$100/h). **Landing rule:** each drone lands on the *highest* engine tile it can afford — L1 tiles (M$200) at spawn, L3 once accrued. Fast fill: engine builds L1 first, then 8 fresh drones × M$200 = M$1,600 in one tick → L2 + L3.
+- Scale (superseded): target 10 drones per engine. When every engine is locked (all sets L3 + 4 hubs), mint the **next engine** and point new drones at it to fill the pipe. Each pack still needs a Serve.
 - Throughput math (from receipts): a drone yields ≤ M$100/h salary (+M$300 per respawn), so 10 drones ≈ M$1,000/h upstream ≈ one L3 level per ~30 min per engine. Runner cost is ~2 calls per drone per tick — negligible. **P6 (bankruptcy payout) decides whether the cash floor applies; test it before minting to 10.**
 - Ceiling: **attention** (the 4+1 engines must still get check-ins) and **ToS**. Not cash. Not slots.
 

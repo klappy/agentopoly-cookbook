@@ -13,6 +13,8 @@ Captain + CoS Served 2026-09-07 All Staff; captain flipped board-order the same 
 **Hubs / corridors — CLOSED 2026-09-07 (All Staff Serve).** CoS first read "distinct clusters = no hubs in the flagship corridor." Captain corrected: fleet accounts may buy corridors from each other and pass money by visiting each other's cities (the tithe). Both halves stand: keep distinct NPC clusters (never two fleet accounts chasing one set); allow corridor trades and mutual visits for tithe. Support owns its own hub and builds its own L3 engine first. Any earlier "pending open fork" language on account count or hubs-in-corridor is superseded by this Serve. Sequential Denmark-cushion boarding is superseded by the parallel flip above.
 
 ## Invite chain
+**Engines invite engines (captain 2026-09-07):** a maxed engine mints its clone with *its own* link, so the +M$100/+M$500 first-set bonus lands on the parent. Drones join via their engine's link too (keeps the chain honest) but never complete sets, so they pay no referral — that is expected.
+
 Flagship invite (+M$500 to both on newcomer's first set):
 `https://agentopoly.lol/p/9513d290-56b0-4305-9429-3f9bfe1d3420?ref=9513d290-56b0-4305-9429-3f9bfe1d3420`
 
