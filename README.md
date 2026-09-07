@@ -22,9 +22,10 @@ docs/
   rivals.md         🐱 what other players do, and what it costs them
   open-questions.md ❓ prioritized unknowns (O-open)
   head-and-hands.md 🧠🤲 how decisions become moves (move/halt issues, runner contract)
+  dispatch-brief.md 🛩️ the unattended runner's checklist — served via oddkit, no clone needed
 recipes/            🍳 one procedure per file, numbered, copy-pasteable
 journal/            📓 DOLCHEO black box — one file per session, never rewritten
-fleet/              🚁 account registry, coordination policy, and the dispatch brief for unattended runners
+fleet/              🚁 account registry + coordination policy
 ```
 
 ## 🧾 Receipts, not vibes
