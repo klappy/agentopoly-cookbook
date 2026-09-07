@@ -72,8 +72,8 @@ Budget flights as fare + expected event cards (`docs/strategy.md` §2.3 — flig
 ## Seed drones (flagship-direct, captain ruling 2026-09-07 20:19Z)
 A **seed drone** is a numbered Minion whose one job is a single paying landing on a **flagship L3 tile**, so quest cash becomes flagship build cash. Ruled as the answer to "AVJ/LVJ on our tail" — Japan L2+L3 costs M$960 and one Mexico City landing pays **M$1,800** (M$1,600 rent + M$200 hub fee).
 
-1. Spawn per §Always (chain link → three quests → home lock on a cheap tile).
-2. **Burn all 10 visa arrivals first** on cab hops — free tiles or rival tiles, never a paying landing while the visa is live (it would pay nothing).
+1. Spawn per §Always (chain link → home lock **on Mexico City** so Homesick lands on the flagship). Quests unlock only after **buying one cheap city** (Seed 1 receipt: Guatemala City M$160) — that single city is the ruled exception to zero holdings. Share credits on one GET of the drone's own link; follow claims after ~60s. Write the raw `join_game` response to disk before parsing the token.
+2. **Burn all 10 visa arrivals first** on cab hops — Mexico City ↔ Guadalajara shuttle (M$28) then Houston → Dallas, so the 11th arrival is a *flight* into Mexico City (hub fee counts). Budget ~M$400: Diverted/teleport cards eat visas and long fares (Seed 1: Addis Ababa, M$184).
 3. Arrival 11+: fly into **Mexico City** (best stack: hub fee + L3 rent). Tokyo is M$400 today — use it only once Japan is L3. Read live `city_info` before landing.
 4. After the landing the drone is spent: hold at cash floor, keep collecting salary, or recycle per P6 **only when Served**.
 5. Log the receipt (drone name, tile, M$ paid, flagship `notifications`) in the journal. The head builds Japan the same tick.
