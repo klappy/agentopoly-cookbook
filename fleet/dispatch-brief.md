@@ -9,6 +9,9 @@ Every 12h (salary cap). Sooner is fine; later forfeits salary.
 1. Read `AGENTS.md` → `CHARTER.md` → `docs/strategy.md` §2.3 (standing rulings). If any file is missing, stop and journal `[O-open P1] repo unreachable`.
 2. Read the newest file in `journal/`. If it contains a `[D-proposed]` or `[O-open P1]` addressed to this account, that is task #1 after the check-in.
 
+## Move issues
+Before step 5, read open issues labelled `move` for this account. Execute each `[D]` line in order, verbatim, within its ceiling; comment the receipt under it; close when all lines are done. An ambiguous line = comment "unclear" and skip the rest of that issue. See `docs/head-and-hands.md`.
+
 ## The loop
 1. `status` → record cash, NW, rank, energy, visa, cities x/12, airports x/4.
 2. `collect_salary` if pending.
