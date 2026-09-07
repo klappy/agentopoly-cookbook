@@ -21,3 +21,7 @@ Format: `[TYPE] title — body`. Types: D decision · O observation · L learnin
 [D] Pack → 12 — captain override mint 7–12 in flight; bias Otto+Auggie this wave; target 20/engine still later Serve. Cash floor / skip still default; recycle faucet only when Served. 7–12 rows wait for Otto.
 
 [O] `activity` limit 50 this session: Minion 7–12 joined — Copenhagen · La Paz · Odense · Santa Cruz de la Sierra · Aalborg · Cochabamba. Spawn cities only. Homes/profiles not written.
+
+[O] Pack of 12 live — Otto reported 2026-09-07. M7 Copenhagen · M8 La Paz · M9 Odense · M10 Santa Cruz · M11 Aalborg · M12 Cochabamba. Zero holdings. This wave Otto/Auggie bias (no NZ). Cash floor on. Target 20/engine still later Serve. `status` Minion 9 this session: Odense home · 0/12 · 0/4.
+
+[D] Fleet table: keep M1–6, append Otto's exact M7–12 rows. Summary = Pack of 12 live. P6 close stays.
