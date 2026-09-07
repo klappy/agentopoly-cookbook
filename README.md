@@ -23,7 +23,7 @@ docs/
   open-questions.md ❓ prioritized unknowns (O-open)
 recipes/            🍳 one procedure per file, numbered, copy-pasteable
 journal/            📓 DOLCHEO black box — one file per session, never rewritten
-fleet/              🚁 account registry + coordination policy for multi-account play
+fleet/              🚁 account registry, coordination policy, and the dispatch brief for unattended runners
 ```
 
 ## 🧾 Receipts, not vibes
