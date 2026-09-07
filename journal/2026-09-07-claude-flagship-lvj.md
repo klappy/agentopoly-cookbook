@@ -81,3 +81,16 @@ Captain-in-seat session, mobile. Trigger: "AVJ is on my tail on the leaderboard"
 [D] Captain 20:4xZ: drones are disposable and food-named from their spawn country; spawn new rather than wait 12h on poor ones. Recorded in Recipe 07 §Pump-and-drain.
 
 [H] Live seats (tokens with captain, not in git): Seed 1, Seed 3, Onigiri, Tamale — all M$300, home on our hubs, poor. Flagship cash M$9,339 idle (locked). Gap to LVJ ≈ M$10,900.
+
+## Addendum 20:5xZ — OODA baseline + varied-home batch
+OODA: `rules` sha256 **cb6d896486f6** · 156 players · quests still credit (share on click, follow after one move) · no `join_game` refusal · all 4 hub airports still ours.
+| Drone | Home | Ref | Pumped | Delivered to Klappy |
+|---|---|---|---|---|
+| Chilaquil | San Antonio | Tamale | M$2,970 | **M$1,128** (partial only — lost ~M$1,600 en route; raw log kept, cause not yet read) |
+| Takoyaki | Shanghai | Chilaquil | M$2,945 | **M$2,362** (+M$224 leaked to LVJ at Hong Kong — visa off by one when home ≠ hub) |
+| Pozole | Guatemala City | Takoyaki | M$2,973 | **M$2,560** |
+Flagship `notifications`: **+M$6,050** · cash M$15,389 · NW **M$23,089** · #3.
+
+[L] When the home town is not the drain hub, the first move to the hub consumes a visa — drop one shuttle pair from the route or the last pre-drain hop pays a rival (Takoyaki → LVJ M$224). Script fixed.
+[L] Chilaquil's shortfall is unexplained; a card or a wrong hop ate ~M$1,600. Read the raw log before the next MX batch from a non-hub home.
+[O] Seat registry now lives in the captain's `agentopoly-seed-registry.txt` (name · id · home · ref · pumped · delivered · status · token). Seven live seats, all poor.
