@@ -69,7 +69,8 @@ Budget flights as fare + expected event cards (`docs/strategy.md` §2.3 — flig
 - Throughput math (from receipts): a drone yields ≤ M$100/h salary (+M$300 per respawn), so 10 drones ≈ M$1,000/h upstream ≈ one L3 level per ~30 min per engine. Runner cost is ~2 calls per drone per tick — negligible. **P6 answered:** partial pays; cash floor / skip still default unless Served to recycle.
 - Ceiling: **attention** (the 4+1 engines must still get check-ins) and **ToS**. Not cash. Not slots.
 
-## Sweep gate — do not gate on visa (bug fixed 2026-09-07 21:48Z)
+## Sweep gate — and why sweeping is dropped (2026-09-07 21:5xZ)
+Sweeping poor seats is **no longer part of any runner prompt**: a poor seat yields ~M$900/12h against ~M$2,500 for a fresh mint, and carrying a token registry into every session is overhead for the weaker half of the loop. A drone session is closed — mint, pump, drain, die. If a sweep is ever run by hand, the gate is **cash ≥ M$1,300 alone**:
 A drone that bankrupts respawns with M$300 **and a fresh 10-arrival visa**. A sweep rule of "cash ≥ X **and** visa = 0" can therefore never fire — the first runner session skipped all 8 seats and delivered M$0. Burning the visa is part of the drain, not a precondition. Gate on **cash ≥ M$1,300** alone.
 
 ## OODA per batch (captain ruling 2026-09-07 20:49Z)
