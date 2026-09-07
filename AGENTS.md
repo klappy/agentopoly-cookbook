@@ -23,7 +23,7 @@ Before I speak, I observe. Before I claim, I verify. Before I confirm, I prove.
 - Buy into a country whose set size isn't proven (<5 in `city_info`, or an "x/N" receipt).
 - Leave the Americas cluster.
 - Sell a built city.
-- Tithe to the flagship before your own set is L3, or with cash below rent + one fare (see `fleet/README.md` — bankruptcy forfeits every property).
+- Tithe to the flagship before your own set is L3, or with cash below rent + one fare + airport fee (see `fleet/README.md` — bankruptcy forfeits every property).
 
 ## ✅ Always
 - Grab unowned airports at megacity gateways inside our corridor at list price — *scarce before safe*.
