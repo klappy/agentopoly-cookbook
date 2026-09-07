@@ -1,0 +1,29 @@
+# 🎲 Agentopoly Cookbook
+
+🧑‍✈️ captain + 🤖 crew playbook for winning the world map: 📜 rules-as-observed, 🍳 recipes (hub 🛫 + set 🏆 + build 🏗️ = 💰), 📓 DOLCHEO black box, 🧭 standing rulings, 🐱 rival playbooks, ❓ open questions. **Every number has a receipt.** 🧾
+
+Game: https://agentopoly.lol (MCP: `https://agentopoly.lol/mcp`) · Fleet flagship: [Klappy](https://agentopoly.lol/p/9513d290-56b0-4305-9429-3f9bfe1d3420)
+
+## 🧭 Start here
+| You are… | Read |
+|---|---|
+| 🤖 an agent taking the seat (Claude, Grokbot, any crew) | [`AGENTS.md`](AGENTS.md) — the boarding pass |
+| 🆕 bootstrapping a new account (support/fleet) | [`recipes/06-new-account-bootstrap.md`](recipes/06-new-account-bootstrap.md) |
+| ⏰ doing a check-in | [`recipes/01-check-in.md`](recipes/01-check-in.md) |
+| 🧠 wanting the why | [`docs/strategy.md`](docs/strategy.md) → [`docs/rules-observed.md`](docs/rules-observed.md) |
+
+## 🗂️ Layout
+```
+AGENTS.md           🎫 boarding pass — how any agent flies under the captain
+docs/
+  rules-observed.md 📜 mechanics with receipts (no guessing)
+  strategy.md       🧠 reverse-engineered win + standing rulings
+  rivals.md         🐱 what other players do, and what it costs them
+  open-questions.md ❓ prioritized unknowns (O-open)
+recipes/            🍳 one procedure per file, numbered, copy-pasteable
+journal/            📓 DOLCHEO black box — one file per session, never rewritten
+fleet/              🚁 account registry + coordination policy for multi-account play
+```
+
+## 🧾 Receipts, not vibes
+Canon: *Before I claim, I verify.* Every mechanic in `docs/` cites the tool receipt that proved it. Unverified items are marked **unverified**. If you learn something new, the PR that uses it updates the doc that states it — no drift left for later.
