@@ -21,6 +21,7 @@ docs/
   strategy.md       🧠 reverse-engineered win + standing rulings
   rivals.md         🐱 what other players do, and what it costs them
   open-questions.md ❓ prioritized unknowns (O-open)
+  head-and-hands.md 🧠🤲 how decisions become moves (move/halt issues, runner contract)
 recipes/            🍳 one procedure per file, numbered, copy-pasteable
 journal/            📓 DOLCHEO black box — one file per session, never rewritten
 fleet/              🚁 account registry, coordination policy, and the dispatch brief for unattended runners
