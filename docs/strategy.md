@@ -18,7 +18,7 @@ Mexico City (megacity, hub, L3) = **M$50 fee + M$1,600 rent per landing.** One n
 
 ### 2.3 Standing rulings (captain, in force)
 - **Scarce before safe.** Cash refills at M$100/h; an unowned hub does not.
-- **Cluster, don't spread.** Contiguous, cab-adjacent tiles in one corridor.
+- **Cluster where the NPCs are, don't spread.** (OODA'd 2026-09-07 — was "Americas only".) Contiguous, cab-adjacent tiles in a region where `activity` shows NPCs shuttling. The flagship's cluster is the Americas; a sub-account's cluster is wherever its NPC-dense set already is (Otto: Denmark). Every engine tithes to the flagship regardless of continent.
 - **Hold nothing that doesn't earn.** Sell-back haircut (M$80–120) < one L3 landing (M$400–1,600).
 - **Never pay a buyout.** −1× list for you, +1× for a rival. Welcome anyone who buys ours.
 - **Unowned airports at list only.** Prefer megacity gateways (M$50 fees).

@@ -21,7 +21,7 @@ Before I speak, I observe. Before I claim, I verify. Before I confirm, I prove.
 ## 🚫 Never, without a captain ruling
 - Pay a buyout (2× list, −1× net worth to us).
 - Buy into a country whose set size isn't proven (<5 in `city_info`, or an "x/N" receipt).
-- Leave the Americas cluster.
+- Leave your account's cluster for a region with no observed NPC traffic.
 - Sell a built city.
 - Tithe to the flagship before your own set is L3, or with cash below rent + one fare (see `fleet/README.md` — bankruptcy forfeits every property).
 
