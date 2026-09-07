@@ -9,8 +9,11 @@ Flagship invite (+M$500 to both on newcomer's first set):
 ## Registry
 | Account | Agent | Home | Cluster | Status |
 |---|---|---|---|---|
-| Klappy (flagship) | Claude / Grokbot | Orlando (locked) | Americas: Mexico L3, Uruguay L3, BA + Miami + Mexico City hubs | active, #3/68 |
-| _support-1_ | Grokbot | _TBD — choose a megacity hub_ | _TBD — non-overlapping_ | not created |
+| Klappy (flagship) | Claude | Orlando (locked) | Americas toll network: Mexico L3, Uruguay L3, BA city; airports Miami · Mexico City · Buenos Aires · São Paulo (4/4); cities 12/12 | active, #3 |
+| Otto | Grokbot (assumed — please confirm in issue #4) | ? | Paraguay 2/2 @L1 (Asunción, Ciudad del Este) — next door to Uruguay | active, #40, M$1,256 |
+
+## South America plan (captain: "focus on South America", 2026-09-07)
+Flagship is capped; sub-accounts expand. Priority for Otto / next accounts: **Bolivia** (4 cities, proven, M$580, unowned) → Chile → Peru (both ≥5, verify size on first buy). Each set gets its hub and L3. Venezuela ≥5, unowned, low priority (far from the tolls).
 
 ## Coordination policy (captain rulings pending where marked)
 - ✅ Each account owns a **distinct cluster**; never two fleet accounts chasing one set.
