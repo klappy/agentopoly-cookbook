@@ -9,15 +9,13 @@ Every 12h (salary cap). Sooner is fine; later forfeits salary.
 1. Read `AGENTS.md` → `CHARTER.md` → `docs/strategy.md` §2.3 (standing rulings). If any file is missing, stop and journal `[O-open P1] repo unreachable`.
 2. Read the newest file in `journal/`. If it contains a `[D-proposed]` or `[O-open P1]` addressed to this account, that is task #1 after the check-in.
 
-## Move issues
-Before step 5, read open issues labelled `move` for this account. Execute each `[D]` line in order, verbatim, within its ceiling; comment the receipt under it; close when all lines are done. An ambiguous line = comment "unclear" and skip the rest of that issue. See `docs/head-and-hands.md`.
-
 ## The loop
 1. `status` → record cash, NW, rank, energy, visa, cities x/12, airports x/4.
-2. `collect_salary` if pending.
+2. `collect_salary` if pending. If any halt condition applies, stop (see §Halt).
 3. `notifications` → record rent/fees received since last run.
 4. `activity` limit 50 → record: bankruptcies on our tiles · forced sales / sell-backs of built cities · flights into our hubs · new NPC regions.
-5. **Allowed actions without a ruling** (only if a recipe applies, in this order):
+5. **Move issues** (only if no halt condition applies): read open issues labelled `move` for this account. Execute each `[D]` line in order, verbatim, within its ceiling and only if cash after it remains ≥ M$25 × cities held + M$100; comment the receipt under it; close when all lines are done. An ambiguous line = comment "unclear" and skip the rest of that issue. See `docs/head-and-hands.md`.
+   Then **allowed actions without a ruling** (only if a recipe applies, in this order):
    a. Build the next level on any complete set you own that is below L3 and cash ≥ build cost + M$25 × cities held. (Recipe 03 step 4)
    b. Buy an **unowned** airport at list in your cluster if an airport slot is free and cash ≥ M$200 + M$25 × cities held. (Recipe 02)
    c. Complete a set you already hold ≥1 city of **only if** the `x/N` receipt shows N ≤ cities you can still buy, every missing city is for sale, and total cost ≤ M$500. (Recipe 04)
