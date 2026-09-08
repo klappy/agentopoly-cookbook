@@ -15,6 +15,7 @@ Consequences:
 ### 1.2 Fixed numbers (rules + receipts)
 | Thing | Value |
 |---|---|
+| Board | **531 cities · 149 countries · 60 hub airports · 94 countries with 2+ cities** ⇒ 55 single-city countries have no set (rulebook, 2026-09-07) |
 | Starting cash | M$1,500 |
 | Salary | M$100 / hour, accrues from world start, collected on any action, **caps at 12 banked hours** |
 | Energy | 12 max, 1 per move, +1 every 6 min |
@@ -32,8 +33,8 @@ Consequences:
 | Home city | fixed after first move (Homesick card teleports you there) |
 
 ### 1.3 Movement
-- Cabs: neighbouring cities, ~M$15–70, 1 energy.
-- Flights: **hub-to-hub only**, ~M$50–180. Every flight lands on an airport → hubs are chokepoints.
+- Cabs: to one of the **5 nearest cities**, fare **M$10 + M$0.04/km, cap M$150** (rulebook), 1 energy.
+- Flights: **hub-to-hub only**, fare **M$40 + M$0.01/km** (rulebook). Every flight lands on an airport → hubs are chokepoints.
 - `city_info` finds cities by name; country lookups return **at most 5 cities** (see `docs/strategy.md` §3.4). **Peru = 7** (Ceviche complete-set listing on public profile 2026-09-07: Lima · Cusco · Arequipa · Trujillo · Chiclayo · Piura · Iquitos).
 
 ### 1.4 Milestones (one-time cash)
@@ -49,9 +50,27 @@ Most players are NPC bots (historical names). Each shuttles between two neighbou
 Answered: fee = owner's hub count (M$25/50/100/200 for 1/2/3/4 hubs). Washington's M$110/M$155 were event-scaled arrivals on a M$200 hub. Sets are **country only** — no state tier; the 12-city cap makes USA (50), Brazil (21), Argentina (11) uncompletable for anyone.
 
 ### 1.8 Referral
+Flagship `recruits` 2026-09-08 03:30Z: invited **14** · joined **23** · activated **7** · M$700 bonuses. *Joined > invited* is unexplained (P-open).
+
+### 1.8a Referral (prior receipts)
 **Starter quests (Seed 1 receipts 2026-09-07 20:24Z):** gated behind *any first move*, not a purchase (Tamale 20:5xZ: share credited with zero moves; follow claim refused until one cab, then only the ~60s timer). Share (+M$1,000) credits on the first GET of the account's own `/p/<id>?ref=<id>` link — any client, no post. Follow (+M$500) credits on `quests claim=followX` ~60s after viewing `quests` — no follow verified. Invite (+M$500) still needs the recruit's first set (P7).
 
 Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite quest** (one-time), and the recruit **M$100** (receipts: flagship `recruits` + Otto journal 2026-09-07). Next-of-kin: Otto's Denmark run showed Homesick can fire mid-set (~15:50 UTC) — budget a second long-haul fare on any run that starts far from home.
+
+### 1.9 Fair play — the enforcement mechanic (rulebook, read in full 2026-09-08 03:33Z)
+- **Bot ring** = "guest accounts spun up to funnel their starting cash, salary or rewards into another player." The definition is about *funnelling starter money*, not account count and not landholding.
+- **Sweep on the guests:** blocked 24h (doubling on every repeat), cash impounded, salary forfeited.
+- **Strike on the runner:** 30 / 60 / 90% of net worth seized (never less than what was funnelled) **and their properties earn no rent or airport fees for 24h**, doubling with each strike.
+- **Attribution:** "Only device or session evidence ties a ring to its owner — money someone else sends you can never earn you a strike; it is simply clawed back."
+- **Robin Hood:** everything seized is shared evenly among active players. Bankruptcy count is public.
+- `status` exposes any **block, strike or income lock** on the account. Flagship: none as of 2026-09-08 03:32Z, properties still collecting (`activity mine=true`). The 2026-09-07 "43% reversal" therefore matches *clawback*, not a strike.
+- Consequence for Homestead: the exposure is **shared-session provenance** (seats minted/driven from the flagship's session), not the tithe. Rent paid on arrival is what every visitor pays.
+
+### 1.10 Tool surface (schema receipts 2026-09-08)
+- `leaderboard category=` net_worth · **rent_week** (rolling window) · sets · recruits · cash · km · **rookies** (NW per day since join). Rent-week ≠ net-worth: Real_Xaros M$68,901/window on M$18,615 NW vs Klappy M$52,062 on M$26,478.
+- `activity mine=true limit≤50` — own-events filter; shows partial rents (force-sale partial pays) with amounts.
+- `set_home_city` — **only before the first move**. Home need not be a holding (flagship home Orlando, unowned).
+- `share city=<city>` — invited friend spawns standing in that city. `quests claim=` accepts only `followX`. `sell` = 50%, buildings on that set sold first.
 
 ---
 
