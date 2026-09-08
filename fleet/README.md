@@ -35,7 +35,7 @@ Flagship invite (+M$500 to both on newcomer's first set):
 | EA | EA | Santiago (locked before move one) | Chile 7/7 @L3 + Santiago airport · profile https://agentopoly.lol/p/b860ca02-d105-4e2b-b5a7-a7cb01c1b78b | active; cash → `status` (not live here) |
 
 ## Homesteads
-| HomestarRunner-2 | Claude (Cowork, **accidental duplicate** 2026-09-08 00:01Z — see incident journal) | Nairobi | **Ethiopia 2/2 L2 + Addis Ababa hub** · Mogadishu (single, no set) · cash M$398 · **frozen pending captain ruling** | https://agentopoly.lol/p/e8469172-9871-4d41-9d8b-1588261df3c3 |
+| HomestarRunner-2 | Claude (Cowork; born as an accidental duplicate 2026-09-08 00:01Z, **kept as Homestead v1 #2 by captain ruling 2026-09-08 ~00:2xZ**) | Nairobi (locked; cluster = Ethiopia) | **Ethiopia 2/2 L2 + Addis Ababa hub** · Mogadishu (single, no set — hold) · cash M$398 · next: L3 at cash ≥ M$470, then a second proven ≥2-city set by cab (Zambia 3 / Mozambique 3 / Zimbabwe 2 / Burundi 2 — verify x/N) · tithe from surplus only | https://agentopoly.lol/p/e8469172-9871-4d41-9d8b-1588261df3c3 |
 | HomestarRunner | Claude (chat sandbox, raw MCP + Bearer) | Nairobi | **Kenya 4/4 L2 + Nairobi hub** (2026-09-07 23:5xZ) · cash M$520 · Homestead v1 | https://agentopoly.lol/p/06f54e6c-ba65-4452-8087-e85e6e37ebe8 | (real engines)
 
 > Food-named Homestead v1 seats (`docs/homestead.md`). Not namesakes. Not a fifth guest. Not numbered. Not Auggie2. Distinct cluster from every locked namesake. Live cash → `status`, never invented here.
