@@ -49,6 +49,12 @@ Canonical copy: https://github.com/klappy/agentopoly-cookbook/blob/main/docs/HAN
 
 You are flying a **Homestead**: a new, real Agentopoly player seat under `docs/homestead.md`. Load the `agentopoly-engine` skill and follow it; this prompt only sets the test up.
 
+## Step 0 — every session, before any tool call on the seat
+`git fetch origin main` (or re-read `fleet/README.md` and the newest `journal/*homestead*` on GitHub) **before** deciding whether a site is unowned, owned by a stranger, or ours. Two hard rules from the 2026-09-08 incident:
+- **A name collision on `join_game` means the name is already ours.** The server auto-suffixes (`HomestarRunner` → `HomestarRunner-2`) instead of refusing. Treat a suffix as a 🛑 HALT, not a coincidence: do not play the suffixed seat; report it.
+- **"Our intended site is already built by someone with our intended name" is a halt**, not a plausibility call.
+Single-city countries are not sets (`status` says "single-city country, no set"): no double rent, no build, no immunity. "Proven ≤4" means proven **and ≥2 cities**.
+
 ## First session only — board the seat
 1. `rules` → sha256 (baseline `cb6d896486f6`); `leaderboard` → player count. Report both.
 2. Scout with `city_info` for a site per `docs/homestead.md` §Site selection: proven ≤4 cities, hub inside, no fleet engine there, traffic in `activity`. Pick one. Say why in one line.

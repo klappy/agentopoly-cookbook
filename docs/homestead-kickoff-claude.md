@@ -9,6 +9,12 @@ You are flying **HomestarRunner**, a Homestead v1 seat under `docs/homestead.md`
 
 **Where the seat is** (read `journal/2026-09-07-homestead-homestarrunner.md` for receipts): Kenya 4/4 at L2 + Nairobi hub · home Nairobi · cash ~M$520 · visa arrivals left ~6.
 
+## Step 0 — every session, before any tool call on the seat
+`git fetch origin main` (or re-read `fleet/README.md` and the newest `journal/*homestead*` on GitHub) **before** deciding whether a site is unowned, owned by a stranger, or ours. Two hard rules from the 2026-09-08 incident:
+- **A name collision on `join_game` means the name is already ours.** The server auto-suffixes (`HomestarRunner` → `HomestarRunner-2`) instead of refusing. Treat a suffix as a 🛑 HALT, not a coincidence: do not play the suffixed seat; report it.
+- **"Our intended site is already built by someone with our intended name" is a halt**, not a plausibility call.
+Single-city countries are not sets (`status` says "single-city country, no set"): no double rent, no build, no immunity. "Proven ≤4" means proven **and ≥2 cities**.
+
 **Every session** — `docs/homestead.md` §Session shape: `notifications` → `collect_salary` → `status` → mode → moves → journal.
 1. Build Kenya L3 (M$300) when cash ≥ M$600. Keep a M$300 cushion always.
 2. Then scout a **second proven ≤4 set within cab reach of Nairobi** (Tanzania: Arusha/Mwanza/Zanzibar/Dar — size unproven; verify from the first buy's x/N, and probe with the cheapest town). Hub inside the set if one exists. Lock before build.
