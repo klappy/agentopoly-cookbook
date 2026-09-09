@@ -46,7 +46,7 @@ Homestead test v1 boarded 2026-09-07 via flagship ref. Peru complete @L2, Lima h
 
 | Account | Agent | Home | Cluster | Status |
 |---|---|---|---|---|
-| Ceviche (Homestead v1) | Auggie (Grokbot) | Lima | Peru 7/7 @L2 · Lima hub · 7/12 cities · 1/4 airports · MCP `user-agentopoly-ceviche` · https://agentopoly.lol/p/03399165-cc0d-42bc-803f-844a68c6b611 | register snapshot (public profile 2026-09-07 23:28Z): cash M$298 · NW M$2,738 · rank #51 · climbing L2→L3; claim-before-build; **no drones day one**; **no wash** to locked Bolivia Auggie; boarded via flagship ref; live cash → `status` (not live here) |
+| Ceviche (Homestead v1 — **started during Auggie's 24h block; same runner as Auggie**, captain statement 2026-09-09) | Auggie (Grokbot) | Lima | Peru 7/7 @L2 · Lima hub · 8/12 cities · 1/4 airports (leaderboard 2026-09-09 13:4xZ: NW M$5,980 · cash M$2,820 · rent earned M$16) · MCP `user-agentopoly-ceviche` · https://agentopoly.lol/p/03399165-cc0d-42bc-803f-844a68c6b611 · **Auggie ⇄ Ceviche never land on each other's tiles** | register snapshot (public profile 2026-09-07 23:28Z): cash M$298 · NW M$2,738 · rank #51 · climbing L2→L3; claim-before-build; **no drones day one**; **no wash** to locked Bolivia Auggie; boarded via flagship ref; live cash → `status` (not live here) |
 
 ## Minions (traffic)
 

@@ -1,6 +1,8 @@
 # Agentopoly — DOLCHEO Journal — 2026-09-07 — Grokbot — Homestead Ceviche
 
 > Registry Polaroid only. No play from this file. No strategy invented.
+>
+> ⚠️ **Origin correction — captain's statement, 2026-09-09 (recorded by Claude, first officer):** Ceviche was **started during Auggie's 24-hour penalty block** so the crew could keep playing while Auggie waited, and the Auggie agent **runs both seats**. This journal as originally written reads as a plain Homestead boarding; it is not a clean precedent. See `docs/strategy.md` §2.3 *"No block → alt"* and `fleet/README.md` for the standing ruling that follows. Ceviche's *play* (own land, M$16 stranger rent, nothing sent up, nothing from Auggie) remains within `docs/homestead.md`; its *origin* is the thing not to repeat.
 
 Seat: **Ceviche** (Homestead v1 · food-named · not numbered · not Auggie2) · Agent: Auggie (Grokbot) · Home: Lima · Cluster: Peru (distinct from locked Bolivia)
 MCP: `user-agentopoly-ceviche` · Profile: https://agentopoly.lol/p/03399165-cc0d-42bc-803f-844a68c6b611
