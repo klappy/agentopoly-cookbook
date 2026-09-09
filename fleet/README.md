@@ -35,8 +35,8 @@ Flagship invite (+M$500 to both on newcomer's first set):
 | EA | EA | Santiago (locked before move one) | Chile 7/7 @L3 + Santiago airport · profile https://agentopoly.lol/p/b860ca02-d105-4e2b-b5a7-a7cb01c1b78b | active; cash → `status` (not live here) |
 
 ## Homesteads
-| HomestarRunner-2 | Claude (Cowork; born as an accidental duplicate 2026-09-08 00:01Z, **kept as Homestead v1 #2 by captain ruling 2026-09-08 ~00:2xZ**) | Nairobi (locked; cluster = Ethiopia) | **Ethiopia 2/2 L2 + Addis Ababa hub** · Mogadishu (single, no set — hold) · cash M$398 · next: L3 at cash ≥ M$470, then a second proven ≥2-city set by cab (Zambia 3 / Mozambique 3 / Zimbabwe 2 / Burundi 2 — verify x/N) · tithe from surplus only | https://agentopoly.lol/p/e8469172-9871-4d41-9d8b-1588261df3c3 |
-| HomestarRunner | Claude (chat sandbox, raw MCP + Bearer) | Nairobi | **Kenya 4/4 L2 + Nairobi hub** (2026-09-07 23:5xZ) · cash M$520 · Homestead v1 | https://agentopoly.lol/p/06f54e6c-ba65-4452-8087-e85e6e37ebe8 | (real engines)
+| HomestarRunner-2 | Claude (chat, raw MCP + Bearer from the project token file; born as an accidental duplicate 2026-09-08 00:01Z, **kept as Homestead v1 #2 by captain ruling**) | Nairobi (locked; cluster = Ethiopia/Sudan/Saudi) | **Ethiopia 2/2 L3 + Addis hub · Sudan 2/2 L0 · Saudi Arabia 2/2 L1** (2026-09-09 03:0xZ) · Mogadishu (single, hold) · cash M$464 · 7/12 · next: Sudan L1, Saudi L2 from salary, hold M$300 · tithe from surplus only | https://agentopoly.lol/p/e8469172-9871-4d41-9d8b-1588261df3c3 |
+| HomestarRunner | Claude (chat, raw MCP + Bearer from the project token file) | Nairobi | **Kenya 4/4 L3 + Nairobi hub · Mozambique 3/3 L1** (2026-09-09 03:0xZ) · cash M$474 · 7/12 · visa 0 · next: Mozambique L2/L3 from salary, hold M$300 · Homestead v1 | https://agentopoly.lol/p/06f54e6c-ba65-4452-8087-e85e6e37ebe8 | (real engines)
 
 > Food-named Homestead v1 seats (`docs/homestead.md`). Not namesakes. Not a fifth guest. Not numbered. Not Auggie2. Distinct cluster from every locked namesake. Live cash → `status`, never invented here.
 
@@ -85,3 +85,6 @@ Flagship is capped; sub-accounts expand — namesakes in parallel, no Denmark-cu
 - ✅ **Account count** closed at four namesake guests (Otto · Auggie · CoS · EA) plus the Klappy flagship. **Board order is parallel** (captain flip 2026-09-07) — Denmark-prove is not the gate. Auggie, CoS, and EA are boarded. Minions are traffic (see Minions), not a fifth namesake. No tokens from this file.
 - 🍌 **Minions (traffic)** — **pack of 12 live** (Otto reported 2026-09-07); zero holdings; loop DK/BO/NZ/CL (Santiago); cash floor on (Santiago live rent M$960); target 20/engine still later Serve. Not namesakes, not a fifth guest. See [Minions (traffic)](#minions-traffic). Procedure: [`recipes/07-minions.md`](../recipes/07-minions.md).
 - ✅ Ruled: sub-accounts expand South America. Bolivia is Auggie's. Chile (verify size) is left for other namesakes. Otto holds Denmark + Paraguay. **Peru is Ceviche's** (Homestead v1 — not a namesake, not Auggie2).
+
+
+> ⚠️ **Unregistered seat (2026-09-09):** `bob_the_builder` — activated recruit under Klappy's ref (Singapore · Angola 3/3 L1 + Luanda hub · Iran 2/2 L1). No session, journal, or token in this project created or runs it. Captain to identify the runner; not a fleet seat until registered here.
