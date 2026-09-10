@@ -83,7 +83,7 @@ Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite 
 - **"Blocked or ring-adjudicated accounts earn none of this."** Observed scope — see Strike 1 vs daily.
 - Energy now regenerates **1 per 6 minutes** (was 1 per 5m in earlier receipts).
 - `build` **requires standing in that country** ("You must be in Sudan to build there", 2026-09-09).
-- Rules-hash baseline definition: sha256 of the UTF-8 `rules` text content block over raw MCP, untrimmed. Current: **`3d978ac96da22296`** (also logged as `3d978ac96da2`). Connector `rules` text with no trailing newline hashes to the same prefix (Otto / Auggie 2026-09-10).
+- Rules-hash baseline: **`3d978ac96da2`** is the sha256 hex prefix of the raw MCP `rules` tool text with only `.strip()` (leading/trailing whitespace). Normalize = `strip`. Do not hash JSON-RPC envelopes, SSE `data:` wrappers, markdown fences around the tool result, or any other wrapper. If a seat's hash differs, recompute with strip-only normalize before treating it as a rules change; halt only when strip-normalized text still mismatches. Also logged as `3d978ac96da22296` when the connector text already has no leading/trailing whitespace (Otto / Auggie 2026-09-10; CoS confirmed `3d978ac96da2` == sha256(`rules.strip()`)).
 
 ### Strike 1 vs daily (Auggie Bolivia receipt 2026-09-10)
 - Strike 1 remains on the account badge after the income lock lifts.

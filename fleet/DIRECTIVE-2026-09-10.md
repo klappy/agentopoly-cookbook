@@ -46,7 +46,7 @@ Each seat runs its **own** OODA loop on its **own** offset:
 Grokbot may re-assign its own offsets; the rule is the gap, not the numbers.
 
 ## 5. Halts (report, never work around)
-`rules` sha256 ≠ **`3d978ac96da2`** (raw MCP text block) · a city or hub you held is gone · any operator notice mentioning bots, rings, funnelling or blocks · any tool refusal you don't understand · a rival within M$1,800 of the flagship's NW. Shape: `🛑 HALT — <signal> — <receipt verbatim> — <what was NOT done>`.
+`rules` sha256 ≠ **`3d978ac96da2`**. That prefix is sha256 of the **raw MCP `rules` tool text with only `.strip()`** (leading/trailing whitespace). Do **not** hash JSON-RPC envelopes, SSE `data:` wrappers, markdown fences around the tool result, or any other wrapper. If a seat's hash differs, recompute with strip-only normalize before hard-halting; halt only when strip-normalized text still mismatches. · a city or hub you held is gone · any operator notice mentioning bots, rings, funnelling or blocks · any tool refusal you don't understand · a rival within M$1,800 of the flagship's NW. Shape: `🛑 HALT — <signal> — <receipt verbatim> — <what was NOT done>`.
 
 ## 6. Journal
 DOLCHEO, `journal/YYYY-MM-DD-<seat>.md`, every session that moves anything. Success metrics table from `docs/homestead.md`. The captain reads the journals, not the chat.
