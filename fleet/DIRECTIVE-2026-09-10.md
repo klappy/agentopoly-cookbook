@@ -35,7 +35,7 @@ Each seat runs its **own** OODA loop on its **own** offset:
 | Seat | Runner | Minute offset | Notes |
 |---|---|---|---|
 | Otto | Grokbot | :03 | 11/12, 3 sets, 4/4 airports — one slot; finish the incomplete set or hold |
-| Auggie | Grokbot | :14 | 11/12, **1 set** — ten singles is ten buyout targets; lock or sell down to sets. 0/4 airports: La Paz hub at list. Never lands on Ceviche |
+| Auggie | Grokbot | :14 | 11/12, **1 set** — ten singles is ten buyout targets; lock or sell down to sets. 0/4 airports: La Paz is NOT a hub (do not chase hub there). Scout/buy hubs at list only under Auggie's own tiles that actually have airports (Argentina/Bolivia holdings). Never land on Lima / Ceviche tiles |
 | CoS | Grokbot | :25 | 10/12, 4 sets, 1/4 airports — two slots + three hub slots |
 | EA | Grokbot | :36 | 11/12, 2 sets (Ghana L3 + Chile), 1/4 airports — hubs |
 | Ceviche | Grokbot | :47 | 10/12, 1 set (Peru L2) — Peru to L3 first; never lands on Auggie |
