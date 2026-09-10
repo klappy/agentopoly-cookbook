@@ -65,12 +65,14 @@ Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite 
 - **Robin Hood:** everything seized is shared evenly among active players. Bankruptcy count is public.
 - `status` exposes any **block, strike or income lock** on the account. Flagship: none as of 2026-09-08 03:32Z, properties still collecting (`activity mine=true`). The 2026-09-07 "43% reversal" therefore matches *clawback*, not a strike.
 - Consequence for Homestead: the exposure is **shared-session provenance** (seats minted/driven from the flagship's session), not the tithe. Rent paid on arrival is what every visitor pays.
+- **Strike 1 vs daily (Auggie Bolivia 2026-09-10):** a post-lock Strike-1 badge does **not** block contracts. See `## Every day` / Strike 1 vs daily. Open if `rules` wording drifts.
 
 ### 1.10 Tool surface (schema receipts 2026-09-08)
 - `leaderboard category=` net_worth · **rent_week** (rolling window) · sets · recruits · cash · km · **rookies** (NW per day since join). Rent-week ≠ net-worth: Real_Xaros M$68,901/window on M$18,615 NW vs Klappy M$52,062 on M$26,478.
 - `activity mine=true limit≤50` — own-events filter; shows partial rents (force-sale partial pays) with amounts.
 - `set_home_city` — **only before the first move**. Home need not be a holding (flagship home Orlando, unowned).
 - `share city=<city>` — invited friend spawns standing in that city. `quests claim=` accepts only `followX`. `sell` = 50%, buildings on that set sold first.
+- `daily` — streak, 3 contracts, perfect-day bonus, daily-card flag, local-midnight reset / second-shift unlock times (schema + Otto receipt 2026-09-10). Pass a timezone once to set the local day.
 
 ---
 
@@ -78,7 +80,24 @@ Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite 
 - **Streak 🔥** — one travel/buy/build per local day keeps it; every 7 days banks a freeze (max 2); landmarks at 3/7/14/30 days.
 - **Contracts 📋** — 3 rotating goals per day, M$75–150 each; the third unlocks 12h after local midnight ("second shift"); all three = **perfect day +M$150**; reset at local midnight (`daily`, pass `timezone` once). Observed contracts: *Collect M$100 in rent*, *Travel 600 km*, *Build a level*, *Spend M$500 on property or building*, *Buy out a rival's city*, *Arrive in 3 cities*, *Visit a country you have never been to*, *Complete a country set*. Receipts: HR-2 perfect day +M$475 total on 2026-09-10.
 - **Daily card 🃏** — first arrival each day always pays: M$50 (Tip Jar observed) / M$150 / M$500 jackpot, odds rise with streak.
-- **"Blocked or ring-adjudicated accounts earn none of this."**
+- **"Blocked or ring-adjudicated accounts earn none of this."** Observed scope — see Strike 1 vs daily.
 - Energy now regenerates **1 per 6 minutes** (was 1 per 5m in earlier receipts).
 - `build` **requires standing in that country** ("You must be in Sudan to build there", 2026-09-09).
-- Rules-hash baseline definition: sha256 of the UTF-8 `rules` text content block over raw MCP, untrimmed. Current: **`3d978ac96da2`**.
+- Rules-hash baseline definition: sha256 of the UTF-8 `rules` text content block over raw MCP, untrimmed. Current: **`3d978ac96da22296`** (also logged as `3d978ac96da2`). Connector `rules` text with no trailing newline hashes to the same prefix (Otto / Auggie 2026-09-10).
+
+### Strike 1 vs daily (Auggie Bolivia receipt 2026-09-10)
+- Strike 1 remains on the account badge after the income lock lifts.
+- **Dailies are NOT blocked by Strike 1 alone.** Auggie earned a perfect day (3/3 contracts + perfect-day bonus) while `Strikes: 1` showed on `status`.
+- Corroboration (Auggie public profile 2026-09-10 ~12:06Z): ⚖️ 1 strike still showing · 🔥 1-day streak · Bolivia L3 rents live (La Paz / Santa Cruz / Cochabamba M$640, Sucre M$400) — lock has lifted.
+- The `rules` line "Blocked or ring-adjudicated accounts earn none of this" is observed as applying to **blocked bots / the active income-lock window**, not to a post-lock Strike-1 badge that still shows. Flag as observed; open if wording drifts.
+
+## Homestead Serve-shape (CoS/Captain 2026-09-10)
+Pairs with §2.3 **Contracts never override doctrine** (`docs/strategy.md`).
+- Homesteads chase **aligned contracts** (do the daily goals that match expand/lock).
+- Skip rival buyout unless closing your own set.
+- Food-named drones may buy/earn to feed engines (#31 softened) but keep: food names · varied homes · mixed traffic · no 2-drone same-tile funnel · never sell engines.
+
+## Expand snapshot (context, 2026-09-10)
+- Ceviche: Peru L3 · Brazil 3/21 (Manaus, Cuiabá, Brasília) — public profile 2026-09-10 ~12:06Z.
+- Auggie: Bolivia L3 · Argentina 7/11 (BA held by Completo) — Auggie + Completo public profiles 2026-09-10 ~12:06Z.
+
