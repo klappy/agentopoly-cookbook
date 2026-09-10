@@ -32,5 +32,5 @@ Real_Xaros / Real_Xaros_2/3 — Istanbul, Athens, Amsterdam, Lisbon L3 with airp
 flujo.com.co — Bogotá L3; Toronto, Washington, Atlanta, Chicago airports.
 
 ## Baselines for OODA
-- `rules` text sha256 prefix: **cb6d896486f6** (2026-09-07 20:50Z)
+- `rules` text sha256 prefix: **3d978ac96da2 (2026-09-10; sha256 of raw MCP `rules` text block — see docs/rules-observed.md)** (2026-09-07 20:50Z)
 - Player count: 156 (2026-09-07 20:50Z)
