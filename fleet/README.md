@@ -1,3 +1,5 @@
+> 📣 **Current standing orders: `fleet/DIRECTIVE-2026-09-10.md`** — expand/lock/build-to-L3 on staggered clocks; no new accounts; no money between seats.
+
 # 🚁 Fleet — accounts & coordination
 
 > Four namesake guest seats (Otto · Auggie · CoS · EA) plus the Klappy flagship is the closed roster (All Staff Serve 2026-09-07). Parallel namesakes now (captain flip 2026-09-07) — Denmark-prove is no longer the boarding gate. Auggie boarded: La Paz / Bolivia 4/4 @L3. CoS live: Auckland / NZ 3/3 @L3 + Taiwan 2/2. EA live: Santiago / Chile 7/7. Disposable Minions (traffic, not namesakes) are a **pack of 12 live** (Otto) — see Minions. Distinct NPC clusters stay (never two fleet accounts on one set); corridor trades and mutual visits for tithe are allowed; each support account owns its own hub and builds its own L3 engine first. Tithe still after own L3 + cushion. Live cash is journal + `status`, never invented here. Flagship stays Klappy's.
