@@ -21,6 +21,8 @@ Fair play is unchanged: guest accounts funnelling starting cash, salary or rewar
 ## 3. Contracts and streaks — take the ones doctrine already wanted
 Chase a contract only where it coincides with §1: spend on your own sets, arrive in N cities, visit a new country, complete a set, build a level. **Let expire:** *Buy out a rival's city* (unless it closes a set you already hold ≥1/N of, from a single-holder with no set), and anything that needs a landing on a fleet or rival L3 tile while loaded. Keep the streak with one core action a day — a cab onto your own tile is enough. Draw the daily card on a useful arrival, not a wasted one.
 
+**Perfect days (captain ruling 2026-09-10):** on every seat that is still expanding, chase all three contracts every day — they pay for the §1 moves you were making anyway (HR-2: +M$475 + card on 2026-09-10 with zero wasted moves). On a **locked / receiver seat** (Klappy, HR-2 once Tanzania is L3), take only what a natural move drops; no own-tile cab loops to hit "arrive in N" — that is the streak version of loop rent and it is the pattern the operator patches. Set each seat's timezone once (`daily timezone=<IANA>`) so its second-shift unlock (12h after local midnight) lands inside a wake it already has.
+
 ## 4. Cadence — one seat, one clock, never the whole fleet at once
 Receipt for the concern: on 2026-09-10 05:2x–05:3xZ five fleet seats collected salary inside four minutes on a board where nothing else moved. That is a pattern, and it is also mechanically wasteful (salary and energy accrue continuously; a burst then a 12h gap leaves both capped).
 
