@@ -74,3 +74,11 @@ Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite 
 
 ---
 
+## Every day (added 2026-09-10 — rules text changed; receipt `journal/2026-09-10-rules-change-daily-loop-homesteads.md`)
+- **Streak 🔥** — one travel/buy/build per local day keeps it; every 7 days banks a freeze (max 2); landmarks at 3/7/14/30 days.
+- **Contracts 📋** — 3 rotating goals per day, M$75–150 each; the third unlocks 12h after local midnight ("second shift"); all three = **perfect day +M$150**; reset at local midnight (`daily`, pass `timezone` once). Observed contracts: *Collect M$100 in rent*, *Travel 600 km*, *Build a level*, *Spend M$500 on property or building*, *Buy out a rival's city*, *Arrive in 3 cities*, *Visit a country you have never been to*, *Complete a country set*. Receipts: HR-2 perfect day +M$475 total on 2026-09-10.
+- **Daily card 🃏** — first arrival each day always pays: M$50 (Tip Jar observed) / M$150 / M$500 jackpot, odds rise with streak.
+- **"Blocked or ring-adjudicated accounts earn none of this."**
+- Energy now regenerates **1 per 6 minutes** (was 1 per 5m in earlier receipts).
+- `build` **requires standing in that country** ("You must be in Sudan to build there", 2026-09-09).
+- Rules-hash baseline definition: sha256 of the UTF-8 `rules` text content block over raw MCP, untrimmed. Current: **`3d978ac96da2`**.
