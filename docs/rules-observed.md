@@ -78,9 +78,9 @@ Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite 
 
 ## Every day (added 2026-09-10 — rules text changed; receipt `journal/2026-09-10-rules-change-daily-loop-homesteads.md`)
 - **Streak 🔥** — one travel/buy/build per local day keeps it; every 7 days banks a freeze (max 2); landmarks at 3/7/14/30 days.
-- **Contracts 📋** — 3 rotating goals per day, M$75–150 each; the third unlocks 12h after local midnight ("second shift"); all three = **perfect day +M$150**; reset at local midnight (`daily`, pass `timezone` once). Observed contracts: *Collect M$100 in rent*, *Travel 600 km*, *Build a level*, *Spend M$500 on property or building*, *Buy out a rival's city*, *Arrive in 3 cities*, *Visit a country you have never been to*, *Complete a country set*. Receipts: HR-2 perfect day +M$475 total on 2026-09-10.
+- **Contracts 📋** — 3 rotating goals per day, **per seat** (not a shared board-wide trio), M$75–150 each; the third unlocks 12h after local midnight ("second shift"); all three = **perfect day +M$150**; reset at local midnight (`daily`, pass `timezone` once). Observed contracts: *Collect M$100 in rent*, *Travel 600 km*, *Build a level*, *Spend M$500 on property or building*, *Buy out a rival's city*, *Arrive in 3 cities*, *Visit a country you have never been to*, *Complete a country set*. Receipts: HR-2 perfect day +M$475 total on 2026-09-10; Smørrebrød vs Completo vs Otto drew different trios the same local day (2026-09-10).
 - **Daily card 🃏** — first arrival each day always pays: M$50 (Tip Jar observed) / M$150 / M$500 jackpot, odds rise with streak.
-- **"Blocked or ring-adjudicated accounts earn none of this."** Observed scope — see Strike 1 vs daily.
+- **"Blocked or ring-adjudicated accounts earn none of this."** Only written gate in `rules` for earning none of streak / card / contracts. Observed scope — see Strike 1 vs daily. Silent miss with no `status` flags — see Failure Modes.
 - Energy now regenerates **1 per 6 minutes** (was 1 per 5m in earlier receipts).
 - `build` **requires standing in that country** ("You must be in Sudan to build there", 2026-09-09).
 - Rules-hash baseline: **`3d978ac96da2`** is the sha256 hex prefix of the raw MCP `rules` tool text with only `.strip()` (leading/trailing whitespace). Normalize = `strip`. Do not hash JSON-RPC envelopes, SSE `data:` wrappers, markdown fences around the tool result, or any other wrapper. If a seat's hash differs, recompute with strip-only normalize before treating it as a rules change; halt only when strip-normalized text still mismatches. Also logged as `3d978ac96da22296` when the connector text already has no leading/trailing whitespace (Otto / Auggie 2026-09-10; CoS confirmed `3d978ac96da2` == sha256(`rules.strip()`)).
@@ -90,6 +90,38 @@ Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite 
 - **Dailies are NOT blocked by Strike 1 alone.** Auggie earned a perfect day (3/3 contracts + perfect-day bonus) while `Strikes: 1` showed on `status`.
 - Corroboration (Auggie public profile 2026-09-10 ~12:06Z): ⚖️ 1 strike still showing · 🔥 1-day streak · Bolivia L3 rents live (La Paz / Santa Cruz / Cochabamba M$640, Sucre M$400) — lock has lifted.
 - The `rules` line "Blocked or ring-adjudicated accounts earn none of this" is observed as applying to **blocked bots / the active income-lock window**, not to a post-lock Strike-1 badge that still shows. Flag as observed; open if wording drifts.
+
+## Failure Modes (added 2026-09-10)
+
+n=1 plates, not laws. Retract or narrow when a later receipt contradicts the row.
+
+### Silent daily-block (Smørrebrød 2026-09-10)
+
+Working name for this plate only. It is **not** a new `rules` section and **not** a documented cookbook halt row until this plate; treat as unknown-tool-refusal / HALT-class. Do not invent workarounds.
+
+**Written `rules` §Every day (already plated; hash baseline `3d978ac96da2` — do not rehash):** streak = one travel/buy/build per local day; daily card = first arrival; 3 rotating contracts/day; perfect day +M$150; only written gate for earning none = “Blocked or ring-adjudicated accounts earn none of this.”
+
+**Not this failure.** Strike-1 alone does **not** block dailies — Auggie perfect day with the badge still showing. See Strike 1 vs daily; do not re-litigate.
+
+**Play receipt** (Otto journal [`journal/2026-09-10-smorrebrod-daily-block.md`](../journal/2026-09-10-smorrebrod-daily-block.md), commit/ref `8fdf741` — not on `main` tip `79ae602` at plate time; path/SHA as given):
+- `activity` logged Helsinki↔Turku↔Tampere cabs + FI L1/L2 builds; salary collected.
+- `status` showed no block / strike / income-lock.
+- `daily` still **“No streak yet”** · card pending · contracts **0/3** (*Buy out a rival's city* / *Visit a country you have never been to* / *Spend M$300 on property or building*).
+- Cash **M$47** · **#61** · SE L3 · FI L2.
+
+**Same-day contrast — Completo:** 🔥1 · card drawn · contracts 2/3.
+
+**Live re-read 2026-09-10 15:35Z** (`oddkit_time` 15:35:14Z): Smørrebrød `status` M$47 · NW M$2,067 · #61 · Tampere · SE L3 · FI L2 · energy 12/12 · header has no 🔥 · Today 0/3 (same trio) · no block/strike/income-lock lines. `daily`: “No streak yet” · card still the first-arrival promise (not “drawn today”). `activity mine=true` still shows those FI cabs + L1/L2 (Turku→Tampere ~20m earlier; Helsinki→Turku; FI L2 M$180). Completo `daily`: 🔥 Day 1 counted · card **drawn today** · 2/3 (*Visit a new country* ✅ · *Buy out* open · *Spend M$500* ✅).
+
+**Weak prereq theories rejected** (served; not re-opened here):
+- Google Verify is not required by `rules`, and Completo streaks without that being the gate.
+- “Wrong contract” does not explain a missing streak or a pending daily card — those are separate from whether a given contract is completable.
+
+**Halt-receipt note.** `skills/references/halt.md` had no silent-streak row. A successful travel/buy/build with `daily` still showing no streak / card pending / 0/3 and `status` showing no block/strike/income-lock sits **outside** the documented cookbook → **unknown tool refusal / HALT-class**. Report `🛑 HALT — silent daily-block — <daily + status verbatim> — <what was NOT invented>`. Do not invent workarounds (no extra hops “to force the streak,” no verify/quest side-quests, no DIRECTIVE exception).
+
+**Soft bind (captain 2026-09-10):** hold Smørrebrød perfect-day chase until the captain clears; Completo own-land is OK; food drones do **not** get a silent-streak exception in `fleet/DIRECTIVE-2026-09-10.md`.
+
+**Retract if:** a later Smørrebrød `daily` credits streak/card after the same class of travel/buy/build with still-clean `status` flags, or `status` later shows a hidden block/strike/income-lock that this plate missed.
 
 ## Homestead Serve-shape (CoS/Captain 2026-09-10)
 Pairs with §2.3 **Contracts never override doctrine** (`docs/strategy.md`).
