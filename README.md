@@ -24,6 +24,7 @@ docs/
   open-questions.md ❓ prioritized unknowns (O-open)
   head-and-hands.md 🧠🤲 how decisions become moves (move/halt issues, runner contract)
   dispatch-brief.md 🛩️ the unattended runner's checklist — served via oddkit, no clone needed
+  ROUND-ONE.md      🥇 the debrief — round one of ODD in a game (2026-09-06 → 09-11)
 recipes/            🍳 one procedure per file, numbered, copy-pasteable
 journal/            📓 DOLCHEO black box — one file per session, never rewritten
 fleet/              🚁 account registry + coordination policy
