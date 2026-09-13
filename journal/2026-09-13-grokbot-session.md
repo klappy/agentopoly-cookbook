@@ -29,4 +29,6 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 
 [O] Otto verify landed: baseline = `sha256(rules.strip())` on **full** `detail=full` → `98d151d1bcaa`. Ten-line summary hashed `c9fce67e15ea` — never use summary for baseline. Live `buy` schema is `what=city|hub` + `buyout` only; `swap` not in `inputSchema` — no invented swap wakes. Salary resumes only if Serve / this DIRECTIVE clears the park — no salary-only exception.
 
+[O] Final Serve-text sync: At-cap `swap=` row softened to rules-text-only / not in live `buy` `inputSchema` / no invented swap wakes. Otto seat note: `swap=` only after schema exposes it **and** set-positive. Body is what CoS received for Serve.
+
 [H] Draft PR https://github.com/klappy/agentopoly-cookbook/pull/46 (draft=true, merged=false, assigned klappy). Captain Serve or hold. Do not resume board play from this draft alone.
