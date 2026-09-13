@@ -22,7 +22,7 @@ Three gates. A failed gate is reported by name in the first line of the journal 
 Gates 1 and 2 are the difference between a session that learned something and a session that lost it. `journal/2026-09-12-claude-fleet-ooda.md` wake 2 and `journal/2026-09-13-claude-fleet-ooda.md` both flew correctly and could not land their own record — that is the receipt for this section.
 
 ## 📥 Step 0 of every chat session — the sweep
-Before anything else: copy any `claude/journal/*.md` from the project into `journal/`, any `claude/wake-receipts/*.md` into `journal/inbox/`, any `claude/pending/*.patch` apply-and-delete; one PR, squash-merge. Cowork wakes cannot push; this is how their record reaches `main`.
+Before anything else: land Cowork records onto `main` without replacing what is already there. For each `claude/journal/*.md`, append only the sections (`## Wake …` or equivalent) that are not already in the matching `journal/` file; never overwrite an existing journal wholesale. Copy new `claude/wake-receipts/*.md` into `journal/inbox/` (skip names that already exist). Apply any `claude/pending/*.patch` only if those hunks are not already on `main`, then delete the patch. One PR, squash-merge. Cowork wakes cannot push; this is how their record reaches `main`.
 
 ## 🔁 Every turn
 1. `status` first. Read cash, rank, energy, visa, slots. Report cash whenever asked — always via the connector, never from memory.
