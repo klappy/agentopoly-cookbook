@@ -60,3 +60,47 @@ Nothing in this proposal touches §2 (no new accounts, no money between seats) o
 [H] **HR-2** — Addis Ababa · M$3,190 · NW M$8,550 · #13 · 12/12 (10 bank + 2 taken) · 2/4 · 🔥3 **not counted today** · 0/3 · 🎫 free fare held · **M$1,200 salary AT CAP, not collected (halt)** · 🏛️ Tourist · Bronze #7/12.
 
 🏁 **HALT on all three seats — rules hash mismatch.** No operator notice about bots/rings/blocks on either Homestead. Flagship guard clear. Awaiting the captain's ruling on the `[D-proposed]` above; until then the next wake collects nothing and moves nothing.
+
+---
+
+## Wake 2 — 12:47–13:1xZ (chat) — halt cleared by captain ruling · reset cycle · licences
+
+`oddkit_time` 2026-09-13T12:47Z. Read-only scout first (`empire`, `jobs`, `league`, `world_news`, leaderboards), then the captain ruled.
+
+### Observe (new surfaces, live)
+- **Jobs (3/wk):** Grand tour 3 countries +M$500 · Jetsetter 5,000 km +M$400 · Courier Bangkok 6h +M$300 (LVJ L3 — skip). Crates: cash / energy / voucher / streak freeze / **deed ticket (free city)**.
+- **League:** Bronze wk 2957 cohort 1 (13). LVJ +M$3,357 gain, **+M$4,240 rent, 44,352 km**. Our seats +M$0 / +M$0 / −M$372. Top 2 promote (+M$300).
+- **World news:** 3 events/day — booms (rent ×3), airport strikes (no fees; Addis 18:47Z), storms (flights grounded), festivals, summits.
+- **Empire:** Landlord M$2,500 needs 2 sets + **1 building level counted since the patch**. Badge counters reset (Tycoon 0, Architect 0 on every seat). **Heat:** each buyout +1; hot = customs holds + fee surcharge.
+- **Boards:** LVJ **5 airports** (licensed already) · LVJ + digyvijay **5 sets**. Klappy while-away: **+M$440 fees** — bob_the_builder M$200 at **Mumbai**, digyvijay M$240 at Buenos Aires. Traffic is back; the Mumbai hub paid for itself in <24h.
+- Buyouts no longer count against the bank cap: Klappy 11/12 bank, HR-2 10/12 bank.
+
+### Rulings (captain, 2026-09-13 ~13:00Z)
+[D] **Halt cleared** by captain action under the new rules; **re-baseline `rules` hash to `63c31c7cfa27`** (strip-only). Additive change, same shape as 09-10.
+[D] **Reset cycle on the flagship:** sell one city in each set, buy it back, rebuild to L3 — a known loss, to register post-reset set completions and building levels. Executed on all four sets.
+[D] **Licence all three seats to Landlord (M$2,500 each).** Executed.
+
+### Flight log (UTC)
+| Time | Seat | Action | Receipt |
+|---|---|---|---|
+| 12:5x | Klappy | `collect_salary` | +M$312 (**25% rate**, M$900 forgone). Cash M$29,518 |
+| 12:5x | Klappy | Tokyo: `sell` → `buy` → `build`×3 | +M$920 / −M$400 / −M$1,440. Contract Complete a set +M$150 · Tycoon I +50 · Architect I +50 · II +100 · On Tour I +50. 🔥 Day 3 |
+| 13:0x | Klappy | ✈ Mexico City (M$153) · 🃏 Consular Fees −M$300 · 🃏 Lost Wallet +M$150 · 📋 Travel 1,000 km +M$100 | then sell/buy/build×3: +M$800 / −M$400 / −M$1,200 |
+| 13:0x | Klappy | ✈ Toronto (M$73 + **M$200 fee to flujo**) · 🃏 Tourism Grant +M$400 | sell/buy/build×3: +M$600 / −M$240 / −M$960. Tycoon II +100 · Architect III +200 |
+| 13:1x | Klappy | ✈ Buenos Aires (M$130, own hub) · 🚕 Montevideo (M$18) | sell/buy/build×3: +M$350 / −M$160 / −M$540 |
+| 13:1x | Klappy | `empire` | 4/4 sets · **12/1 levels** · ready. **Cash M$29,518 → M$27,324 (−M$2,194 for the cycle, all-in)** |
+| 13:1x | Klappy | `empire action=license` | **Landlord.** Cash M$24,824 · cap 16/5. Next: Tycoon M$6,000 (20/6) — already eligible (4 sets + Google-verified) |
+| 13:1x | HR | `collect_salary` +M$39 (37%) · `license` | **Landlord.** Cash M$3,480 (under the M$3,600 line) · Tycoon needs Google-verify **or 3 activated recruits** |
+| 13:1x | HR-2 | `collect_salary` +M$1,272 (full rate — was under the line) · `license` | **Landlord.** Cash M$1,962 |
+
+### Artifacts
+[C] **Selling one city sells every building level in that set first** (Tokyo: +M$720 for 3 Japan levels). A reset cycle costs ~50% of the set's build spend + 50% of the city price, less any contract/badge payouts. Receipts above, four sets.
+[O] Means-test rates observed: 25% at M$29k, 37% at M$5.9k, **100% at M$3.2k**. The line is M$3,600 cash; the rate falls with cash above it.
+[O] Tycoon tier (M$6,000 → 20/6) gates on Google-verify **or 3 activated recruits** — the Homesteads' path is recruits, which is the Invite quest run legitimately.
+[L] The 09-11 orientation ("hub fees multiply zero") was wrong within 48h: the operator's jobs restarted traffic and Mumbai earned M$200 on day one. Doctrine held (buy empty hubs at list); the *read* was too confident. Plate: traffic is a state, not a trend — re-measure before pricing any hub.
+[H] **Klappy** — Montevideo · M$24,824 · Landlord 16/5 · 12 cities / 4 airports · 4 sets L3 · 🔥3 · 2/3 today · **4 city slots + 1 airport slot open** · Tycoon ready at M$6,000.
+[H] **HR** — Victoria Falls · M$3,480 · Landlord · 11/12 → **5 slots open** · 1/4 → 5 airports allowed · 🔥3 not counted today.
+[H] **HR-2** — Addis Ababa · M$1,962 · Landlord · **6 slots open** (10 bank + 2 taken) · 2/5 airports · 🔥3 not counted today · free fare held.
+[O-open P1] Fill the new slots: proven ≤4-city sets within reach of each seat, hubs inside them. Klappy's are the highest-value (a fifth set + fifth hub) and the flagship has never scouted outside the Americas/Japan corridor — that scout is the next wake.
+
+🏁 Halt cleared and re-baselined. No operator notice. Licences on all three seats.
