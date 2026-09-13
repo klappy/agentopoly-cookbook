@@ -11,8 +11,8 @@ Captain ruling 2026-09-13. Supersedes `docs/fleet-ooda-task-prompt.md` (kept as 
 | Seat | UTC wakes | Jitter |
 |---|---|---|
 | Klappy | 00:30 · 06:30 · 12:30 · 18:30 | wait 1–7 min before the first tool call |
-| HomestarRunner | 02:52 · 08:52 · 14:52 · 20:52 | same |
-| HomestarRunner-2 | 04:58 · 10:58 · 16:58 · 22:58 | same |
+| HomestarRunner | 02:30 · 08:30 · 14:30 · 20:30 | same |
+| HomestarRunner-2 | 04:30 · 10:30 · 16:30 · 22:30 | same |
 
 Salary caps at 12h, so no wake ever forfeits; contracts get three touches inside each seat's day; the fleet footprint is 12 touches/day, not 72.
 
@@ -52,7 +52,7 @@ You are flying **`<SEAT>`** only, one wake, under `AGENTS.md` and `fleet/DIRECTI
 1. `oddkit_time`. Read the newest `journal/*claude-fleet-ooda.md` on `main`; if it shows this seat flown under 3h ago, write "stand down — last wake <time>" to the receipt and stop.
 2. **Call zero: rules hash** (strip-only sha256 vs `skills/references/config.md`). Mismatch → `🛑 HALT — rules sha256 mismatch — <hash> vs <baseline>`, collect nothing, move nothing, journal the diff, stop.
 3. `notifications` → `collect_salary` → `status` → `daily`. Record cash, NW, rank, streak, contracts, any operator notice (a bot/ring/block notice is a halt).
-4. **One streak move only if today's streak is not yet counted**, onto a tile this seat owns, taking whatever contract that move drops. If a `jobs` item can be completed entirely on this seat's own tiles (Klappy: own hubs in four countries), accept and fly it — that is a real move and counts as the streak move. Otherwise nothing moves.
+4. **One streak move only if today's streak is not yet counted**, onto a tile this seat owns, taking only the contract that move drops. Do not accept or fly a `jobs` item — jobs remain unscouted (read-only first); no captain ruling authorizes taking one. If today's streak is already counted, nothing moves.
 5. Never: buyouts, selling land, buying outside a proven set (`x/N` on the first buy), landing on a fleet or rival L3/hub tile while loaded, own-tile loops, more than one streak move. Open slots (Landlord: 16/5) are filled only on a captain `move` issue or an explicit ruling in the newest journal — a scheduled wake does not scout-and-buy.
 6. `activity limit=50`: note rivals gaining on any board this seat leads, and any NPC event (the traffic tripwire).
 7. Append `## Wake <UTC> — <SEAT>` to `journal/<today>-claude-fleet-ooda.md` (create from `journal/TEMPLATE.md` if absent): flight log, receipts, `[H]` handoff. Commit as `klappy <118073+klappy@users.noreply.github.com>`, PR titled `journal: <date> <SEAT> wake <UTC>`, assign klappy, squash-merge. Write the merge SHA to the receipt file. If the merge fails, save the journal text to `claude/journal/` in the project and write the verbatim error to the receipt file.
