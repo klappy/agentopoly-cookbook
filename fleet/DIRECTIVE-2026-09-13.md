@@ -34,7 +34,7 @@ Every seat, in this order, every session that is allowed to play:
 
 Under HALT on 2026-09-13 ~08:57 ET, **digyvijay** bought out Ceviche’s **São Paulo city**. Ceviche received ~M$800 for the city and **kept the São Paulo airport**. Reclaim is available at **`buyout=true` ~M$1,200** with a **~24h** window from ~08:57 ET 2026-09-13 (~08:57 ET 2026-09-14 expiry). BR city count dropped with the city loss; Peru L3 held.
 
-**Once Serve clears the park:** Ceviche’s first funded objective is **reclaim São Paulo** (stand there / follow live `play` + buyout path), **before** new BR claims — unless the reclaim window has already expired (then journal the miss and resume BR push within city-cap rules). Fire the door if the window goes **<4h** without a Serve (standing reclaim-clock watch).
+**Once Serve clears the park:** Ceviche’s first funded objective is **reclaim São Paulo** (stand there / follow live `daily` → `status` → `look_around` + buyout path; do not wait for a `play` tool), **before** new BR claims — unless the reclaim window has already expired (then journal the miss and resume BR push within city-cap rules). Fire the door if the window goes **<4h** without a Serve (standing reclaim-clock watch).
 
 ## 2. 2026-09-13 rules deltas (why the hash moved)
 
@@ -44,8 +44,8 @@ Strip-full `rules` hash prefix **`98d151d1bcaa`** replaces **`3d978ac96da2`**. N
 |---|---|
 | **Buyouts do not count against city or airport caps** | Buying out a rival’s city/hub does **not** consume a 12/12 or 4/4 slot the way a list buy does. Still verify live tool text; do not invent exceptions beyond what `rules` states. |
 | **Rookie shield** | Accounts **<2 days** old **or** holding **<4 cities** are shielded (do not farm them as buyout targets). Exact wording lives in live `rules` — halt if tool text disagrees with this table. |
-| **At-cap `buy` with `swap=`** | At 12/12 you may buy with an explicit **`swap=`** of a held city instead of a blind sell-first. **Otto Albania:** Tirana 1/2 stays held — **no L3 sell** to free Durrës unless captain cuts a path. Prefer `swap=` only when it improves set shape; never dump an L3 engine to chase a single. |
-| **`play` tool leads the loop** | Observe/Orient starts with **`play`** (replaces leading with `daily` / `status` / `look_around` alone). Keep using those tools as `play` surfaces them; do not skip halt checks. |
+| **At-cap `buy` with `swap=`** | `swap=` is in **rules text only** until the at-cap `buy` surface offers it — do not invent the arg. **Otto Albania:** Tirana 1/2 stays held — **no L3 sell** to free Durrës unless captain cuts a path. Prefer `swap=` only when that surface offers it *and* it improves set shape; never dump an L3 engine to chase a single. |
+| **Live catalog lacks `play` / `empire`** | Otto verified: `play` and `empire` are **absent** from the live MCP catalog. Keep leading with **`daily` → `status` → `look_around`** until `play` appears. Use `swap=` only when the at-cap `buy` surface offers it. Do not skip halt checks. |
 
 Empire licence ladder (bank caps widen) remains documented in `docs/rules-observed.md`; no seat buys a licence from this directive alone.
 
@@ -68,13 +68,13 @@ Tithe remains: only from surplus after own L3 + cushion, never sell land to feed
 
 Unchanged shape from 2026-09-10 §4:
 
-- Wake on your offset → wait 1–7 min → **`play`** → halt list → cash vs cushion → at most one §1 objective → stop when energy < 3 or cash < M$300 + next step.
+- Wake on your offset → wait 1–7 min → **`daily` → `status` → `look_around`** (until `play` appears in the live catalog) → halt list → cash vs cushion → at most one §1 objective → stop when energy < 3 or cash < M$300 + next step.
 - Salary: every allowed wake (caps at 12h) — **but see §0 while parked**.
 - Contracts: three touches a day are enough; no own-tile cab loops on locked/receiver seats.
 
 | Seat | Runner | Minute offset | Notes (2026-09-13) |
 |---|---|---|---|
-| Otto | Grokbot | :03 | DK/PY/VE L3 · hubs 4/4 · Tirana AL **1/2 at city-cap** — no L3 sell for Durrës unless captain cuts a path; `swap=` only if it improves set shape |
+| Otto | Grokbot | :03 | DK/PY/VE L3 · hubs 4/4 · Tirana AL **1/2 at city-cap** — no L3 sell for Durrës unless captain cuts a path; `swap=` only if the at-cap buy surface offers it and it improves set shape |
 | Auggie | Grokbot | :14 | Lock or sell buyout-target singles down to sets · hubs only on own tiles that accept airports (La Paz ≠ hub) · never Lima / Ceviche |
 | CoS | Grokbot | :25 | Own-cash claim toward open slots · no fleet landings |
 | EA | Grokbot | :36 | Chile+Ghana L3 · open slot reserved for a **real hub-city** claim (Ghana blank) · Completo off AR race |
@@ -109,7 +109,7 @@ Carry the 2026-09-10 anticipate table forward. **New row from this halt:**
 |---|---|---|
 | **Rules-hash drift mid-session** | 2026-09-13 strip-full `98d151d1bcaa` ≠ baseline `3d978ac96da2`; buyouts/swap/rookie/`play` | Full park (no salary) until Serve rehashes baseline; do not invent baseline from a seat |
 | **Buyout while fleet is parked** | digyvijay ← Ceviche São Paulo city under HALT; reclaim ~M$1,200 / ~24h | Door watches reclaim clock; post-Serve Ceviche reclaim before BR expand |
-| **City-cap + incomplete set** | Otto Durrës refused at 12/12; no set-complete exception | No L3 sell to free a slot unless captain cuts a path; prefer `swap=` only when set-positive |
+| **City-cap + incomplete set** | Otto Durrës refused at 12/12; no set-complete exception | No L3 sell to free a slot unless captain cuts a path; prefer `swap=` only when the at-cap buy surface offers it and it is set-positive |
 
 Re-read this table at every rules halt and add the row the patch just proved.
 

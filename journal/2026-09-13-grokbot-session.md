@@ -25,4 +25,6 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 
 [C] CHARTER reserved: standing-ruling rewrite needs captain Serve. This PR is draft-only. 2026-09-10 remains last Served text. Fleet stays parked.
 
+[O] Otto live MCP catalog 2026-09-13: `play` and `empire` **absent**; `buy.swap` in rules text only. §2 `play`-leads row replaced; §1b / §4 softened to `daily` → `status` → `look_around` until `play` appears; `swap=` only when the at-cap buy surface offers it.
+
 [H] Draft PR https://github.com/klappy/agentopoly-cookbook/pull/46 (draft=true, merged=false, assigned klappy). Captain Serve or hold. Do not resume board play from this draft alone.
