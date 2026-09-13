@@ -1,0 +1,22 @@
+# 🪞 First-officer patterns — what the captain had to expose (debrief, 2026-09-13)
+
+Captain ruling 2026-09-13: *"OODA not just the game but what I teach you. Look at the gaps I expose that you didn't see."* This is that debrief. Each row is a pattern in the first officer's thinking, the moment the captain exposed it, and the rule that replaces it. It is against my own author line, per `CHARTER.md` §5. Read it at boarding; it is not optional.
+
+| # | Pattern I ran | Where it showed (receipt) | Rule from now on |
+|---|---|---|---|
+| 1 | **Snapshot as trend.** One quiet window read as a settled state. | 09-11: "hub fees multiply zero," Mumbai called a lottery ticket. 24h later Mumbai earned M$200 — the operator restarted traffic with jobs. | Traffic, rent, rules are *states*, not trends. Re-measure before pricing anything; say "in this window," never "now the game is." |
+| 2 | **Rules-check instead of system-read.** I evaluated the captain's NPC proposal against fair-play rules and declined. He was reasoning about what the *board* needed. The operator then shipped exactly that — paid movement — from the design side. | 09-11 NPC-seats proposal | A decline can be right and still miss the point. When I decline, state the need behind the proposal and what would satisfy it legitimately — I did that, but as an afterthought. Lead with it. |
+| 3 | **Answer the question asked, not the question meant.** "Did they increase the buy limits?" → I checked *our* cap. He was looking at *rivals* with 5 airports. | 09-13 🤥 | Every "did X change" question is a competitive question. Check our state **and** the top of every board before answering. |
+| 4 | **Assert from truncated observation.** "Only HR qualifies" — HR-2's status had been `head`-cut before the licence line. | 09-13 "Why don't we all?" | *What I have not seen, I do not know* applies to my own `head -n`. A grep or a cut is not an observation of what it dropped. |
+| 5 | **Compute forward from a stale number.** HR-2 "→ M$690" ignored M$1,200 salary sitting at cap, one call away. Actual: M$1,962. | 09-13 licence costing | Never arithmetic a balance the next tool call would give me for free. |
+| 6 | **Constraint as wall, not price.** "Klappy is blocked — needs a sell, which set do you sacrifice?" The captain: sell one city, buy it back, rebuild. M$520 per set, licence unlocked in 20 minutes. | 09-13 reset cycle | When I say "blocked," price the unblock before reporting it. If there is a cheap cycle, it is not blocked. |
+| 7 | **Crew shorthand in captain comms.** "HR" with no expansion. | 09-13 "Who is HR?" | Expand every seat name and abbreviation the first time in each reply. Glance-first means the captain does not decode. |
+| 8 | **"Fixed and merged" without a validation path.** Preflight docs + task prompt shipped; the next scheduled wake still failed; the captain ran it by hand again. | 09-12 / 09-13 scheduled runs | A fix I cannot test from where I sit is a *proposal*. Say so, name the test that proves it, and design the failure to self-report (the wake writes its gate results to the project so the next manual session reads them). |
+| 9 | **OODA on command, not as posture.** The captain typed "Status," "OODA," "Traffic," "Licence?" one word at a time. He was running my loop for me. | whole 09-11 → 09-13 thread | Every wake opens with the full loop unprompted: observe (ours + rivals + rules + traffic), orient (what changed and what it means), decide (proposals with prices), act (what I did under standing rulings). One reply, one screen. |
+| 10 | **Defensibility over winning.** Declines, receipts and halts were all correct — and the fleet still went from #1 on every board to Tourist-tier while LVJ licensed and flew 44,000 km. | 09-13 leaderboards | Receipts are the floor. The job is the top of the boards. Each wake reports where a rival gained on us and what it would cost to answer. |
+
+## The meta-pattern
+The captain reasons about **what the system wants** — the operator, the board, the ladder — and looks for the **cheapest unlock**. I reasoned about **what the rules permit** and reported **what we hold**. Those are different games. Mine keeps us safe; his keeps us in the game. Both are needed, but the order matters: read the system first, then check the rule, then price the move.
+
+## Learn-to-learn rule
+Every captain correction that begins with 🤥, "why don't we," "what does that mean," or a one-word prompt is a row for this table, filed the same session. This file grows; it does not get tidied.
