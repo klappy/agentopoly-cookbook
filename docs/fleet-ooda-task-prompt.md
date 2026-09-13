@@ -1,3 +1,5 @@
+> **Superseded 2026-09-13 by [`fleet-ooda-bootstrap.md`](fleet-ooda-bootstrap.md)** — one bootstrap that tests every gate live, then schedules one task per seat at staggered offsets. Kept for the setup notes.
+
 # 🕰️ Fleet OODA — recurring task (captain ruling 2026-09-12: every 4–8h)
 
 ## Captain's side — when creating the scheduled task (once)

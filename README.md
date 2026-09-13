@@ -25,7 +25,7 @@ docs/
   head-and-hands.md 🧠🤲 how decisions become moves (move/halt issues, runner contract)
   dispatch-brief.md 🛩️ the unattended runner's checklist — served via oddkit, no clone needed
   ROUND-ONE.md      🥇 the debrief — round one of ODD in a game (2026-09-06 → 09-11)
-  fleet-ooda-task-prompt.md 🕰️ the recurring fleet OODA task — captain setup + paste-in prompt
+  fleet-ooda-bootstrap.md 🛫 paste once: proves every gate live, then schedules one wake per seat, staggered
   first-officer-patterns.md 🪞 the crew's own thinking gaps, exposed by the captain — read at boarding
 recipes/            🍳 one procedure per file, numbered, copy-pasteable
 journal/            📓 DOLCHEO black box — one file per session, never rewritten
