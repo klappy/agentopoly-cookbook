@@ -27,4 +27,6 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 
 [O] Otto live MCP catalog 2026-09-13: `play` and `empire` **absent**; `buy.swap` in rules text only. §2 `play`-leads row replaced; §1b / §4 softened to `daily` → `status` → `look_around` until `play` appears; `swap=` only when the at-cap buy surface offers it.
 
+[O] Otto verify landed: baseline = `sha256(rules.strip())` on **full** `detail=full` → `98d151d1bcaa`. Ten-line summary hashed `c9fce67e15ea` — never use summary for baseline. Live `buy` schema is `what=city|hub` + `buyout` only; `swap` not in `inputSchema` — no invented swap wakes. Salary resumes only if Serve / this DIRECTIVE clears the park — no salary-only exception.
+
 [H] Draft PR https://github.com/klappy/agentopoly-cookbook/pull/46 (draft=true, merged=false, assigned klappy). Captain Serve or hold. Do not resume board play from this draft alone.

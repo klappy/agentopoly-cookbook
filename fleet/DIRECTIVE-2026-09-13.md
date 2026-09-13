@@ -9,11 +9,11 @@ Captain Serve-direction via CoS 2026-09-13 (OODA + rules-hash move). **Draft for
 
 ## 0. HALT → Serve → resume (this plate’s gate)
 
-**Until captain Serves this directive (or an explicit rehash/hold clear):** fleet stays **fully parked** — no `collect_salary`, no travel, no buy, no build, no reclaim. Morning OODA on 2026-09-13 briefly allowed salary-only; the room later tightened to **no salary either**. That tighter bind stands until Serve.
+**Until captain Serves this directive (or an explicit rehash/hold clear):** fleet stays **fully parked** — no `collect_salary`, no travel, no buy, no build, no reclaim. Morning OODA on 2026-09-13 briefly allowed salary-only; that window is **closed**. **No invented salary-only exception.** Resume salary only if Serve / this DIRECTIVE clears the park.
 
 **Post-Serve resume order (every seat):**
-1. Confirm strip-normalized `rules` sha256 prefix == **`98d151d1bcaa`** (see §5).
-2. **Bank salary** (`collect_salary`) before any expand/reclaim spend.
+1. Confirm strip-normalized **full** `rules` (`detail=full`) sha256 prefix == **`98d151d1bcaa`** (see §5). Never hash the ten-line summary.
+2. **Bank salary** (`collect_salary`) before any expand/reclaim spend — only after this DIRECTIVE / Serve has cleared the park.
 3. Then run §1 / seat notes — **Ceviche: SP reclaim is first objective** if the reclaim window is still open (§1b).
 4. One claim-or-build (or one reclaim) per wake; staggered clocks unchanged (§4).
 
@@ -38,14 +38,14 @@ Under HALT on 2026-09-13 ~08:57 ET, **digyvijay** bought out Ceviche’s **São 
 
 ## 2. 2026-09-13 rules deltas (why the hash moved)
 
-Strip-full `rules` hash prefix **`98d151d1bcaa`** replaces **`3d978ac96da2`**. Named deltas seats already observed:
+Full-body (`detail=full`) strip-hash prefix **`98d151d1bcaa`** replaces **`3d978ac96da2`**. Ten-line summary hashes differently — never use it for baseline (§5). Named deltas seats already observed:
 
 | Delta | Binding for fleet |
 |---|---|
 | **Buyouts do not count against city or airport caps** | Buying out a rival’s city/hub does **not** consume a 12/12 or 4/4 slot the way a list buy does. Still verify live tool text; do not invent exceptions beyond what `rules` states. |
 | **Rookie shield** | Accounts **<2 days** old **or** holding **<4 cities** are shielded (do not farm them as buyout targets). Exact wording lives in live `rules` — halt if tool text disagrees with this table. |
-| **At-cap `buy` with `swap=`** | `swap=` is in **rules text only** until the at-cap `buy` surface offers it — do not invent the arg. **Otto Albania:** Tirana 1/2 stays held — **no L3 sell** to free Durrës unless captain cuts a path. Prefer `swap=` only when that surface offers it *and* it improves set shape; never dump an L3 engine to chase a single. |
-| **Live catalog lacks `play` / `empire`** | Otto verified: `play` and `empire` are **absent** from the live MCP catalog. Keep leading with **`daily` → `status` → `look_around`** until `play` appears. Use `swap=` only when the at-cap `buy` surface offers it. Do not skip halt checks. |
+| **Live `buy` schema** | Live tools expose **`what=city` or `what=hub` + `buyout` only**. Rules text names `swap="<city you own>"` at cap; **`swap` is not in the current `inputSchema`**. Do **not** invent swap wakes until the schema exposes it. **Otto Albania:** Tirana 1/2 stays held — **no L3 sell** to free Durrës unless captain cuts a path. Never dump an L3 engine to chase a single. |
+| **Live catalog lacks `play` / `empire`** | Otto verify landed: `play` and `empire` are still **absent** from the live MCP catalog. Keep leading with **`daily` → `status` → `look_around`** until `play` appears. Do not skip halt checks. |
 
 Empire licence ladder (bank caps widen) remains documented in `docs/rules-observed.md`; no seat buys a licence from this directive alone.
 
@@ -69,12 +69,12 @@ Tithe remains: only from surplus after own L3 + cushion, never sell land to feed
 Unchanged shape from 2026-09-10 §4:
 
 - Wake on your offset → wait 1–7 min → **`daily` → `status` → `look_around`** (until `play` appears in the live catalog) → halt list → cash vs cushion → at most one §1 objective → stop when energy < 3 or cash < M$300 + next step.
-- Salary: every allowed wake (caps at 12h) — **but see §0 while parked**.
+- Salary: resume **only** if Serve / this DIRECTIVE clears the park — **no invented salary-only exception**. After that clear, every allowed wake (caps at 12h).
 - Contracts: three touches a day are enough; no own-tile cab loops on locked/receiver seats.
 
 | Seat | Runner | Minute offset | Notes (2026-09-13) |
 |---|---|---|---|
-| Otto | Grokbot | :03 | DK/PY/VE L3 · hubs 4/4 · Tirana AL **1/2 at city-cap** — no L3 sell for Durrës unless captain cuts a path; `swap=` only if the at-cap buy surface offers it and it improves set shape |
+| Otto | Grokbot | :03 | DK/PY/VE L3 · hubs 4/4 · Tirana AL **1/2 at city-cap** — no L3 sell for Durrës unless captain cuts a path; no swap wakes until `buy` `inputSchema` exposes `swap` |
 | Auggie | Grokbot | :14 | Lock or sell buyout-target singles down to sets · hubs only on own tiles that accept airports (La Paz ≠ hub) · never Lima / Ceviche |
 | CoS | Grokbot | :25 | Own-cash claim toward open slots · no fleet landings |
 | EA | Grokbot | :36 | Chile+Ghana L3 · open slot reserved for a **real hub-city** claim (Ghana blank) · Completo off AR race |
@@ -87,7 +87,9 @@ Unchanged shape from 2026-09-10 §4:
 
 ## 5. Halts (report, never work around)
 
-`rules` sha256 ≠ **`98d151d1bcaa`**. That prefix is sha256 of the **raw MCP `rules` tool text with only `.strip()`** (leading/trailing whitespace). Do **not** hash JSON-RPC envelopes, SSE `data:` wrappers, markdown fences, or any other wrapper. If a seat’s hash differs, recompute with strip-only normalize before hard-halting; halt only when strip-normalized text still mismatches.
+`rules` sha256 ≠ **`98d151d1bcaa`**. Baseline is **sha256(`rules.strip()`) on the FULL body** (`detail=full`) — leading/trailing whitespace only. Do **not** hash JSON-RPC envelopes, SSE `data:` wrappers, markdown fences, or any other wrapper.
+
+**Never use the ten-line summary for baseline.** Otto hashed the summary and got **`c9fce67e15ea`** — that is a different text, not a halt-or-clear. If a seat’s hash differs, recompute with strip-only normalize on **`detail=full`** before hard-halting; halt only when strip-normalized **full** text still mismatches.
 
 Also halt on: a city or hub you held is gone · any operator notice mentioning bots, rings, funnelling or blocks · any tool refusal you don’t understand · a rival within M$1,800 of the flagship’s NW · **silent daily-block** (successful travel/buy/build + `daily` still no streak/card + `status` shows no block/strike/income-lock) — see `docs/rules-observed.md` Failure Modes and `skills/references/halt.md`.
 
@@ -109,7 +111,8 @@ Carry the 2026-09-10 anticipate table forward. **New row from this halt:**
 |---|---|---|
 | **Rules-hash drift mid-session** | 2026-09-13 strip-full `98d151d1bcaa` ≠ baseline `3d978ac96da2`; buyouts/swap/rookie/`play` | Full park (no salary) until Serve rehashes baseline; do not invent baseline from a seat |
 | **Buyout while fleet is parked** | digyvijay ← Ceviche São Paulo city under HALT; reclaim ~M$1,200 / ~24h | Door watches reclaim clock; post-Serve Ceviche reclaim before BR expand |
-| **City-cap + incomplete set** | Otto Durrës refused at 12/12; no set-complete exception | No L3 sell to free a slot unless captain cuts a path; prefer `swap=` only when the at-cap buy surface offers it and it is set-positive |
+| **Summary-hash ≠ full-body hash** | Otto ten-line summary `c9fce67e15ea` ≠ full `detail=full` `98d151d1bcaa` | Never baseline the summary; halt/rehash only on `sha256(rules.strip())` of **full** body |
+| **City-cap + incomplete set** | Otto Durrës refused at 12/12; no set-complete exception | No L3 sell to free a slot unless captain cuts a path; no swap wakes until `buy` `inputSchema` exposes `swap` |
 
 Re-read this table at every rules halt and add the row the patch just proved.
 
