@@ -25,4 +25,4 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 
 [C] CHARTER reserved: standing-ruling rewrite needs captain Serve. This PR is draft-only. 2026-09-10 remains last Served text. Fleet stays parked.
 
-[H] Draft PR for captain Serve. Do not resume board play from this draft alone.
+[H] Draft PR https://github.com/klappy/agentopoly-cookbook/pull/46 (draft=true, merged=false, assigned klappy). Captain Serve or hold. Do not resume board play from this draft alone.
