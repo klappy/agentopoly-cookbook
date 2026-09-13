@@ -1,0 +1,118 @@
+# Fleet Directive — 2026-09-13 — "Rehash, reclaim, then own-cash expand"
+
+Captain Serve-direction via CoS 2026-09-13 (OODA + rules-hash move). **Draft for captain Serve — not in force until Serve + merge.** Successor to `fleet/DIRECTIVE-2026-09-10.md` (still the last Served standing orders until this plate is Served). Applies to every fleet seat: **Otto, Auggie, CoS, EA, Ceviche** (Grokbot) and **HomestarRunner, HomestarRunner-2** (Claude), plus food drones under Otto. Supersedes nothing in `docs/strategy.md` §2.3 or `docs/homestead.md`; it schedules them. Rules text changed 2026-09-13 — strip-full hash moved; read `docs/rules-observed.md` before flying.
+
+> **Confidence:** rule deltas in §2 are **seat-observed** from the 2026-09-13 HALT (Auggie strip-hash receipt + CoS Serve-direction), not a re-paste of live `rules`. Post-Serve, every seat re-reads `rules` and halts if live text disagrees. **Retract / re-plate** if strip-hash ≠ `98d151d1bcaa` after Serve, or if captain keeps hold without rehash.
+
+> **Alternative rejected:** patching `DIRECTIVE-2026-09-10.md` in place — rejected because baseline rehash + SP reclaim clock + salary-under-HALT need a dated successor. **Reversible** until Serve + merge; until then 2026-09-10 remains last Served text and the fleet stays parked.
+
+
+## 0. HALT → Serve → resume (this plate’s gate)
+
+**Until captain Serves this directive (or an explicit rehash/hold clear):** fleet stays **fully parked** — no `collect_salary`, no travel, no buy, no build, no reclaim. Morning OODA on 2026-09-13 briefly allowed salary-only; the room later tightened to **no salary either**. That tighter bind stands until Serve.
+
+**Post-Serve resume order (every seat):**
+1. Confirm strip-normalized `rules` sha256 prefix == **`98d151d1bcaa`** (see §5).
+2. **Bank salary** (`collect_salary`) before any expand/reclaim spend.
+3. Then run §1 / seat notes — **Ceviche: SP reclaim is first objective** if the reclaim window is still open (§1b).
+4. One claim-or-build (or one reclaim) per wake; staggered clocks unchanged (§4).
+
+Do **not** invent a baseline from the chair. Do **not** resume board play from this draft alone.
+
+## 1. The mission (unchanged urgency; land still the constraint)
+
+Every seat, in this order, every session that is allowed to play:
+1. **Claim** every city of a proven ≤5-city set within reach (verify `x/N` on the first buy; `city_info` showing exactly 5 proves nothing — South Africa showed 5 and was 7).
+2. **Lock** — complete the set. A complete set is buyout-immune. Never hold singles from two countries at once when you can lock one.
+3. **Hub** — buy the unowned airport under your own set city at list (M$200) when you stand there (hubs are **city-gated**, not set-gated — La Paz / Accra refusals).
+4. **Build to L3** — you must be **standing in that country** to `build`. Build before you leave.
+5. Repeat toward **12/12 cities + 4/4 airports** (or empire-licence widen when Served later), then flip to receiver mode.
+
+**Fund it from your own cash.** No seat needs money from another seat.
+
+### 1b. Ceviche — São Paulo reclaim (priority once fleet resumes)
+
+Under HALT on 2026-09-13 ~08:57 ET, **digyvijay** bought out Ceviche’s **São Paulo city**. Ceviche received ~M$800 for the city and **kept the São Paulo airport**. Reclaim is available at **`buyout=true` ~M$1,200** with a **~24h** window from ~08:57 ET 2026-09-13 (~08:57 ET 2026-09-14 expiry). BR city count dropped with the city loss; Peru L3 held.
+
+**Once Serve clears the park:** Ceviche’s first funded objective is **reclaim São Paulo** (stand there / follow live `play` + buyout path), **before** new BR claims — unless the reclaim window has already expired (then journal the miss and resume BR push within city-cap rules). Fire the door if the window goes **<4h** without a Serve (standing reclaim-clock watch).
+
+## 2. 2026-09-13 rules deltas (why the hash moved)
+
+Strip-full `rules` hash prefix **`98d151d1bcaa`** replaces **`3d978ac96da2`**. Named deltas seats already observed:
+
+| Delta | Binding for fleet |
+|---|---|
+| **Buyouts do not count against city or airport caps** | Buying out a rival’s city/hub does **not** consume a 12/12 or 4/4 slot the way a list buy does. Still verify live tool text; do not invent exceptions beyond what `rules` states. |
+| **Rookie shield** | Accounts **<2 days** old **or** holding **<4 cities** are shielded (do not farm them as buyout targets). Exact wording lives in live `rules` — halt if tool text disagrees with this table. |
+| **At-cap `buy` with `swap=`** | At 12/12 you may buy with an explicit **`swap=`** of a held city instead of a blind sell-first. **Otto Albania:** Tirana 1/2 stays held — **no L3 sell** to free Durrës unless captain cuts a path. Prefer `swap=` only when it improves set shape; never dump an L3 engine to chase a single. |
+| **`play` tool leads the loop** | Observe/Orient starts with **`play`** (replaces leading with `daily` / `status` / `look_around` alone). Keep using those tools as `play` surfaces them; do not skip halt checks. |
+
+Empire licence ladder (bank caps widen) remains documented in `docs/rules-observed.md`; no seat buys a licence from this directive alone.
+
+## 3. Carry-forward ceilings (still true from DIRECTIVE-2026-09-10)
+
+These stay hard until a later Serve cuts them:
+
+1. **Own-cash expand / lock / L3 only.** Land is the constraint.
+2. **No new accounts.** Account count CLOSED (2026-09-07). No block → alt.
+3. **No money between seats.** No rent visits, no seeding, no buying land for another seat. Landing on another fleet tile while loaded is a **HALT** for both seats. Auggie ⇄ Ceviche **never** land on each other.
+4. **Food drones = own-land only.** No engine feeds. Smørrebrød perfect-day chase stays **held** until captain clears the silent daily-block (see §7).
+5. **One claim-or-build objective per wake** (or one reclaim). Skip the wake if nothing fundable; quiet hour is fine; synchronised fleet burst is not.
+6. **Perfect days** on seats still expanding — contracts that coincide with §1. **Let expire:** *Buy out a rival’s city* unless it closes a set you already hold ≥1/N of (from a single-holder with no set). Rookie shield (§2) further blocks early-account farming.
+7. **Staggered hourly wakes** with random 1–7 min jitter before first call; ≥8 min gaps between seats (Otto :03 · Auggie :14 · CoS :25 · EA :36 · Ceviche :47 — reassign OK if gaps hold).
+8. **Halt triggers** — report, never work around (full list §5).
+
+Tithe remains: only from surplus after own L3 + cushion, never sell land to feed the flagship (`fleet/README.md`).
+
+## 4. Cadence — one seat, one clock
+
+Unchanged shape from 2026-09-10 §4:
+
+- Wake on your offset → wait 1–7 min → **`play`** → halt list → cash vs cushion → at most one §1 objective → stop when energy < 3 or cash < M$300 + next step.
+- Salary: every allowed wake (caps at 12h) — **but see §0 while parked**.
+- Contracts: three touches a day are enough; no own-tile cab loops on locked/receiver seats.
+
+| Seat | Runner | Minute offset | Notes (2026-09-13) |
+|---|---|---|---|
+| Otto | Grokbot | :03 | DK/PY/VE L3 · hubs 4/4 · Tirana AL **1/2 at city-cap** — no L3 sell for Durrës unless captain cuts a path; `swap=` only if it improves set shape |
+| Auggie | Grokbot | :14 | Lock or sell buyout-target singles down to sets · hubs only on own tiles that accept airports (La Paz ≠ hub) · never Lima / Ceviche |
+| CoS | Grokbot | :25 | Own-cash claim toward open slots · no fleet landings |
+| EA | Grokbot | :36 | Chile+Ghana L3 · open slot reserved for a **real hub-city** claim (Ghana blank) · Completo off AR race |
+| Ceviche | Grokbot | :47 | Peru L3 held · **SP reclaim first** post-Serve · then BR push within cap · never Auggie tiles |
+| HomestarRunner | Claude | :52 | Salary + streak unless a proven 2-set opens |
+| HomestarRunner-2 | Claude | :58 | Locked / build from salary · hubs |
+| Klappy | Claude | :30 (×2 daily) | Receiver; salary / hub-swap experiments only |
+| Smørrebrød (food) | Otto | — | **Silent daily-block hold** — no perfect-day chase until cleared (§7) |
+| Completo (food) | Otto | — | Own-land OK |
+
+## 5. Halts (report, never work around)
+
+`rules` sha256 ≠ **`98d151d1bcaa`**. That prefix is sha256 of the **raw MCP `rules` tool text with only `.strip()`** (leading/trailing whitespace). Do **not** hash JSON-RPC envelopes, SSE `data:` wrappers, markdown fences, or any other wrapper. If a seat’s hash differs, recompute with strip-only normalize before hard-halting; halt only when strip-normalized text still mismatches.
+
+Also halt on: a city or hub you held is gone · any operator notice mentioning bots, rings, funnelling or blocks · any tool refusal you don’t understand · a rival within M$1,800 of the flagship’s NW · **silent daily-block** (successful travel/buy/build + `daily` still no streak/card + `status` shows no block/strike/income-lock) — see `docs/rules-observed.md` Failure Modes and `skills/references/halt.md`.
+
+Shape: `🛑 HALT — <signal> — <receipt verbatim> — <what was NOT done>`.
+
+## 6. Journal
+
+DOLCHEO, `journal/YYYY-MM-DD-<seat>.md`, every session that moves anything (and every HALT session). Success metrics table from `docs/homestead.md`. The captain reads the journals, not the chat.
+
+## 7. Smørrebrød silent daily-block — named hold
+
+Still open. Receipt: Otto first-brain `journal/2026-09-10-smorrebrod-daily-block.md` @ `8fdf741`; cookbook plate main `6c32cead`. Completo own-land OK. Food drones do **not** get a silent-streak exception. Hold perfect-day chase on Smørrebrød until captain clears.
+
+## 8. Anticipate — add the row the patch just proved
+
+Carry the 2026-09-10 anticipate table forward. **New row from this halt:**
+
+| Exposure | Receipt | Pre-emptive rule |
+|---|---|---|
+| **Rules-hash drift mid-session** | 2026-09-13 strip-full `98d151d1bcaa` ≠ baseline `3d978ac96da2`; buyouts/swap/rookie/`play` | Full park (no salary) until Serve rehashes baseline; do not invent baseline from a seat |
+| **Buyout while fleet is parked** | digyvijay ← Ceviche São Paulo city under HALT; reclaim ~M$1,200 / ~24h | Door watches reclaim clock; post-Serve Ceviche reclaim before BR expand |
+| **City-cap + incomplete set** | Otto Durrës refused at 12/12; no set-complete exception | No L3 sell to free a slot unless captain cuts a path; prefer `swap=` only when set-positive |
+
+Re-read this table at every rules halt and add the row the patch just proved.
+
+---
+
+**Supersedes:** standing operational bind of `fleet/DIRECTIVE-2026-09-10.md` once this file is **Served and merged**. Until then, 2026-09-10 remains the last Served text and the fleet stays parked per CoS hold.
