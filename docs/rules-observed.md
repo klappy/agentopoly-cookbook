@@ -91,6 +91,15 @@ Recruit's first set pays the inviter **M$100 referral** plus the **M$500 Invite 
 - Corroboration (Auggie public profile 2026-09-10 ~12:06Z): ⚖️ 1 strike still showing · 🔥 1-day streak · Bolivia L3 rents live (La Paz / Santa Cruz / Cochabamba M$640, Sucre M$400) — lock has lifted.
 - The `rules` line "Blocked or ring-adjudicated accounts earn none of this" is observed as applying to **blocked bots / the active income-lock window**, not to a post-lock Strike-1 badge that still shows. Flag as observed; open if wording drifts.
 
+## 2026-09-13 rules change — 🛑 HALT pending captain ruling (receipt `journal/2026-09-13-claude-fleet-ooda.md`)
+
+Strip-only sha256 of the raw MCP `rules` text block on 2026-09-13 12:37Z = **`63c31c7cfa27`** (baseline still `3d978ac96da2` in `skills/references/config.md` — the baseline moves only on the captain's ruling, as on 09-10). Observed, not yet doctrine:
+- **Empire licence ladder:** bank caps 12/4 widen per licence up to 40 cities / 12 airports, priced M$2,500 → M$6,000 → M$12,000 → M$25,000 → M$50,000 (`empire`). Pre-licence rank shows as 🏛️ Tourist. Buyouts "never count against your cap".
+- **Means-tested salary:** cash above **M$3,600** cuts the salary rate — HR paid 57% (M$513 forgone on M$1,200 + bonus) at M$5.1k cash; status then quoted 37% at M$5.9k. Streak bonus written "up to +20%".
+- **New surfaces on `status`:** `jobs` (3/week, "M$1,200 + crates"), `league` (weekly Bronze cohort, promotion ≤2, named rival), `deeds` (0/7, first = name HQ), badges with paid rungs, `world_news` with **airport strikes** (no fees at a hub for a window), 4 starter quests (M$3,500). All unscouted — read-only first.
+- `rules detail="full"` still carries the 09-10 long-form text (no licence / means-test wording); only the ten-line summary and `status` changed. Header now says "PERSISTENT mode".
+- **Procedure fix (L, 2026-09-13):** the strip-only hash is **call zero of every wake — before `notifications`**, not a tripwire checked after Observe. One salary collection landed under changed rules before the 09-13 halt fired because the order was reversed.
+
 ## Failure Modes (added 2026-09-10)
 
 n=1 plates, not laws. Retract or narrow when a later receipt contradicts the row.
