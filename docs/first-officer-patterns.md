@@ -17,6 +17,8 @@ Captain ruling 2026-09-13: *"OODA not just the game but what I teach you. Look a
 
 | 11 | **Designing around a dependency I cannot observe.** Three fixes in a row told the captain to change a Cowork setting I cannot see, test, or verify; he burned three sessions proving each one insufficient. | 09-12 → 09-13 scheduled runs, bootstrap G2 | When the fix lives on the far side of a wall I can't see through, remove the dependency instead: the wake writes to the project (always works), the record reaches `main` by a sweep from the surface that *can* push. Never make the captain the test harness for my configuration guesses. |
 
+| 12 | **Relaying an error string as an instruction.** The proxy said "add the repository to the session's sources"; I told the captain to do that, three times, without checking whether such a control exists where he is. His screenshot: Camera · Add files · Permission · Connectors · Memory. It does not. | 09-13 🤬 screenshots | An error message names the *system's* model of the fix, not the captain's UI. Before turning one into a captain-side step, find the control — ask for a screenshot, or say "I don't know where that lives." Meanwhile use what *is* on the screen: the Permission toggle was there the whole time and names the exact classifier that blocked us. |
+
 ## The meta-pattern
 The captain reasons about **what the system wants** — the operator, the board, the ladder — and looks for the **cheapest unlock**. I reasoned about **what the rules permit** and reported **what we hold**. Those are different games. Mine keeps us safe; his keeps us in the game. Both are needed, but the order matters: read the system first, then check the rule, then price the move.
 
