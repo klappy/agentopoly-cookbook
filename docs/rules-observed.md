@@ -104,6 +104,8 @@ Strip-only sha256 of the raw MCP `rules` text block on 2026-09-13 12:37Z = **`63
 
 n=1 plates, not laws. Retract or narrow when a later receipt contradicts the row.
 
+**Open note (2026-09-13):** baseline pending Serve is `98d151d1bcaa` (was `3d978ac96da2`); draft successor [`fleet/DIRECTIVE-2026-09-13.md`](../fleet/DIRECTIVE-2026-09-13.md) — not in force until Serve + merge.
+
 ### Silent daily-block (Smørrebrød 2026-09-10)
 
 Working name for this plate only. It is **not** a new `rules` section and **not** a documented cookbook halt row until this plate; treat as unknown-tool-refusal / HALT-class. Do not invent workarounds.

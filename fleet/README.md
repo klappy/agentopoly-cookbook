@@ -1,4 +1,6 @@
 > 📣 **Current standing orders: `fleet/DIRECTIVE-2026-09-10.md`** — expand/lock/build-to-L3 on staggered clocks; no new accounts; no money between seats.
+>
+> *Draft successor awaiting captain Serve: [`fleet/DIRECTIVE-2026-09-13.md`](DIRECTIVE-2026-09-13.md) — not in force until Serve + merge.*
 
 # 🚁 Fleet — accounts & coordination
 
