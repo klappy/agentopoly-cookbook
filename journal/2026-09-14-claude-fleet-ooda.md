@@ -58,3 +58,42 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 [H] **HR-2** (HomestarRunner-2) — Dar es Salaam · M$4,532 · NW M$9,892 · #12 · 12 (10/16 bank) · 2/5 · 🔥1 ✅ · 1/3 · voucher spent · caps 09:01Z.
 
 🏁 No halt on any seat. No operator notice. Rules hash verified. Flagship guard clear (M$4,178 > M$1,800) but closing fast.
+
+---
+
+## Wake 2 — 21:5x–22:2xZ (chat) — captain ruling: "Nothing is the worst thing we can do" → act
+
+[D] **Captain ruling 2026-09-14 ~21:55Z:** inaction is the worst outcome; even clawback risk beats idle seats. Proposals priced in wake 1 are executed, not re-asked. Doctrine stays (no buyouts, no land sold, no drones); the ≤4-city set preference is superseded by "the best open set within reach".
+
+### Flight log (UTC)
+| Time | Seat | Action | Receipt |
+|---|---|---|---|
+| 21:57 | Klappy | `empire license` | **Tycoon** (M$6,000) → cap 20/6. Cash M$19,088. Next: Magnate M$12,000 needs 6 sets + 5 buyouts |
+| 21:58 | Klappy | `jobs accept` grand_tour + jetsetter | both on the clock (3d) |
+| 21:58 | Klappy | 🚕 Punta del Este → Buenos Aires (own hub, M$23) | Grand tour 1/3 |
+| 21:59 | Klappy | ✈ → Mexico City (own, M$114) | **Jetsetter done +M$400 + crate (M$50)** · tour 2/3 |
+| 22:00 | Klappy | ✈ → Tokyo (own, M$153) | **Grand tour done +M$500 + crate (M$50)** |
+| 22:0x | Klappy | `city_info` Vietnam / Philippines / Malaysia / Indonesia | all L3-complete: digyvijay (VN, MY), CoS (PH, ID). Asia is closed |
+| 22:0x | Klappy | `city_info` Nigeria / South Africa | both show 5 (cap) — size unproven; Johannesburg and Lagos hubs unowned |
+| 22:0x | Klappy | ✈ Tokyo → Johannesburg (M$175) · `buy` · `buy hub` | **1/7 of South Africa** — size proven 7, fits the 20-cap exactly. Contracts: new country +M$100, 1M+ city +M$100 |
+| 22:0x | Klappy | (activity) "opened a café in Johannesburg (M$800)" | **not called by the first officer** — either the captain on the board widget or a server action; flagged, unexplained |
+| 22:1x | Klappy | 🚕 Pretoria (M$160) · Bloemfontein (M$100) · Durban (M$160) · East London (M$100) · Gqeberha (M$160) | 6/7. Cards: Second Wind +3⚡ · Consular Fees −M$350 |
+| 22:1x | Klappy | 🚕 → Cape Town | 🃏 **Homesick** → teleported to Orlando one hop short. Explorer II +M$100 |
+| 22:1x | Klappy | 🚕 Orlando → Cancún (own, M$50) · 🚕 → Miami (M$44, M$24 rent to prj, cab so no airport fee) · ✈ Miami → Cape Town (M$163, **M$200 fee to digyvijay**) | 🃏 Pickpocketed −M$100 |
+| 22:2x | Klappy | `buy` Cape Town (M$240) · `build` ×3 (M$660 each) | **South Africa 7/7 complete, L3.** Rents Jo'burg 1,600 · Cape Town 960 · Durban/Pretoria/Gqeberha 640 · Bloemfontein/East London 400. Cash **M$14,540** · energy 2/12 (full 22:51Z) |
+| 22:2x | HR | 🚕 Harare → Lusaka (M$26) `buy` M$160 → **1/3 Zambia** · 🚕 Ndola (M$21) `buy` M$100 · 🚕 Kitwe (M$12) `buy` M$100 | **Zambia 3/3 complete.** 🃏 Held at Customs (20 min). NW +M$150, #13 → #12 |
+| 22:2x | HR | `build` ×3 (M$180 each) | **Zambia L3**: Lusaka 640 · Ndola 400 · Kitwe 400. Cash **M$5,179** · 14/16 cities · 5 sets · 1/5 airports |
+| 22:2x | HR-2 | `city_info` Saudi Arabia / Sudan / Uganda / Rwanda / South Sudan | no airport exists in Saudi Arabia or Sudan; Kampala, Kigali, Juba are single-city. **Nothing bought.** 2/5 airports still open |
+
+### Artifacts
+[O] The Homesick card cost the South Africa claim three extra hops, M$24 rent, M$200 airport fee and ~M$260 in fares — the detour was the price of finishing today rather than leaving 6/7 exposed overnight. A 6/7 set is buyout-bait; completing it was worth the M$500.
+[O] Klappy's fifth set is 7 cities, not ≤4: Asia is fully claimed (digyvijay 6 sets, CoS 4), and Africa's two unowned megacity hubs were the only open set-with-hub on the flight board. The 20-cap is now 19/20 used (Klappy), so the next licence (Magnate, 5 buyouts) is the real gate — buyouts are a standing "never" that the captain may want to re-price.
+[O] Salary at Klappy stays at 25% (cash M$14,540 > M$6,000). No licence is available to soak the remainder; ventures are the only NW-neutral sink left, and they pay only when the seat stands there.
+[O] Fleet this wake: ~M$9,300 deployed (licence M$6,000 NW-negative; land + builds M$3,300 NW-neutral at HR + Klappy), M$3,930 banked (salary, rent, jobs, cards). Two new L3 sets, one new hub.
+[C] Unexplained action on the flagship: a M$800 café opened in Johannesburg with no tool call from this session. If it was the captain on the widget, plate it; if not, it is an unknown and belongs on the halt list next wake.
+
+[H] **Klappy** — Cape Town · M$14,540 · Tycoon 19/20 · 5/6 hubs · 5 sets L3 (CA/JP/MX/UY/**ZA**) · 🔥4 · 3/3 · jobs 2/2 done · energy full 22:51Z · salary caps 08:52Z.
+[H] **HR** (HomestarRunner) — Kitwe · M$5,179 · Landlord 14/16 · 1/5 · 5 sets L3 (KE/MW/MZ/ZW/**ZM**) · 🔥1 · customs hold until ~22:4xZ · caps 08:45Z.
+[H] **HR-2** (HomestarRunner-2) — Dar es Salaam · M$4,532 · Landlord 12 (10/16 bank) · 2/5 · 4 sets L3 · 🔥1 · caps 09:01Z · next: Lagos hub (M$400, unowned) unless the captain rules otherwise.
+
+🏁 No halt. No operator notice. One unexplained action (café) flagged.
