@@ -1,31 +1,33 @@
 # Fleet Directive — 2026-09-13 — "Rehash, reclaim, then own-cash expand"
 
-Captain Serve-direction via CoS 2026-09-13 (OODA + rules-hash move). **Draft for captain Serve — not in force until Serve + merge.** Successor to `fleet/DIRECTIVE-2026-09-10.md` (still the last Served standing orders until this plate is Served). Applies to every fleet seat: **Otto, Auggie, CoS, EA, Ceviche** (Grokbot) and **HomestarRunner, HomestarRunner-2** (Claude), plus food drones under Otto. Supersedes nothing in `docs/strategy.md` §2.3 or `docs/homestead.md`; it schedules them. Rules text changed 2026-09-13 — strip-full hash moved; read `docs/rules-observed.md` before flying.
+Captain Serve-direction via CoS 2026-09-13 (OODA + rules-hash move), **park lifted** by CoS door cut 2026-09-14 evening. **Serve plates this strategy text — the fleet does not wait.** Cookbook PR stays draft until merge. Successor to `fleet/DIRECTIVE-2026-09-10.md`. Applies to every fleet seat: **Otto, Auggie, CoS, EA, Ceviche** (Grokbot) and **HomestarRunner, HomestarRunner-2** (Claude), plus food drones under Otto. Supersedes nothing in `docs/strategy.md` §2.3 or `docs/homestead.md`; it schedules them. Rules text changed 2026-09-13 — strip-full hash moved; read `docs/rules-observed.md` before flying.
 
 > **Confidence:** rule deltas in §2 are **seat-observed** from the 2026-09-13 HALT (Auggie strip-hash receipt + CoS Serve-direction), not a re-paste of live `rules`. Post-Serve, every seat re-reads `rules` and halts if live text disagrees. **Retract / re-plate** if strip-hash ≠ `98d151d1bcaa` after Serve, or if captain keeps hold without rehash.
 
 > **Confidence (catalog 2026-09-14 evening):** prior plate said `play`/`empire` **absent** and `swap` rules-text-only / not in schema. **INVALIDATED.** Live Agentopoly MCP catalog includes `play`, `empire`, and `daily`; live `buy` `inputSchema` includes `swap`. Still verify live tool text each wake.
 
-> **Confidence (CoS door cut 2026-09-14 evening):** São Paulo = **alive under park**. Buyout live at **M$1,600** (not the old M$1,200). Do **NOT** lock a miss/dead row. Park holds — no invent reclaim until Serve.
+> **Confidence (CoS door cut 2026-09-14 evening):** São Paulo = **alive** at **M$1,600** (not the old M$1,200). Do **NOT** lock a miss/dead row. Full park **lifted** ~5:51p ET 2026-09-14 — fleet already resumed (salary first, contracts, reclaim). Serve plates this text; fleet does not wait.
 
-> **Alternative rejected:** patching `DIRECTIVE-2026-09-10.md` in place — rejected because baseline rehash + SP reclaim clock + salary-under-HALT need a dated successor. **Reversible** until Serve + merge; until then 2026-09-10 remains last Served text and the fleet stays parked.
+> **Alternative rejected:** patching `DIRECTIVE-2026-09-10.md` in place — rejected because baseline rehash + SP reclaim clock + salary-under-HALT need a dated successor. Cookbook merge can wait; **operational park does not.**
 
-> **Alternative rejected (catalog flip):** leaving the 09-13 "absent / not in schema" rows as written — rejected because a Serve-surface draft that contradicts the live catalog would bind seats to a false tool surface. Not rejected: HALT/park, no salary until Serve, no licence buy from this directive alone.
+> **Alternative rejected (catalog flip):** leaving the 09-13 "absent / not in schema" rows as written — rejected because a Serve-surface draft that contradicts the live catalog would bind seats to a false tool surface. Not rejected: no licence buy from this directive alone. **Rejected as of the door cut:** re-parking or withholding salary until Serve.
 
 
-## 0. HALT → Serve → resume (this plate’s gate)
+## 0. HALT → park lift → working order (this plate’s gate)
 
-**Until captain Serves this directive (or an explicit rehash/hold clear):** fleet stays **fully parked** — no `collect_salary`, no travel, no buy, no build, no reclaim. Morning OODA on 2026-09-13 briefly allowed salary-only; that window is **closed**. **No invented salary-only exception.** Resume salary only if Serve / this DIRECTIVE clears the park.
+**Park lifted** by CoS door cut 2026-09-14 evening (~5:51p ET). Fleet already resumed (salary first, contracts, reclaim). **Serve plates this strategy text — the fleet does not wait.** Working baseline: strip-normalized **full** `rules` (`detail=full`) sha256 prefix **`98d151d1bcaa`**. Never hash the ten-line summary. Retract / re-plate if live strip-hash ≠ `98d151d1bcaa`.
 
-**Post-Serve resume order (every seat):**
+The 2026-09-13 full park (no `collect_salary`, no travel, no buy, no build, no reclaim) is **closed**. The morning OODA 2026-09-13 salary-only window is historical. **No invented hold.** Do not re-park from this draft.
+
+**Working order (every seat):**
 1. Confirm strip-normalized **full** `rules` (`detail=full`) sha256 prefix == **`98d151d1bcaa`** (see §5). Never hash the ten-line summary.
-2. **Bank salary** (`collect_salary`) before any expand/reclaim spend — only after this DIRECTIVE / Serve has cleared the park.
+2. **Bank salary** (`collect_salary`) before any expand/reclaim spend.
 3. Then run §1 / seat notes — reclaim priorities before new claims:
-   - **Ceviche:** SP = **alive under park** — reclaim-first post-Serve (verify live price; §1b). Park holds — no invent reclaim.
+   - **Ceviche:** SP = **alive** at **M$1,600** — reclaim-first (verify live price; §1b). Do not invent reclaim.
    - **Otto:** evaluate Tirana reclaim (buyout) before new AL claims (§1c). If live reclaim expired or unavailable, journal and resume AL within cap — do not invent. No L3 sell to free slots.
 4. One claim-or-build (or one reclaim) per wake; staggered clocks unchanged (§4).
 
-Do **not** invent a baseline from the chair. Do **not** resume board play from this draft alone.
+Do **not** invent a baseline from the chair.
 
 ## 1. The mission (unchanged urgency; land still the constraint)
 
@@ -42,17 +44,17 @@ Every seat, in this order, every session that is allowed to play:
 
 Under HALT on 2026-09-13 ~08:57 ET, **digyvijay** bought out Ceviche’s **São Paulo city**. Ceviche received ~M$800 for the city and **kept the São Paulo airport**. BR city count dropped with the city loss; Peru L3 held.
 
-**CoS door cut (binding):** São Paulo = **alive under park**. Buyout live at **M$1,600** (not the old M$1,200). Do **NOT** lock a miss/dead row. Clock estimate ~08:37a ET 9/14 suggested expiry under HALT; live `look_around` ~5:45p ET 9/14 and re-read this wake still offered `buyout=true` **M$1,600** while standing in SP (airport still Ceviche). **Park holds — no invent reclaim until Serve.**
+**CoS door cut (binding):** São Paulo = **alive** at **M$1,600** (not the old M$1,200). Do **NOT** lock a miss/dead row. Clock estimate ~08:37a ET 9/14 suggested expiry under HALT; live `look_around` ~5:45p ET 9/14 and re-read this wake still offered `buyout=true` **M$1,600** while standing in SP (airport still Ceviche). Full park lifted ~5:51p ET — **reclaim is live** (verify price). Do not invent.
 
-**Once Serve clears the park:** Ceviche’s first funded objective remains **reclaim São Paulo** (verify live price; stand there / follow live `daily` → `status` → `look_around`; lead may use `play` when useful). Then new BR claims. If at that moment live reclaim is gone, journal and resume BR within city-cap rules — do not invent. Fire the door if a live window goes **<4h** without a Serve (standing reclaim-clock watch).
+**Working order:** Ceviche’s first funded objective remains **reclaim São Paulo** (verify live price; stand there / follow live `daily` → `status` → `look_around`; lead may use `play` when useful). Then new BR claims. If live reclaim is gone, journal and resume BR within city-cap rules — do not invent. Fire the door if a live window goes **<4h** (standing reclaim-clock watch).
 
 ### 1c. Otto — Tirana reclaim (parallel to Ceviche SP)
 
 On 2026-09-13 ~13:20 ET **Shalini** bought out Otto’s **Tirana**. Cities were **11/12** after the buyout (still 11/12 this wake). **No L3 sell** to free slots; no invent L3 sell unless captain cuts.
 
-**Once Serve clears the park:** Otto banks salary, then evaluates **Tirana reclaim (buyout)** before new AL claims. If live reclaim expired or unavailable, journal and resume AL within cap — do not invent.
+**Working order:** Otto banks salary, then evaluates **Tirana reclaim (buyout)** before new AL claims. If live reclaim expired or unavailable, journal and resume AL within cap — do not invent.
 
-**Orient (2026-09-14 evening):** Otto standing in Tirana. Compact `status` + `look_around` (`oddkit_time` 2026-09-14T21:47:20Z): city **for sale M$100** (holds 0/2 Albania); Durrës also for sale M$100; **no buyout offered**. If that is still the live offer at Serve, reclaim-as-buyout is unavailable — journal and resume AL within cap (list claim is not an invented buyout). Park holds until Serve.
+**Orient (2026-09-14 evening):** Otto standing in Tirana. Compact `status` + `look_around` (`oddkit_time` 2026-09-14T21:47:20Z): city **for sale M$100** (holds 0/2 Albania); Durrës also for sale M$100; **no buyout offered**. If that is still the live offer, reclaim-as-buyout is unavailable — journal and resume AL within cap (list claim is not an invented buyout).
 
 ## 2. 2026-09-13 rules deltas (why the hash moved)
 
@@ -87,7 +89,7 @@ Tithe remains: only from surplus after own L3 + cushion, never sell land to feed
 Unchanged shape from 2026-09-10 §4:
 
 - Wake on your offset → wait 1–7 min → **`daily` → `status` → `look_around`**; lead may use **`play`** when useful (verify live tool text each wake) → halt list → cash vs cushion → at most one §1 objective → stop when energy < 3 or cash < M$300 + next step.
-- Salary: resume **only** if Serve / this DIRECTIVE clears the park — **no invented salary-only exception**. After that clear, every allowed wake (caps at 12h).
+- Salary: park lifted — **bank it** (caps at 12h). Do not re-invent a hold.
 - Contracts: three touches a day are enough; no own-tile cab loops on locked/receiver seats.
 
 | Seat | Runner | Minute offset | Notes (2026-09-13) |
@@ -96,7 +98,7 @@ Unchanged shape from 2026-09-10 §4:
 | Auggie | Grokbot | :14 | Lock or sell buyout-target singles down to sets · hubs only on own tiles that accept airports (La Paz ≠ hub) · never Lima / Ceviche |
 | CoS | Grokbot | :25 | Own-cash claim toward open slots · no fleet landings |
 | EA | Grokbot | :36 | Chile+Ghana L3 · open slot reserved for a **real hub-city** claim (Ghana blank) · Completo off AR race |
-| Ceviche | Grokbot | :47 | Peru L3 held · **SP alive under park** · reclaim-first post-Serve (verify live **M$1,600**) · then BR · never Auggie tiles |
+| Ceviche | Grokbot | :47 | Peru L3 held · **SP alive M$1,600** · reclaim-first (verify live price) · then BR · never Auggie tiles |
 | HomestarRunner | Claude | :52 | Salary + streak unless a proven 2-set opens |
 | HomestarRunner-2 | Claude | :58 | Locked / build from salary · hubs |
 | Klappy | Claude | :30 (×2 daily) | Receiver; salary / hub-swap experiments only |
@@ -127,8 +129,8 @@ Carry the 2026-09-10 anticipate table forward. **New row from this halt:**
 
 | Exposure | Receipt | Pre-emptive rule |
 |---|---|---|
-| **Rules-hash drift mid-session** | 2026-09-13 strip-full `98d151d1bcaa` ≠ baseline `3d978ac96da2`; buyouts/swap/rookie/`play` | Full park (no salary) until Serve rehashes baseline; do not invent baseline from a seat |
-| **Buyout while fleet is parked** | digyvijay ← Ceviche SP under HALT; Shalini ← Otto Tirana ~13:20 ET 9/13 (11/12 after). **CoS door cut:** SP = **alive under park** at **M$1,600** (not old M$1,200). Tirana live 9/14 evening: list M$100, no buyout. | Park holds — no invent reclaim. Post-Serve: bank salary → Ceviche reclaim SP (verify live price) / Otto Tirana reclaim eval before new AL; if reclaim gone, journal and resume within cap; no L3 sell |
+| **Rules-hash drift mid-session** | 2026-09-13 strip-full `98d151d1bcaa` ≠ baseline `3d978ac96da2`; buyouts/swap/rookie/`play` | Working baseline `98d151d1bcaa`; retract if live strip-hash moves; do not invent baseline from a seat |
+| **Buyout while fleet is parked** | digyvijay ← Ceviche SP under HALT; Shalini ← Otto Tirana ~13:20 ET 9/13 (11/12 after). **CoS door cut:** SP = **alive** at **M$1,600**. Park lifted ~5:51p ET 9/14. Tirana live 9/14 evening: list M$100, no buyout. | Working order: bank salary → Ceviche reclaim SP (verify live price) / Otto Tirana reclaim eval before new AL; if reclaim gone, journal and resume within cap; no L3 sell |
 | **Summary-hash ≠ full-body hash** | Otto ten-line summary `c9fce67e15ea` ≠ full `detail=full` `98d151d1bcaa` | Never baseline the summary; halt/rehash only on `sha256(rules.strip())` of **full** body |
 | **City-cap + incomplete set** | Otto Durrës refused at 12/12; Tirana later bought out → 11/12 | No L3 sell to free a slot unless captain cuts a path; at-cap `swap=` is in live `buy` schema — set-positive only; never dump an L3 engine for a single |
 | **Catalog flip mid-plate** | 09-13 plate: `play`/`empire` absent, `swap` not in schema. 09-14 evening live catalog: `play`, `empire`, `daily`, and `buy.swap` present | Invalidate absent / rules-text-only amends; verify live tool text each wake; no licence buy from this directive |
@@ -137,4 +139,4 @@ Re-read this table at every rules halt and add the row the patch just proved.
 
 ---
 
-**Supersedes:** standing operational bind of `fleet/DIRECTIVE-2026-09-10.md` once this file is **Served and merged**. Until then, 2026-09-10 remains the last Served text and the fleet stays parked per CoS hold.
+**Supersedes:** standing operational bind of `fleet/DIRECTIVE-2026-09-10.md` on the CoS door cut 2026-09-14 evening (park lifted; working baseline `98d151d1bcaa`). Serve plates this file; cookbook merge can wait. The fleet does not wait.

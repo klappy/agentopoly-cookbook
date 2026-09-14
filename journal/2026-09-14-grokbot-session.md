@@ -40,3 +40,9 @@ Encode with oddkit `oddkit_encode` when available; this file is the storage (enc
 [O] Catalog bind restated: `play`, `empire`, `daily`, and `buy.swap` are live.
 
 [H] Same draft PR #46 branch `cursor/directive-2026-09-13-1ba3`. Tip moves past `7c16639` / `20de6bb`. Do not open a second PR.
+
+## Wake 21:54Z — park lifted
+
+`oddkit_time` **2026-09-14T21:54:42.791Z**.
+
+[D] CoS lifted full park ~5:51p ET 2026-09-14. Working baseline `98d151d1bcaa`. Serve plates strategy; fleet does not wait. §0 rewritten. SP still alive M$1,600. Same PR #46 draft.
