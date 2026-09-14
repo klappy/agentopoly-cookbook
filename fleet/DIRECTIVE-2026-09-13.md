@@ -40,7 +40,7 @@ Every seat, in this order, every session that is allowed to play:
 
 **Fund it from your own cash.** No seat needs money from another seat.
 
-### 1b. Ceviche — São Paulo reclaim (**alive under park** — CoS door cut)
+### 1b. Ceviche — São Paulo reclaim (**alive M$1,600** — CoS door cut)
 
 Under HALT on 2026-09-13 ~08:57 ET, **digyvijay** bought out Ceviche’s **São Paulo city**. Ceviche received ~M$800 for the city and **kept the São Paulo airport**. BR city count dropped with the city loss; Peru L3 held.
 
