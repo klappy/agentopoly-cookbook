@@ -97,3 +97,11 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 [H] **HR-2** (HomestarRunner-2) — Dar es Salaam · M$4,532 · Landlord 12 (10/16 bank) · 2/5 · 4 sets L3 · 🔥1 · caps 09:01Z · next: Lagos hub (M$400, unowned) unless the captain rules otherwise.
 
 🏁 No halt. No operator notice. One unexplained action (café) flagged.
+
+### Wake 2 addendum — 22:3xZ — HR-2 Lagos
+| Time | Seat | Action | Receipt |
+|---|---|---|---|
+| 22:3x | HR-2 | ✈ Dar es Salaam → Lagos (M$82) · `buy hub` M$200 · `buy` M$400 | **Lagos hub — 3/5 airports.** Explorer I +M$50. **Nigeria proves 8 cities** — HR-2 has 5 bank slots left, so the set cannot be completed under Landlord (Tycoon needs Google-verify or 3 activated recruits). Lagos city held as a single under our own hub (buyout exposure M$800; the hub is the asset). Cash **M$3,900** |
+
+[O] Nigeria = 8 (unproven until this buy). Neither Homestead can close it without a Tycoon licence; Klappy is 19/20. Plate it in `references/rules-observed.md` set sizes: Nigeria 8, South Africa 7, Zambia 3.
+[H] **HR-2** — Lagos · M$3,900 · 13 cities (11/16 bank) · **3/5 airports** · 4 sets L3 + Mogadishu + Lagos singles · 🔥1 · caps 09:01Z.

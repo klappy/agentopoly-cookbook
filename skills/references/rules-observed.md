@@ -34,4 +34,4 @@ Read `rules` on the live MCP for the official text. This file is what the game *
 - Budget ~M$400 per 10-hop visa burn; a loaded drone should take the shortest path to its pay-in tile.
 
 ## Set sizes (`city_info` hides big countries — shows ≤5)
-Proven: Mexico 3, Japan 3, Canada 3, Uruguay 3, Denmark 4, Bolivia 4, NZ 3, Madagascar 2, Myanmar ≤3. Traps: Argentina 11, USA 50, Brazil 21, Chile 7. Verify from the first buy's x/N.
+Proven: Mexico 3, Japan 3, Canada 3, Uruguay 3, Denmark 4, Bolivia 4, NZ 3, Madagascar 2, Myanmar ≤3, Kenya 4, Ethiopia 2, Sudan 2, Saudi Arabia 2, Tanzania 5, Zambia 3, Zimbabwe 2, Malawi 2, Mozambique 3, South Africa 7, Nigeria 8. Traps: Argentina 11, USA 50, Brazil 21, Chile 7. Verify from the first buy's x/N.
