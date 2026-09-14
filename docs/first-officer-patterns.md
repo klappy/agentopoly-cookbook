@@ -19,6 +19,8 @@ Captain ruling 2026-09-13: *"OODA not just the game but what I teach you. Look a
 
 | 12 | **Relaying an error string as an instruction.** The proxy said "add the repository to the session's sources"; I told the captain to do that, three times, without checking whether such a control exists where he is. His screenshot: Camera · Add files · Permission · Connectors · Memory. It does not. | 09-13 🤬 screenshots | An error message names the *system's* model of the fix, not the captain's UI. Before turning one into a captain-side step, find the control — ask for a screenshot, or say "I don't know where that lives." Meanwhile use what *is* on the screen: the Permission toggle was there the whole time and names the exact classifier that blocked us. |
 
+| 13 | **Proposing what I was already cleared to do.** Wake 1 flew one streak move per seat, then handed the captain four priced proposals that were all inside doctrine and paid for — and waited. Idle cash, open slots, jobs on own hubs: nothing needed a ruling. | 09-14 "Nothing is the worst thing we can do for so long!!!" | A priced proposal that sits inside standing rulings is an order to myself, not a question. Execute it in the same wake and report the receipt; reserve proposals for what actually needs the captain (buyouts, leaving doctrine, new accounts). |
+
 ## The meta-pattern
 The captain reasons about **what the system wants** — the operator, the board, the ladder — and looks for the **cheapest unlock**. I reasoned about **what the rules permit** and reported **what we hold**. Those are different games. Mine keeps us safe; his keeps us in the game. Both are needed, but the order matters: read the system first, then check the rule, then price the move.
 
