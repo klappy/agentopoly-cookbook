@@ -4,7 +4,9 @@ Captain Serve-direction via CoS 2026-09-13 (OODA + rules-hash move). **Draft for
 
 > **Confidence:** rule deltas in §2 are **seat-observed** from the 2026-09-13 HALT (Auggie strip-hash receipt + CoS Serve-direction), not a re-paste of live `rules`. Post-Serve, every seat re-reads `rules` and halts if live text disagrees. **Retract / re-plate** if strip-hash ≠ `98d151d1bcaa` after Serve, or if captain keeps hold without rehash.
 
-> **Confidence (catalog 2026-09-14 evening):** prior plate said `play`/`empire` **absent** and `swap` rules-text-only / not in schema. **INVALIDATED.** Live Agentopoly MCP catalog includes `play` and `empire`; live `buy` `inputSchema` includes `swap`. Still verify live tool text each wake.
+> **Confidence (catalog 2026-09-14 evening):** prior plate said `play`/`empire` **absent** and `swap` rules-text-only / not in schema. **INVALIDATED.** Live Agentopoly MCP catalog includes `play`, `empire`, and `daily`; live `buy` `inputSchema` includes `swap`. Still verify live tool text each wake.
+
+> **Confidence (CoS door cut 2026-09-14 evening):** São Paulo = **alive under park**. Buyout live at **M$1,600** (not the old M$1,200). Do **NOT** lock a miss/dead row. Park holds — no invent reclaim until Serve.
 
 > **Alternative rejected:** patching `DIRECTIVE-2026-09-10.md` in place — rejected because baseline rehash + SP reclaim clock + salary-under-HALT need a dated successor. **Reversible** until Serve + merge; until then 2026-09-10 remains last Served text and the fleet stays parked.
 
@@ -19,7 +21,7 @@ Captain Serve-direction via CoS 2026-09-13 (OODA + rules-hash move). **Draft for
 1. Confirm strip-normalized **full** `rules` (`detail=full`) sha256 prefix == **`98d151d1bcaa`** (see §5). Never hash the ten-line summary.
 2. **Bank salary** (`collect_salary`) before any expand/reclaim spend — only after this DIRECTIVE / Serve has cleared the park.
 3. Then run §1 / seat notes — reclaim priorities before new claims:
-   - **Ceviche:** SP reclaim-first **IF** still offered live (§1b). CoS cuts alive-vs-miss on Serve. Park holds — no invent reclaim.
+   - **Ceviche:** SP = **alive under park** — reclaim-first post-Serve (verify live price; §1b). Park holds — no invent reclaim.
    - **Otto:** evaluate Tirana reclaim (buyout) before new AL claims (§1c). If live reclaim expired or unavailable, journal and resume AL within cap — do not invent. No L3 sell to free slots.
 4. One claim-or-build (or one reclaim) per wake; staggered clocks unchanged (§4).
 
@@ -36,13 +38,13 @@ Every seat, in this order, every session that is allowed to play:
 
 **Fund it from your own cash.** No seat needs money from another seat.
 
-### 1b. Ceviche — São Paulo reclaim (Orient note — CoS cuts alive-vs-miss on Serve)
+### 1b. Ceviche — São Paulo reclaim (**alive under park** — CoS door cut)
 
 Under HALT on 2026-09-13 ~08:57 ET, **digyvijay** bought out Ceviche’s **São Paulo city**. Ceviche received ~M$800 for the city and **kept the São Paulo airport**. BR city count dropped with the city loss; Peru L3 held.
 
-**Orient (2026-09-14 evening) — do not hard-lock miss or dead:** clock estimate ~08:37a ET 9/14 suggested expiry under HALT; live `look_around` ~5:45p ET 9/14 still offered **`buyout=true` ~M$1,600** while standing in SP (airport still Ceviche). Re-read this wake (`oddkit_time` 2026-09-14T21:47:20Z): same offer — `buy` with `buyout=true` take SP from digyvijay for **M$1,600**; airport still Ceviche. **CoS cuts alive-vs-miss on Serve.** Until then: park holds — no invent reclaim.
+**CoS door cut (binding):** São Paulo = **alive under park**. Buyout live at **M$1,600** (not the old M$1,200). Do **NOT** lock a miss/dead row. Clock estimate ~08:37a ET 9/14 suggested expiry under HALT; live `look_around` ~5:45p ET 9/14 and re-read this wake still offered `buyout=true` **M$1,600** while standing in SP (airport still Ceviche). **Park holds — no invent reclaim until Serve.**
 
-**Once Serve clears the park:** keep SP reclaim-first as Ceviche’s first funded objective **IF** the buyout is still offered live (stand there / follow live `daily` → `status` → `look_around`; lead may use `play` when useful — verify live tool text). Then new BR claims. If live reclaim expired or unavailable, journal and resume BR within city-cap rules — do not invent. Fire the door if a live window goes **<4h** without a Serve (standing reclaim-clock watch).
+**Once Serve clears the park:** Ceviche’s first funded objective remains **reclaim São Paulo** (verify live price; stand there / follow live `daily` → `status` → `look_around`; lead may use `play` when useful). Then new BR claims. If at that moment live reclaim is gone, journal and resume BR within city-cap rules — do not invent. Fire the door if a live window goes **<4h** without a Serve (standing reclaim-clock watch).
 
 ### 1c. Otto — Tirana reclaim (parallel to Ceviche SP)
 
@@ -61,7 +63,7 @@ Full-body (`detail=full`) strip-hash prefix **`98d151d1bcaa`** replaces **`3d978
 | **Buyouts do not count against city or airport caps** | Buying out a rival’s city/hub does **not** consume a 12/12 or 4/4 slot the way a list buy does. Still verify live tool text; do not invent exceptions beyond what `rules` states. |
 | **Rookie shield** | Accounts **<2 days** old **or** holding **<4 cities** are shielded (do not farm them as buyout targets). Exact wording lives in live `rules` — halt if tool text disagrees with this table. |
 | **At-cap `swap=` (live `buy` schema)** | Live `buy` `inputSchema` now includes `swap="<city you own>"` at cap. Prefer **set-positive** swaps. Never dump an L3 engine for a single. **Otto Albania:** Tirana was bought out — see §1c reclaim path; no invent L3 sell unless captain cuts. |
-| **Live catalog includes `play` / `empire`** | **INVALIDATES** the 09-13 "absent" amend. `play` and `empire` are in the live MCP catalog. Lead loop may use `play` when useful; still verify live tool text each wake. `empire` is live — **no seat buys a licence from this directive alone** (licence ladder still in `docs/rules-observed.md`). |
+| **Live catalog includes `play` / `empire` / `daily` / `buy.swap`** | **INVALIDATES** the 09-13 "absent" / rules-text-only amends. `play`, `empire`, `daily`, and `buy.swap` are in the live MCP catalog. Lead loop may use `play` when useful; still verify live tool text each wake. `empire` is live — **no seat buys a licence from this directive alone** (licence ladder still in `docs/rules-observed.md`). |
 
 Empire licence ladder (bank caps widen) remains documented in `docs/rules-observed.md`; no seat buys a licence from this directive alone.
 
@@ -94,7 +96,7 @@ Unchanged shape from 2026-09-10 §4:
 | Auggie | Grokbot | :14 | Lock or sell buyout-target singles down to sets · hubs only on own tiles that accept airports (La Paz ≠ hub) · never Lima / Ceviche |
 | CoS | Grokbot | :25 | Own-cash claim toward open slots · no fleet landings |
 | EA | Grokbot | :36 | Chile+Ghana L3 · open slot reserved for a **real hub-city** claim (Ghana blank) · Completo off AR race |
-| Ceviche | Grokbot | :47 | Peru L3 held · **SP reclaim-first IF live** (CoS cuts alive-vs-miss on Serve) · then BR push within cap · never Auggie tiles |
+| Ceviche | Grokbot | :47 | Peru L3 held · **SP alive under park** · reclaim-first post-Serve (verify live **M$1,600**) · then BR · never Auggie tiles |
 | HomestarRunner | Claude | :52 | Salary + streak unless a proven 2-set opens |
 | HomestarRunner-2 | Claude | :58 | Locked / build from salary · hubs |
 | Klappy | Claude | :30 (×2 daily) | Receiver; salary / hub-swap experiments only |
@@ -126,10 +128,10 @@ Carry the 2026-09-10 anticipate table forward. **New row from this halt:**
 | Exposure | Receipt | Pre-emptive rule |
 |---|---|---|
 | **Rules-hash drift mid-session** | 2026-09-13 strip-full `98d151d1bcaa` ≠ baseline `3d978ac96da2`; buyouts/swap/rookie/`play` | Full park (no salary) until Serve rehashes baseline; do not invent baseline from a seat |
-| **Buyout while fleet is parked** | digyvijay ← Ceviche SP under HALT; Shalini ← Otto Tirana ~13:20 ET 9/13 (11/12 after). SP: clock ~08:37a ET 9/14 suggested expiry; live `look_around` ~5:45p ET 9/14 still offered ~M$1,600 (airport still Ceviche). Tirana live 9/14 evening: list M$100, no buyout. | Door watches reclaim clocks; CoS cuts SP alive-vs-miss on Serve; post-Serve: bank salary → Ceviche SP IF live / Otto Tirana reclaim (buyout) before new AL; if reclaim expired, journal and resume within cap; no invent |
+| **Buyout while fleet is parked** | digyvijay ← Ceviche SP under HALT; Shalini ← Otto Tirana ~13:20 ET 9/13 (11/12 after). **CoS door cut:** SP = **alive under park** at **M$1,600** (not old M$1,200). Tirana live 9/14 evening: list M$100, no buyout. | Park holds — no invent reclaim. Post-Serve: bank salary → Ceviche reclaim SP (verify live price) / Otto Tirana reclaim eval before new AL; if reclaim gone, journal and resume within cap; no L3 sell |
 | **Summary-hash ≠ full-body hash** | Otto ten-line summary `c9fce67e15ea` ≠ full `detail=full` `98d151d1bcaa` | Never baseline the summary; halt/rehash only on `sha256(rules.strip())` of **full** body |
 | **City-cap + incomplete set** | Otto Durrës refused at 12/12; Tirana later bought out → 11/12 | No L3 sell to free a slot unless captain cuts a path; at-cap `swap=` is in live `buy` schema — set-positive only; never dump an L3 engine for a single |
-| **Catalog flip mid-plate** | 09-13 plate: `play`/`empire` absent, `swap` not in schema. 09-14 evening live catalog: both tools present; `buy.swap` in `inputSchema` | Invalidate absent amends; verify live tool text each wake; no licence buy from this directive |
+| **Catalog flip mid-plate** | 09-13 plate: `play`/`empire` absent, `swap` not in schema. 09-14 evening live catalog: `play`, `empire`, `daily`, and `buy.swap` present | Invalidate absent / rules-text-only amends; verify live tool text each wake; no licence buy from this directive |
 
 Re-read this table at every rules halt and add the row the patch just proved.
 

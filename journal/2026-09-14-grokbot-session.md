@@ -30,3 +30,13 @@ Encode with oddkit `oddkit_encode` when available; this file is the storage (enc
 [C] Park holds: no salary / travel / buy / build / reclaim until Serve. No licence from this directive. No L3 sell.
 
 [H] Draft PR https://github.com/klappy/agentopoly-cookbook/pull/46 — CoS Orient 2026-09-14 evening. Captain Serve or hold. Fleet stays parked.
+
+## Wake 21:51Z — CoS door cut (binding)
+
+`oddkit_time` **2026-09-14T21:51:39.580Z**.
+
+[D] CoS door cut: SP = **alive under park** at **M$1,600** (not old M$1,200). Do **NOT** lock miss/dead. Ceviche post-Serve first objective remains reclaim SP (verify live price). Park holds — no invent reclaim.
+
+[O] Catalog bind restated: `play`, `empire`, `daily`, and `buy.swap` are live.
+
+[H] Same draft PR #46 branch `cursor/directive-2026-09-13-1ba3`. Tip moves past `7c16639` / `20de6bb`. Do not open a second PR.
