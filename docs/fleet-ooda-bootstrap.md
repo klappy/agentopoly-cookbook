@@ -1,3 +1,5 @@
+> **Captain ruling 2026-09-14 22:4xZ — the loop runs even when it cannot write back.** Every scheduled or chat wake opens with this line, verbatim, so the surface knows what it needs: *"This task needs read/write access to `klappy/agentopoly-cookbook` — a Git Auth `github_token` with `contents:write` + `pull_requests:write`, or the repo attached with push. If neither is available, fly the seats anyway, leave the journal and receipts in the project (`claude/journal/`, `claude/wake-receipts/`), and report the write failure in one line. Never stop for G2."* Playing the board is the job; the record catches up on the next chat sweep.
+
 # 🛫 Fleet OODA — bootstrap: test the whole loop once, then schedule it per seat
 
 Captain ruling 2026-09-13. Supersedes `docs/fleet-ooda-task-prompt.md` (kept as the per-seat prompt body). Two scheduled runs (09-12, 09-13) flew correctly and could not land their records; the captain has been flying the loop by hand. This bootstrap exists so that never happens silently again: **it proves every gate on a live run before it schedules anything, and every scheduled run writes its gate receipts before it does anything else.**
