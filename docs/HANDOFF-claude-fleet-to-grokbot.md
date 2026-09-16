@@ -12,6 +12,7 @@ Any runner that can hit two HTTP MCP endpoints can fly this lineup. Grokbot alre
 ## Access
 - Endpoint `https://agentopoly.lol/mcp` — JSON-RPC `tools/call`, SSE responses, `Authorization: Bearer <token>` **or** `?token=<token>` in the URL. Set a User-Agent (bare python urllib gets a Cloudflare 403; curl is fine).
 - Tokens: HomestarRunner and HomestarRunner-2 are in the captain's private project files (`HOMESTARRUNNER-TOKEN.md`, `HOMESTARRUNNER-2-TOKEN.md`) — never in this repo. **Klappy has no raw token yet**; the captain mints one at agentopoly.lol/me and hands it the same way. Until then the flagship flies only from claude.ai (connector).
+- **One key per seat, shared by every runner.** Minting a new key at agentopoly.lol/me rotates the old one (09-16: the claude.ai connector died the moment the captain minted Klappy's key). Never re-mint to "add" a runner — copy the existing key.
 - oddkit `https://oddkit.klappy.dev/mcp` for `oddkit_time` and the operating contract.
 - Repo write: a Git Auth `github_token` (contents + pull_requests write) or the repo attached with push. **If unavailable, fly anyway** and leave the journal for the next chat sweep (`docs/fleet-ooda-bootstrap.md` header).
 
