@@ -48,3 +48,22 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 [O] Klappy's remaining exposure to −10% cards and the means-test is the same number: idle cash. 19/20 cities, 5/6 hubs, 5/5 ventures — the only cash sinks left are a sixth hub (none unowned inside our sets) or Magnate (5 buyouts). Both are captain rulings.
 [D] **Wake B plan (12:00Z):** Klappy — Osaka → Tokyo (till) → Mexico City (till) → Johannesburg → Cape Town → Montevideo, salary #2 → perfect day likely. HR-2 — Gitega + Bujumbura (M$260, spend-M$300 contract), build L3 (M$390), salary #2, Dar café till on the way home; "1M+ city" only if Bujumbura qualifies. HR — two own-tile cabs for 1,000 km, salary #2; no set to complete nearby (Lubumbashi is DRC) → 2/3 unless a card lands.
 [H] **Klappy** — Osaka · M$13,836 · 🔥1 · 1/3. **HR** — Lilongwe · M$6,444 · 🔥1 · 0/3. **HR-2** — Mwanza · M$4,757 · 🔥1 · 1/3 · Dar café open (stale ~06:30Z).
+
+---
+## Wake B — 13:18–13:3xZ (chat) — 🎯 first perfect day (HR-2) · 🛑 flagship connector key revoked
+`oddkit_time` 13:18:38Z · main `c272bad` · **call zero `63c31c7cfa27` MATCH** (HR raw MCP).
+
+| Time | Seat | Action | Receipt |
+|---|---|---|---|
+| 13:19 | Klappy | connector `play` | **"This connector's key isn't recognised… make a new key at agentopoly.lol/connect. Don't create a new player."** The connector now exposes only `play/activity/city_info/world_news/rules`. Minting a new key at /me **rotated** the old one — the claude.ai connector is dead until re-keyed. Klappy **not flown this wake**; `activity` shows Klappy collected M$971 salary at ~12:31Z (captain or another runner on the new key). Mexico City hotel till (M$960) stale/raidable |
+| 13:2x | HR-2 | `notifications` | **Otto paid M$960 rent + M$50 fee at Dar es Salaam** (Diverted Flight from Athens — event card, not routed). Landlord III +M$200. Cash M$7,266 · #10 |
+| 13:2x | HR-2 | 🚕 Mwanza → Bujumbura `buy` M$160 · 🚕 Gitega `buy` M$100 · `build` ×3 (M$130 each) | **Burundi 2/2 complete, L3** (Bujumbura 640, Gitega 400). Contracts: 1M+ city +M$100, spend M$300 +M$75 → **🎯 PERFECT DAY +M$150.** 🃏 Consular Fees −M$325. Cash **M$6,577** · 13 cities (11/16 bank) · 5 sets |
+| 13:3x | HR | 🚕 Lilongwe → Nampula (own, M$34) | Travel 1,000 km **+M$100**. Cash **M$7,643** · 1/3 (cards; no completable set within cab reach) |
+
+[C] **Key rotation is destructive.** A new key from agentopoly.lol/me (or /connect) invalidates the previous one for that player; the claude.ai connector must be re-keyed with the new value, and any runner (Grokbot, Cursor) needs that same key — one key per seat, shared, not one per runner. Plated for `docs/HANDOFF-claude-fleet-to-grokbot.md` §Access.
+[O] Homestead v1 rent metric, 48h: HR-2 M$1,020 (digyvijay) + M$1,010 (Otto, card) ; HR M$990 (digyvijay). Real strangers do land on L3 hubs now; Dar es Salaam is the fleet's best-paying Homestead tile.
+[O] HR's "complete a set" contract is unreachable from its cluster — every ≤2-city country within cab reach is claimed (Burundi by HR-2 today). HR's 2 open slots need a flight to a fresh region or stay empty; perfect days for HR will be rare until then.
+
+[H] **Klappy** — last known Osaka · ~M$14.8k · ventures 5/5 · **connector revoked** — needs the new key in a project token file (`KLAPPY-TOKEN.md`, same shape as the Homestead ones) or a re-keyed connector before any runner can fly it. Salary caps 23:52Z.
+[H] **HR** — Nampula · M$7,643 · 14/16 · 1/5 · 5 sets L3 · 🔥1 ✅ · 1/3 · caps 23:45Z.
+[H] **HR-2** — Gitega · M$6,577 · 13 cities · 2/5 · **5 sets L3** (ET/SA/SD/TZ/BI) · 🔥1 ✅ · **3/3 🎯** · Dar café till stale (M$346) · caps 00:01Z.
