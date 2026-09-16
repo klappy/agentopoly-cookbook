@@ -13,6 +13,8 @@ A halt ends the session. Report the halt with its receipt; never work around it,
 | silent streak/card/contracts miss after successful travel/buy/build, `status` showing no block / strike / income-lock | unknown daily refusal — HALT-class; do not invent workarounds | both |
 | any tool refusal you do not understand | unknown rule | both |
 
+Until Serve, keep the current Served baseline (`config.md` / `fleet/DIRECTIVE-2026-09-10.md`). Post-Serve, the halt baseline becomes `98d151d1bcaa` (draft: `fleet/DIRECTIVE-2026-09-13.md`). Do not invent a baseline from the draft alone.
+
 Reporting shape for a halt: `🛑 HALT — <signal> — <receipt verbatim> — <what was NOT done>`.
 
 Halt-receipt (2026-09-10): Smørrebrød `daily` still “No streak yet” · card pending · 0/3 after Helsinki↔Turku↔Tampere cabs + FI L1/L2 builds; `status` no block/strike/income-lock. Journal: `journal/2026-09-10-smorrebrod-daily-block.md` (`8fdf741`). See `docs/rules-observed.md` §Failure Modes. Do not invent workarounds.
