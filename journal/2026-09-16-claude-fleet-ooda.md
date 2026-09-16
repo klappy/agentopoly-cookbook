@@ -34,3 +34,17 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 [H] **HR-2** — **Cape Town (Klappy's tile)** · M$5,371 · 11 cities · **2/5 airports** (Addis, Dar) · 4 sets L3 + Mogadishu · 🔥1 · 1/3 · caps 12:01Z. Next: fly home to Addis; open a café on Addis (M$800? check) or Dar to start its own till.
 
 🏁 Halt row reported (HR-2 Lagos). Flagship guard clear (Otto −M$2,800). No operator notice.
+
+---
+## Addendum 00:2x–00:4xZ — captain: "Consistency is the only way we'll win… continue trying to get a perfect day"
+| Time | Seat | Action | Receipt |
+|---|---|---|---|
+| 00:26 | Klappy | `daily` · `leaderboard` ×2 | Perfect day = all 3 contracts → **+M$150**; third contract always unlocks 12:00Z. NW: Klappy #1 M$29,799, Otto M$27,083 (not passed). **Rent this week: LVJ M$10,772, Klappy #4 M$1,800** — the board we are losing |
+| 00:28 | Klappy | 🚕 Tokyo → Osaka (own, M$26) chasing the event-card contract | 🃏 **Currency Crash −M$1,537** (−10% of cash). Also banked M$960 (HR-2's diverted-flight rent). Cash M$13,836. **Stopped chasing** |
+| 00:3x | HR | `city_info` Burundi / Egypt / Morocco | Burundi 2 (Bujumbura M$160, Gitega M$100) open · **Egypt 7/7 is LVJ's now** (+ Cairo hub) · Morocco 6, Vanguard_403 holds 1, Shalini has the airport |
+| 00:3x | HR-2 | ✈ Cape Town → Dar es Salaam (own, M$77) · `venture open cafe` Dar (**M$480, +M$29/h**) · 🚕 Dodoma (own) · 🚕 Mwanza (own) | 🃏 Jet Lag −2⚡. **Parked at Mwanza: Gitega M$24 / Bujumbura M$26 by cab.** Cash M$4,757 · energy 7 |
+
+[L] **Do not hunt event cards on a loaded seat.** A −10% Currency Crash on M$15k is −M$1,537 against a M$75 contract. Cards are free on the venture lap; never a reason to move. Homesteads under ~M$5k can afford the variance; the flagship cannot.
+[O] Klappy's remaining exposure to −10% cards and the means-test is the same number: idle cash. 19/20 cities, 5/6 hubs, 5/5 ventures — the only cash sinks left are a sixth hub (none unowned inside our sets) or Magnate (5 buyouts). Both are captain rulings.
+[D] **Wake B plan (12:00Z):** Klappy — Osaka → Tokyo (till) → Mexico City (till) → Johannesburg → Cape Town → Montevideo, salary #2 → perfect day likely. HR-2 — Gitega + Bujumbura (M$260, spend-M$300 contract), build L3 (M$390), salary #2, Dar café till on the way home; "1M+ city" only if Bujumbura qualifies. HR — two own-tile cabs for 1,000 km, salary #2; no set to complete nearby (Lubumbashi is DRC) → 2/3 unless a card lands.
+[H] **Klappy** — Osaka · M$13,836 · 🔥1 · 1/3. **HR** — Lilongwe · M$6,444 · 🔥1 · 0/3. **HR-2** — Mwanza · M$4,757 · 🔥1 · 1/3 · Dar café open (stale ~06:30Z).
