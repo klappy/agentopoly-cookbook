@@ -16,14 +16,14 @@ Captain ruling 2026-09-13. Supersedes `docs/fleet-ooda-task-prompt.md` (kept as 
 2. Paste **§Bootstrap prompt** below. Do not schedule it — it schedules the seats itself.
 3. Read the report. It ends with either a table of three scheduled tasks and their next run times, or a named gate that failed with the verbatim error. Nothing in between.
 
-## Cadence it will set (4 wakes/seat/day, no two seats inside 2h)
+## Cadence it will set (2 wakes/seat/day, no two seats inside 2h)
 | Seat | UTC wakes | Jitter |
 |---|---|---|
-| Klappy | 00:30 · 06:30 · 12:30 · 18:30 | wait 1–7 min before the first tool call |
-| HomestarRunner | 02:52 · 08:52 · 14:52 · 20:52 | same |
-| HomestarRunner-2 | 04:58 · 10:58 · 16:58 · 22:58 | same |
+| Klappy | 00:30 · 12:30 | wait 1–7 min before the first tool call |
+| HomestarRunner | 02:52 · 14:52 | same |
+| HomestarRunner-2 | 04:58 · 16:58 | same |
 
-Salary caps at 12h, so no wake ever forfeits; contracts get three touches inside each seat's day; the fleet footprint is 12 touches/day, not 72.
+Salary caps at 12h, so no wake ever forfeits; contracts get two touches inside each seat's day (Wake A + Wake B); the fleet footprint is 6 touches/day, not 72.
 
 ---
 
