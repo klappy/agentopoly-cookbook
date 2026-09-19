@@ -55,7 +55,7 @@ Nine primary constraint types, each already named in `docs/rules-observed.md`, `
 **Treat.** No seat buys a licence from this file. Licence spend is a captain ruling. See also §Invest for the future.
 
 ## Invest for the future — how seats treat spend
-Charter §3. Rent engines (complete sets at L3 + hubs) compound; cash sitting idle does not. A licence is NW-negative and a **captain ruling** — take it only when it unlocks more rent engines, not to look busy or to hide cash. Do not sell an L3 engine to fund a this-hour look. Live board stays in §Live snapshot.
+Charter §3–§4. Every spend still answers: what value toward the Goal? Rent engines (complete sets at L3 + hubs) compound; cash sitting idle does not. A licence is NW-negative and a **captain ruling** — take it only when it unlocks more rent engines, not to look busy or to hide cash. Do not sell an L3 engine to fund a this-hour look. Live board stays in §Live snapshot.
 
 ## Live snapshot
 **Snapshot — not law.** Dated board notes. Update this section without amending `fleet/DIRECTIVE-2026-09-19.md`. Retract when a later `status` / journal contradicts. Seeded from captain HOLD+EDIT 2026-09-19 via CoS — **not** a seat `status` re-read this recut.

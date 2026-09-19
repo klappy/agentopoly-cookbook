@@ -42,4 +42,11 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 
 [D] Charter §3 **INVEST FOR THE FUTURE** (plain words; after META). Types doc gets a brief spend-treatment note (licence NW-negative vs rent engines); Live snapshot stays separate.
 
+---
+## ADD — VALUE TOWARD THE GOAL — 2026-09-19 14:00Z
+
+`oddkit_time` **2026-09-19T14:00:47Z**. Captain ADD via CoS: standing gate — nearly every strategy and move asks what value it brings toward the Goal. Paired with INVEST FOR THE FUTURE. Same Prefer PR #59. No merge. No invent Serve.
+
+[D] Charter §3 **VALUE TOWARD THE GOAL**; INVEST becomes §4. Types doc one-line cross-link. No live board in the charter.
+
 
