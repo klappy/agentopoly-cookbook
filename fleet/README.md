@@ -1,4 +1,4 @@
-> 📣 **Charter (Prefer — awaiting Serve): [`fleet/DIRECTIVE-2026-09-19.md`](DIRECTIVE-2026-09-19.md)** — Goal = most net worth; ToC × OODA meta loop. **Not in force until the captain Serves.** Do not invent Serve.
+> 📣 **Charter (Prefer — awaiting Serve): [`fleet/DIRECTIVE-2026-09-19.md`](DIRECTIVE-2026-09-19.md)** — Goal = most net worth; ToC × OODA. Details + live snapshot: [`fleet/CONSTRAINT-TYPES.md`](CONSTRAINT-TYPES.md). **Not in force until the captain Serves.** Do not invent Serve.
 >
 > **Cadence still in force: [`fleet/DIRECTIVE-2026-09-10.md`](DIRECTIVE-2026-09-10.md)** — expand/lock/build-to-L3 on staggered clocks; no new accounts; no money between seats.
 
