@@ -52,7 +52,10 @@ Nine primary constraint types, each already named in `docs/rules-observed.md`, `
 ### Licence gates
 **What.** Empire licence ladder widens bank caps (`docs/rules-observed.md` 2026-09-13 plate; `empire`). Licences are NW-negative; land is not (`docs/rivals.md`, `journal/2026-09-16-claude-fleet-ooda.md`).
 **Why it binds.** A licence with nothing proven to fill is dead spend. Magnate-class rungs have asked for buyouts — a standing "never" unless the captain re-prices.
-**Treat.** No seat buys a licence from this file. Licence spend is a captain ruling.
+**Treat.** No seat buys a licence from this file. Licence spend is a captain ruling. See also §Invest for the future.
+
+## Invest for the future — how seats treat spend
+Charter §3. Rent engines (complete sets at L3 + hubs) compound; cash sitting idle does not. A licence is NW-negative and a **captain ruling** — take it only when it unlocks more rent engines, not to look busy or to hide cash. Do not sell an L3 engine to fund a this-hour look. Live board stays in §Live snapshot.
 
 ## Live snapshot
 **Snapshot — not law.** Dated board notes. Update this section without amending `fleet/DIRECTIVE-2026-09-19.md`. Retract when a later `status` / journal contradicts. Seeded from captain HOLD+EDIT 2026-09-19 via CoS — **not** a seat `status` re-read this recut.

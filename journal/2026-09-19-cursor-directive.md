@@ -35,3 +35,11 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 
 [L] Alternative rejected: keep §3 live snapshot in charter (captain: drift).
 
+---
+## EDIT — INVEST FOR THE FUTURE — 2026-09-19 13:59Z
+
+`oddkit_time` **2026-09-19T13:59:43Z**. Captain EDIT via CoS: give prominence to short-term loss for long-term gain / invest for the future / not shortsighted / maximize cashflow. Same Prefer PR #59. No merge. No invent Serve.
+
+[D] Charter §3 **INVEST FOR THE FUTURE** (plain words; after META). Types doc gets a brief spend-treatment note (licence NW-negative vs rent engines); Live snapshot stays separate.
+
+
