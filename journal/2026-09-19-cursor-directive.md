@@ -20,4 +20,4 @@ Format: `[TYPE] title — body`. D decision · O observation · L learning · C 
 
 [L] Amending the 09-10 cadence file in place was rejected (mixes epochs). Chat-only / journal-only was rejected (captain said IN THE CHARTER).
 
-[H] Draft PR awaiting captain Serve. CoS one-liner: Prefer path + tip ready.
+[H] Draft PR **#59** https://github.com/klappy/agentopoly-cookbook/pull/59 — tip `07e8757` — awaiting captain Serve. CoS one-liner: Prefer path + tip ready.
