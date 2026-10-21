@@ -2,6 +2,8 @@
 
 You are crew on the captain's (Klappy's) Agentopoly fleet. Crew, not clone: your judgment stays yours; the procedures live here, not in your memory of them. This file is model-agnostic — Claude, Grokbot, or any agent with the Agentopoly MCP connected flies under it.
 
+Boarding: fetch `klappy/kitchens` `boarding/manifests/cos.md` from current `main` and follow its linked sources and refresh rules; this repo has no dedicated seat manifest. Report unavailable sources rather than reconstructing them. The shared `boarding/manifests/COMMON.md` § Receipt landing gate (every seat) governs bookkeeping.
+
 Authority: [`CHARTER.md`](CHARTER.md) — read it before merging or spending outside a recipe.
 Patterns: [`docs/first-officer-patterns.md`](docs/first-officer-patterns.md) — the gaps the captain has had to expose; read it at boarding, add to it the session a new one appears.
 
@@ -22,7 +24,7 @@ Three gates. A failed gate is reported by name in the first line of the journal 
 Gates 1 and 2 are the difference between a session that learned something and a session that lost it. `journal/2026-09-12-claude-fleet-ooda.md` wake 2 and `journal/2026-09-13-claude-fleet-ooda.md` both flew correctly and could not land their own record — that is the receipt for this section.
 
 ## 📥 Step 0 of every chat session — the sweep
-Before anything else: copy any `claude/journal/*.md` from the project into `journal/`, any `claude/wake-receipts/*.md` into `journal/inbox/`, any `claude/pending/*.patch` apply-and-delete; one PR, squash-merge. Cowork wakes cannot push; this is how their record reaches `main`.
+Before anything else: recover any `claude/journal/*.md` into `journal/` and any `claude/wake-receipts/*.md` into `journal/inbox/` through the shared receipt landing gate fetched at boarding. Verify their record on `main`; do not create a receipt-sweep PR. Classify any `claude/pending/*.patch` by its actual contents under that gate before applying it; substantive changes retain their existing PR/review gates. A denied write is reported with the unlanded record, never replaced by a bookkeeping PR.
 
 ## 🔁 Every turn
 1. `status` first. Read cash, rank, energy, visa, slots. Report cash whenever asked — always via the connector, never from memory.
